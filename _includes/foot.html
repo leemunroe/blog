@@ -1,0 +1,49 @@
+  </div>
+</main>
+
+<footer>
+  <section class="shortbio">
+    <p class="aligncenter"><img src="<?php bloginfo('template_directory'); ?>/images/lee.jpg" alt="Lee Munroe" title="Lee Munroe, Designer" class="profile"></p>
+    <p>Lee Munroe is a Product Designer from Northern Ireland, based in San Francisco.</p>
+    <p>Leading Design @ Mailgun by day. Hacking together apps at night. <a href="/about">More about Lee&hellip;</a></p>
+    <p class="followme"><a href="https://twitter.com/leemunroe" class="twitter-follow-button" data-show-count="true" data-show-screen-name="true">Follow @leemunroe</a></p>
+    <ul class="clear socialIcons">
+      <li><a href="http://twitter.com/leemunroe" class="iconlink twitter" title="Follow @leemunroe for tweets on UX Design">Follow @leemunroe on Twitter</a></li>
+      <li><a href="http://dribbble.com/leemunroe" class="iconlink dribbble" title="See what I'm working on over at Dribbble">What I'm working on at Dribbble</a></li>
+      <li><a href="http://github.com/leemunroe" class="iconlink github" title="See what code I'm sharing on Github">Code I'm sharing on Github</a></li>
+      <li><a href="http://feeds2.feedburner.com/LeeMunroeBlog" class="iconlink rss" title="Subsribe to my feed">Subscribe to my RSS feed</a></li>
+    </ul>
+  </section>
+</footer>
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/javascripts/application.js"></script>
+
+<!-- Influads -->
+<script type="text/javascript">(function(){ var acc =   "acc_142d170_pub";var st ="css";var or= "h";var e=document.getElementsByTagName("script")[0];var d=document.createElement("script");d.src=('https:' == document.location.protocol ?'https://' : 'http://') +"engine.influads.com/show/"+or+"/"+st+"/"+acc;d.type="text/javascript"; d.async=true; d.defer=true; e.parentNode.insertBefore(d,e);})();</script>
+<?php }?>
+
+<!-- Twitter follow button -->
+<?php if (!is_page('home')){?>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<?php }?>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1284993-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>
