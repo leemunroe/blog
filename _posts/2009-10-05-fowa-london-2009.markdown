@@ -1,0 +1,106 @@
+---
+layout: post
+status: publish
+published: true
+title: Notes From FOWA London 2009
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1598
+wordpress_url: http://www.leemunroe.com/?p=1598
+date: 2009-10-05 15:02:34.000000000 -07:00
+comments:
+- id: 11800
+  author: Yaili
+  author_email: inayaili@gmail.com
+  author_url: http://webdesignernotebook.com
+  date: '2009-10-05 15:17:51 -0700'
+  date_gmt: '2009-10-05 14:17:51 -0700'
+  content: "Thanks for the writeup, Lee, I had forgotten about a couple of these already.\r\n\r\nIt
+    was nice meeting you at FOWA, and will hopefully see you at Build Conference in
+    a month! :)"
+- id: 11801
+  author: bruce
+  author_email: bruce@brucelawson.co.uk
+  author_url: http://www.brucelawson.co.uk
+  date: '2009-10-05 15:21:30 -0700'
+  date_gmt: '2009-10-05 14:21:30 -0700'
+  content: Thanks for the write-up. Glad you enjoyed it!
+- id: 11802
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2009-10-05 16:14:54 -0700'
+  date_gmt: '2009-10-05 15:14:54 -0700'
+  content: You too Yaili - see you at Build
+- id: 11803
+  author: Yves Ferket
+  author_email: yves.ferket@gmail.com
+  author_url: http://www.ferket.com/blog
+  date: '2009-10-05 16:36:45 -0700'
+  date_gmt: '2009-10-05 15:36:45 -0700'
+  content: Got something jotted down from the freshbooks presentation?
+- id: 11804
+  author: Mark McCorkell
+  author_email: markmccorkell@gmail.com
+  author_url: http://www.markmccorkell.com
+  date: '2009-10-05 17:09:58 -0700'
+  date_gmt: '2009-10-05 16:09:58 -0700'
+  content: That PayPal Anthem video is awesome - love the ideas! :D
+- id: 11837
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2009-10-06 13:03:56 -0700'
+  date_gmt: '2009-10-06 12:03:56 -0700'
+  content: '@Yves: I''m afraid I missed the Freshbooks talk (early flight from Belfast
+    to London). Will have to watch it online. Met Mike at the after party though,
+    nice guy.'
+---
+Had a great time at FOWA London last week. Thanks to <a href="http://twitter.com/RyanCarson">Ryan</a>, <a href="http://twitter.com/joleeen">Jo</a> and the <a href="http://carsonified.com/">Carsonified team</a> for hosting another superb event.
+
+Rather than listing everything that was talked about over the 2 day event I've put together some notes on things that stood out.
+
+<!--more-->
+
+<h4>280 Atlas</h4>
+
+<a href="http://280atlas.com/">Atlas</a> is a development environment for building web/desktop apps with <a href="http://cappuccino.org/">Cappuccino</a>. Looks really easy to setup and should be available in November - check out the demo below.
+
+<div style="text-align:center;"><a href="http://280atlas.com/"><img src="http://www.leemunroe.com/wp-content/uploads/atlas.jpg" alt="atlas.jpg" border="0" width="300" height="200" /></a></div>
+
+<h4>PayPal Change How We Pay</h4>
+
+<a href="https://www.paypal-changehowwepay.com/">PayPal</a> are opening up their platform. What does this mean? Check out the 'Anthem Video' below.
+
+<div style="text-align:center;"><a href="https://www.paypal-changehowwepay.com/"><img src="http://www.leemunroe.com/wp-content/uploads/paypal.jpg" alt="paypal.jpg" border="0" width="300" height="196" /></a></div>
+
+<h4>Facebook Connect Wizard</h4>
+Facebook now has an easier way for you to setup Facebook connect on your site. Check out <a href="http://developers.facebook.com/setup.php">Facebook Connect Wizard</a>.
+
+<h4>HTML5</h4>
+Bruce Lawson gave a great talk on HTML5. I'm definitely a lot more excited about it now.
+
+Check out <a href="http://html5demos.com/">HTML5 Demos</a> for some cool examples (best viewed in <a href="http://www.opera.com/">Opera</a>).
+
+<h4>Go Test It</h4>
+Go Test It is a useful tool for running website tests across various browsers. <a href="http://go-test.it/fowa">Sign up for a free trial</a>.
+
+<div style="text-align:center;"><a href="http://go-test.it/fowa"><img src="http://www.leemunroe.com/wp-content/uploads/browsers.jpg" alt="browsers.jpg" border="0" width="517" height="135" /></a></div>
+
+<h4>Other speaker notes</h4>
+<ul>
+<li>Addison Berry - Make your app 'open', the more open it is the more you will have people contributing for free</li>
+<li>Osama Bedier - Remove friction and enable innovation</li>
+<li>Chris Abad - praise your passionate community, incentivise users to market for you, make use of viral channels (e.g. Twitter updates)</li>
+<li>Robin Christopherson - 80% of Twitter is from mobile devices, captchas = 7% loss in conversions</li>
+<li>Alex Hunter - Be emotionally invested in your brand and be willing to risk your reputation on your app</li>
+<li>Lynne d Johnson - 35% of adults now have Facebook profiles</li>
+<li>Dave McClure - Less = more, remove features, focus on UX, make fast iterations and measure goals</li>
+</ul>
+
+As far as I know the videos of each talk will be <a href="http://events.carsonified.com/fowa/2009/london/content">uploaded shortly</a>.
+
+Met lots of great people at FOWA, all doing really interesting things. If there's an opportunity for you to attend a future FOWA, take it :)
+

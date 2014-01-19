@@ -1,0 +1,104 @@
+---
+layout: post
+status: publish
+published: true
+title: '2012'
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2898
+wordpress_url: http://www.leemunroe.com/?p=2898
+date: 2013-01-17 19:13:21.000000000 -08:00
+comments:
+- id: 153729
+  author: Yvonne
+  author_email: yvonne.fitzgerald@nowpeak.con
+  author_url: http://nowpeak.com
+  date: '2013-01-29 15:42:19 -0800'
+  date_gmt: '2013-01-29 14:42:19 -0800'
+  content: Love the idea of creating a year end's summary of what you achieved compair
+    to goal's set.  I will borrow this idea.  Thanks for sharing
+---
+A quick blog post about things I learned and accomplished in 2012 and <del>goals</del> areas of focus for 2013.
+
+I hope that by writing them down there's more chance of me actually doing them.
+
+<h4>Life accomplishment of 2012</h4>
+I married <a href="http://instagram.com/p/LI03dWh_iq/">this lovely lady</a>.
+
+<h4>New software/apps/tools for 2012</h4>
+
+Some of these apps I had used before, but in 2012 I found myself becoming more reliant on them and working them into my daily routine.
+
+<ul>
+<li><a href="http://www.rdio.com/">Rdio</a> for streaming music</li>
+<li><a href="http://www.amazon.com/gp/product/B008CS5QTW/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B008CS5QTW">Beats</a> headphones for listening to music and getting in the "zone"</li>
+<li><a href="http://hammerformac.com/">Hammer for Mac</a> (and <a href="http://anvilformac.com/">Anvil</a>) for smaller lightweight websites that don't require a back-end</li>
+<li><a href="http://www.amazon.com/gp/product/B007472CIK/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B007472CIK">MacBook Pro with Retina Display</a> which makes more of a difference than I originally thought</li>
+<li>Several user experience tools including <a href="http://qualaroo.com">Qualaroo</a> and <a href="http://mixpanel.com">Mixpanel which I find indispensable</li>
+<li><a href="http://www.heroku.com/">Heroku</a> for hosting web apps</a></li>
+</ul>
+
+
+<h4>Things I learned and/or put into practice in 2012</h4>
+<ul>
+<li>Started learning Coffeescript for a small Rails project</li>
+<li>Shared some of my code on <a href="https://github.com/leemunroe">Github</a> for the first time</li>
+<li>Shipped my first product to Heroku</li>
+<li>Started learning Node.js</li>
+<li>Started designing for retina displays</li>
+<li>Learned how to develop an <a href="http://www.leemunroe.com/marty-cagan-iphone-app/">iPhone app</a> using Titanium</li>
+<li>Shipped a new <a href="http://www.kareo.com/">website</a> and <a href="https://itunes.apple.com/us/app/kareo/id533306364?ls=1&mt=8">iPhone app</a> for Kareo, along with several software updates</li>
+<li>Shipped a novelty Twitter website <a href="http://twitamore.com/">Twit Amore</a> for Valentine's Day</li>
+</ul>
+
+<h4>Other things I did in 2012</h4>
+<ul>
+<li>Moved to San Francisco to join a <a href="http://runnable.com/">startup</a></li>
+<li>Got a <a href="http://www.fitbit.com/">Fitbit</a> and tracked my fitness</li>
+</ul>
+
+<h4>Books read in 2012</h4>
+<ul>
+<li><a href="http://www.fivesimplesteps.com/products/the-icon-handbook">Icon handbook</a> by Jon Hicks</li>
+<li><a href="http://www.amazon.com/gp/product/1451648537/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1451648537">Steve Jobs</a> by Walter Isaacson</li>
+<li><a href="http://www.amazon.com/gp/product/1937557006/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1937557006">Designing for emotion</a> by Aaron Walter</li>
+<li><a href="http://www.amazon.com/gp/product/0596100167/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596100167">Information dashboard design</a> by Stephen Few</li>
+<li><a href="http://www.amazon.com/gp/product/006158326X/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=006158326X">The happiness project</a> by Gretchen Rubin</li>
+<li><a href="http://www.abookapart.com/products/the-elements-of-content-strategy">The elements of content strategy</a> by Erin Kissane</li>
+<li><a href="http://www.amazon.com/gp/product/030746363X/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=030746363X">The 4-hour body</a> by Timothy Ferriss</li>
+<li><a href="http://www.amazon.com/gp/product/1937557049/ref=as_li_ss_tl?ie=UTF8&tag=leemun-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1937557049">Design is a job</a> by Mike Monteiro</li>
+</ul>
+
+<h4>Goals for 2012</h4>
+
+A look back at the goals I set this time last year.
+
+<strong><del>1. Be more mobile focused</del></strong> Success. Designing responsive websites and with mobile in mind is now a baked in standard and I managed to ship a couple of mobile apps.
+
+<strong><del>2. Release an iPhone app</del></strong> Success. All be it a basic app, I built <a href="http://www.leemunroe.com/marty-cagan-iphone-app/">What Would Marty Do?</a> iPhone app.
+
+<strong>3. Compete in a triathlon</strong> Fail. Didn't even get around to buying a road bike.
+
+<strong><del>4. Snowboard</del></strong> Success. This was a <a href="http://instagram.com/p/G4iId_B_kM/">lot of fun</a> and thanks to <a href="https://twitter.com/idealform">Kris Davis</a> for teaching me.
+
+<strong>5. Release at least 3 side projects</strong> Fail. 2/3 isn't bad but there are 4 projects that I started in 2012 and failed to ship.
+
+<h4>Areas of focus for 2013</h4>
+
+After reading <a href="http://blogs.hbr.org/bregman/2012/12/consider-not-setting-goals-in.html">Peter Bregman's article</a>, I decided that it might be better to have areas of focus as opposed to setting goals I can't keep.
+
+<strong>1. Shipping</strong>
+I love shipping products and getting stuff out there for the world to see. You learn so much through the build, measure, learn process. Hopefully some of those projects I started last year will come to fruition.
+
+<strong>2. Contribute more to open source</strong>
+Last year I started sharing stuff on Github. I plan to do more of that this year, whether it be on Github, my blog, Codepen or elsewhere.
+
+<strong>3. Write less</strong>
+Usually every January I tell myself I'm going to write more, which tends to lend to me not writing at all. Hopefully if I focus on writing less and shortening my posts I'll be able to publish more often.
+
+<strong>4. Read less</strong>
+Same goes for reading. Between books, Twitter, RSS feeds, email, Instapaper there is too much to consume and keep track of. Plus most of it is useless or repetitive. Debating whether to give up on the RSS feeds and stick to Twitter or a tool like <a href="http://sidebar.io/">Sidebar</a> to help focus on the newsworthy articles.
+
+That's it. Exciting year ahead.

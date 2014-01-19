@@ -1,0 +1,80 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW 2011 Review
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2284
+wordpress_url: http://www.leemunroe.com/?p=2284
+date: 2011-03-21 09:01:13.000000000 -07:00
+comments: []
+---
+I had the pleasure of spending <strong>March 11th-15th in Austin, Texas for SXSW Interactive</strong>, (possibly/probably) the world's largest gathering of geeks, techies, designers, developers, startups, CEOs, investors and "social media gurus".
+
+I'm sure you were bombarded with #sxsw tweets and Gowalla checkins to various parties so here's an overview of what it's all about.
+
+<!--more-->
+
+<h3>Talks/Panels</h3>
+I don't have an exact figure but there must have been at least <strong>500 or so talks</strong> over the course of SXSWi.
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2292" title="talk" src="http://www.leemunroe.com/wp-content/uploads/talk.jpg" alt="Talks" width="500" height="374" /></p>
+It's very <strong>overwhelming and hard to get a plan together</strong>. So many good topics and speakers all happening at once so you have to take a risk and choose one over the others.
+
+On top of that you're <strong>meeting people and socialising</strong> outside the talks.
+
+I attended quite a few UX and design talks but the problem with this is <strong>you end up hearing about things you already know or have read about</strong> elsewhere. The better talks are about <strong>things you have an interest in but that wouldn't be your main domain</strong>.
+
+My favourite talks:
+<ul>
+	<li><a href="http://www.slideshare.net/dmc500hats/startup-metrics-4-pirates-20-march-2011-sxsw">Startup Metrics for Pirates</a></li>
+	<li><a href="http://www.slideshare.net/bokardo/metricsdriven-design-4317168">Metrics Driven Design</a></li>
+	<li><a href="http://www.youtube.com/watch?v=TIwzbZq5uyY">Google's Marissa Mayer Presents</a></li>
+</ul>
+I've still to hear the keynotes though, which I've heard good reports about.
+<h3><del>Networking</del> Socialising</h3>
+Plenty of opportunities to meet and greet people at SXSW. As most people at the Conference Center are either in a talk or on their way to a talk, <strong>the best place to socialise is at a bar or a coffee shop</strong> (depending on the time of day).
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2291" title="cards" src="http://www.leemunroe.com/wp-content/uploads/cards.jpg" alt="Cards" width="500" height="373" /></p>
+Everybody at SXSW is looking to meet people so the best thing to do is just go up to someone, introduce yourself and ask "<strong>So what do you do?</strong>".
+<h3>Parties</h3>
+I heard this quote mentioned a few times:
+<blockquote>SXSWi is 40% business and 60% parties</blockquote>
+<em>—Anonymous</em>
+
+Every night there are a tonne of parties hosted by the likes of <strong>Mashable, Gowalla, Foursquare, Vimeo, YouTube, Media Temple, MMXINI</strong> that are attended by everyone in the industry (plus the occasional <a href="http://twitter.com/#!/aplusk/status/46792237379616768">celebrity</a>).
+
+The <strong>parties are definitely the best places to meet people</strong> and if there's someone you really want to say hello to you can usually stalk them on Gowalla or Twitter.
+
+The <a href="http://gowalla.com/spots/9225">Ginger Man</a> was a local favourite for meeting up with designers and developers. And I was able to meet up with a client, <a href="http://sharethrough.com/">Sharethrough</a>, at the Say Media party, which was the first face to face meeting we'd had in 18 months.
+<h3>Travel advice</h3>
+If you're thinking of going next year:
+<ul>
+	<li>Get a US sim card - try <a href="http://www.uk2abroad.com/default.aspx">UK2Abroad</a> $1.50 per day for unlimited data</li>
+	<li>If staying in a hotel outside downtown, make sure it's on the shuttle route</li>
+	<li>Get a <a href="http://www.thomascook.com/money/thomas-cook-credit-card/">Thomas Cook travel credit card</a> - very handy</li>
+	<li>Use <a href="http://planzai.com/">Planzai</a> to plan your SXSW trip</li>
+</ul>
+<h3>Anything cool?</h3>
+<ul>
+	<li><a href="http://groupme.com/">GroupMe</a> and <a href="http://itunes.apple.com/us/app/beluga/id396989400?mt=8">Beluga</a> were the "break-out" apps this year. Both group messaging apps, although GroupMe not available in UK yet</li>
+	<li><a href="http://foursquare.com/">Foursquare</a> and <a href="http://gowalla.com/">Gowalla</a> featured heavily</li>
+	<li>Noticed <a href="http://www.uber.com/">Uber</a> everywhere - a new type of taxi service (SF/Austin only I think)</li>
+	<li>QR codes are a *big* thing - they were everywhere</li>
+	<li>Apple turned a Gold's Gym into an Apple Store for the launch of the iPad 2</li>
+	<li>Quite a few "Reserve your username" apps like <a href="http://connect.me/">Connect Me</a> and <a href="http://1user.name">1Username</a> popping up</li>
+	<li><a href="http://planzai.com/">Planzai's</a> Rich Dale did a great job pitching to Dave McClure, Eric Ries and Robert Scoble</li>
+</ul>
+<h3>Thanks to Invest NI</h3>
+Big thanks to <a href="http://www.investni.gov.uk/">Invest NI</a> who sponsored 25 interactive companies from Northern Ireland to attend the conference in Austin, alongside <a href="http://digitalcircle.org/">Digital Circle</a> and <a href="http://digitalderry.org/">Digital Derry</a>.
+
+Special thanks to <strong>Terry Reilly</strong> who helps us plan the trip and keeps us right when we're over there.
+
+And <strong>thanks to the NI delegates who made it a great experience. </strong>
+<h3>Would I recommend it?</h3>
+Absolutely.
+
+I was able to meet lots of cool people, learn lots of stuff, make some connections, get some work, and come home fully charged and inspired.
+
+<strong><em>Who's going next year?</em></strong>

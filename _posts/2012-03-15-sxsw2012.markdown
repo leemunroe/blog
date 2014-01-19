@@ -1,0 +1,137 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW 2012 Review
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2788
+wordpress_url: http://www.leemunroe.com/?p=2788
+date: 2012-03-15 17:27:49.000000000 -07:00
+comments:
+- id: 97768
+  author: David Henderson
+  author_email: david@davidhednersondesign.com
+  author_url: http://www.davidhednersondesign.com
+  date: '2012-03-16 10:24:51 -0700'
+  date_gmt: '2012-03-16 09:24:51 -0700'
+  content: Thanks for the update Lee. Would love to head out next year!
+---
+I had the pleasure of attending SXSW Interactive once again this year. As per usual it was flat out. So many talks. So many people. So many parties. So overwhelming.
+<h4>Most buzzed about apps and startups</h4>
+Without a doubt <a href="http://highlig.ht/">Highlight</a> was the most talked about app, both in the lead up to and at the event.
+
+It notifies you when someone interesting is nearby based on your interests and friends in common.
+
+Mashable has a good <a href="http://mashable.com/follow/leaderboards/sxsw">leaderboard of hyped up startups</a>.
+
+<a href="http://mashable.com/follow/leaderboards/sxsw"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/apps.jpg" alt="Apps" width="500" height="441" border="0" /></a>
+<h4>Notes from talks and panels</h4>
+It's hard to get a grasp of all the talks. There's something like 40 talks all happening at once (somewhere in the region of 1,000 total I'm guessing) so you have to pick and choose, which is a risk as you might end up in something that isn't what you thought or you've heard before.
+
+Some of the more notable talks I attended:
+<h5>Chris Risdon, Adaptive Path, Applying Behaviour Design</h5>
+Every design decision we make influences the user.
+
+Context is a huge contributor. Think of charitable donations. People are more likely to donate at the counter when they swipe their card, as opposed to you handing them a flier and them going away to do it later. Why? Because it's easy.
+
+Interesting visual graph with motivation against ability.
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/behaviour1.jpg" alt="Behaviour" width="500" height="410" border="0" />
+<h5>David Hogue, Fluid Inc, The Complexity Curve: How to Design for Simplicity</h5>
+For a product to succeed there are 3 things that must match:
+<ol>
+	<li>Mental model, what user expects to do</li>
+	<li>Conceptual model, what website asks you to do</li>
+	<li>System model, what happens behind the scenes</li>
+</ol>
+You can remove complexity from conceptual by hiding it in system e.g. collect the user's location.
+
+Complexity grows as you get more involved in a project and more people voice their opinion:
+<ul>
+	<li>"By the way…"</li>
+	<li>"Wouldn't it be cool if…"</li>
+	<li>"Looks good but lets add…"</li>
+</ul>
+Scope increases or you try to add stuff you've seen elsewhere.
+
+How things get complex:
+<ol>
+	<li>Don't listen to initial feedback</li>
+	<li>By disconnecting action from outcome</li>
+	<li>Trying to design your product to be everything to everyone</li>
+	<li>Too many "nice to haves"</li>
+	<li>Copying other solutions</li>
+	<li>Designing to your limitations (rather than ideal)</li>
+	<li>Focusing too much on latest trends</li>
+	<li>Designing for yourself</li>
+	<li>By accepting assumptions</li>
+	<li>Not collecting data before you start</li>
+</ol>
+<h5>Jared Spool, UI Engineering, The Secret Lives of Links</h5>
+Links use the scent of information to get us what we want.
+
+Walgreens homepage, 4% of it is taken up by what the user wants, 96% is what marketing wants. This violates Fitts’s law. The bigger and closer the easier a target is to hit.
+
+Link copy needs to communicate what users will get when they click.
+
+The back button is the button of doom. Once user clicks back, you've lost them and there's little chance of them progressing further. It's a predictor of failure.
+
+Three useless phrases:
+<ol>
+	<li>Click here</li>
+	<li>Learn more</li>
+	<li>Click here to learn more</li>
+</ol>
+<h5>Frog, Prototype vs. Sim: Validating Software &amp; UX Design</h5>
+User research is often filled with BS, lies, wish lists, advice and complaints.
+
+Use prototypes to validate thinking and ideas.
+
+Make sure development team knows it's a prototype, that it's fake and the end result is an artefact (not for production).
+
+Designers have the tools to validate any idea these days.
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/ux11.jpg" alt="Ux1" width="500" height="397" border="0" />
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/ux2.jpg" alt="Ux2" width="500" height="366" border="0" />
+<h5>Mark Channon, Author, How to Remember Anything: A Teach Yourself Guide</h5>
+Break things down into key images to help visualise your memory.
+
+Look around a room and apply visuals to different objects. This acts as a chain of cue cards.
+
+To remember names, look for something interesting about them, listen to their name, apply an image in your head to that name and repeat their name back to them.
+<h5>Mark Gilbreath, LiquidSpace, Work When Startup Culture Hits Mainstream</h5>
+70% of the work day desks are empty. Why?
+
+People get work done outside the office, people expect to work where they want to work and technology enables this.
+
+Be economically efficient - spend money on people, not physical assets or buildings.
+
+Let people work outside the office and encourage them to work in co-working environments to maintain that startup culture.
+
+Companies like AOL now have incubators in-house as they try bring that startup culture into the company.
+<h5>Ogilvy Notes</h5>
+If you'd like to get a quick snapshot view of more of the talks, Ogilvy Notes have some <a href="<a href="http://ogilvynotes.com/49790/sxsw-2012">">amazing visuals</a>.
+
+<a href="http://ogilvynotes.com/49790/sxsw-2012"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/ogilvy1.jpg" alt="Ogilvy" width="500" height="334" border="0" /></a>
+<h5>Other things of interest</h5>
+It was good to see the Northern Ireland crew out again. They had some companies showcasing at both the UKTI Showcase and the SXSW Trade Show.
+
+Check out the <a href="http://nisxsw.com/">NI companies and startups that were attending</a>.
+
+<a href="http://nisxsw.com/"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/ni.jpg" alt="Ni" width="500" height="347" border="0" /></a>
+
+The Trade Show was interesting. There's a mix of well established companies and new companies handing out all sorts of schwag and dressed in various costumes.
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/itriage.jpg" alt="Itriage" width="448" height="600" border="0" />
+
+As usual there were a lot of parties. Too many. Official and unofficial, hosted by the likes of Mashable, Zappos, GroupMe, Frog, Media Temple. Notable performers were Jay-Z and Kasabian.
+
+There was also a Dribbble meetup organised by the chaps at <a href="http://paravelinc.com/">Paravel</a>. Great to meet up with other designers and hear what they're working on.
+
+<img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.leemunroe.com/wp-content/uploads/dave.jpg" alt="Dave" width="448" height="600" border="0" />
+<h4>Conclusion</h4>
+If you haven't been to <a href="http://sxsw.com/">SXSW</a> before, go next year. It's awesome.

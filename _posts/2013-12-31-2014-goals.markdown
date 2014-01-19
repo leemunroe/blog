@@ -1,0 +1,79 @@
+---
+layout: post
+status: publish
+published: true
+title: '2013'
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 3149
+wordpress_url: http://www.leemunroe.com/?p=3149
+date: 2013-12-31 13:56:50.000000000 -08:00
+comments: []
+---
+A quick blog post about things learned and accomplished in 2013 and areas of focus for 2014.
+
+By writing them down I hope there’s more chance of me actually following through.
+
+<h4>New software/apps/tools for 2013</h4>
+Some of these apps I had used before, but in 2013 I found myself becoming more reliant on them and working them into my daily routine.
+<ul>
+<li><a href="http://www.sublimetext.com/"> Sublime</a> for coding. Previously I was using TextMate.</li>
+<li><a href="http://www.iterm2.com/">iTerm 2</a> for terminal.</li>
+<li><a href="http://inboardapp.com/">Inboard</a> for design inspiration.</li>
+<li><a href="https://www.optimizely.com/">Optimizely</a> for A/B testing.</li>
+<li>A standing desk at work. Love it.</li>
+</ul>
+
+
+<h4>Things I shipped in 2013 </h4>  
+<ul>
+<li>Helped launch <a href="http://runnable.com/">Runnable</a>.</li>
+<li>Launched <a href="http://flask.io/">Flask</a>.</li>
+<li>Launched <a href="http://codeshare.io">CodeShare</a>.</li>
+<li>Launched a new <a href="http://www.mailgun.com/">Mailgun</a> website and <a href="https://mailgun.com/sessions/new">control panel</a>.</li>
+</ul>
+
+<h4>Books read in 2013</h4>
+<ul>
+<li><a href="http://viewportindustries.com/insites-the-book">Insights</a> by Elliot Jay Stocks and Keir Whitaker</li>
+<li><a href="http://leanentrepreneur.co/">The Lean Entrepreneur</a> by Patrick Vlaskovits and Brant Cooper</li>
+<li><a href="http://executebook.com/">Execute</a> by Drew Wilson and Josh Long</li>
+<li><a href="http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280">Getting Things Done</a> by David Allen</li>
+<li><a href="http://leananalyticsbook.com/">Lean Analytics</a> by Alistair Croll and Benjamin Yoskovitz</li>
+<li><a href="http://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652">Lean UX</a> by Jeff Gothelf and Josh Seiden</li>
+<li><A href="http://www.fivesimplesteps.com/pages/pocket-guides">Pocket Guide series</a> by Five Simple Steps and Co.</li>
+<li><a href="http://37signals.com/remote/">Remote</a> by Jason Fried and DHH</li>
+</ul>
+
+
+<h4>Goals for 2013</h4>
+A look back at some areas of focus I set myself <a href="http://www.leemunroe.com/2013-goals/">this time last year</a>.
+
+<strong><del>1. Shipping</del></strong>. Success. Shipped several projects at work and outside of work. It feels good to get stuff out there.
+
+<strong><del>2. Contribute more to open source</del></strong>. Success. Open sourced my boilerplate (<a href="https://github.com/leemunroe/motherplate ">Motherplate</a>), a <a href="https://github.com/leemunroe/html-email-template">simple html email template</a>, and shared some snippets on <a href="http://codepen.io/leemunroe">CodePen</a>.
+
+<strong><del>3. Write less</del></strong>. Success. I tried to write shorter posts and only blog once a month. This included a couple of posts on <a href="https://medium.com/@leemunroe">Medium</a>.
+
+<strong><del>4. Read less</del></strong>. Success. I ditched my RSS reader and instead this is how I now catch up on news: <a href=https://news.ycombinator.com/">Hacker News</a>, <a href="https://news.layervault.com/stories">Designer News</a>, <a href="http://sidebar.io/">Sidebar</a>, Twitter. That's it.
+
+Bonus: <strong><del>Compete in a triathlon</del></strong>. Success. This was a 2012 goal that I failed but accomplished on 2013. 0.5 mile swim, 19 mile cycle, 4 mile run, 1hr 45min.
+
+
+<h4>Areas of focus for 2014</h4>
+
+<strong>1. Projects with (sustainable) business models</strong>
+I tend to launch side projects that don't make money, or very little. This is mostly fine, as they're usually for learning purposes, but it's about time I started focusing more on monetization strategies, business models and customers.
+
+<strong>2. Hardware</strong>
+Mobile devices. Wearable tech. Servers. <a href="http://www.brewbot.io/">Brewbots.</a> I want to know more about how these things work. I bought myself a <a href="http://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make">Kano</a> to start experimenting with Pi. Will see where this leads.
+
+<strong>3. Educating others</strong>
+More how-to tutorials, a more focused blog, talking at events, hosting work shops, writing a book, teaching in schools. Something along those lines.
+
+<strong>4. Educating myself</strong> 
+There are a tone of great online courses available now, and in person workshops, lots of which have been on my to-do list for too long. Time to set aside some time to do them. 
+
+Have a good 2014.

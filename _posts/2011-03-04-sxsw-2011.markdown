@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: I'm heading to SXSW 2011
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2266
+wordpress_url: http://www.leemunroe.com/?p=2266
+date: 2011-03-04 10:11:08.000000000 -08:00
+comments: []
+---
+March 11th-15th I'll be hitting this year's <a href="http://sxsw.com/interactive">SXSW Interactive</a> conference in Austin, Texas.
+
+Thanks to the support from <a href="http://investni.com/">Invest NI</a> and <a href="http://digitalcircle.heroku.com">Digital Circle</a>, I'll be heading out with a team of innovative and creative companies from Northern Ireland.
+
+<!--more-->
+
+<div style="text-align:center;"><img src="http://blog.lookaly.com/wp-content/uploads/sxsw.jpg" alt="sxsw.jpg" border="0" width="600" height="200" /></div>
+
+<h4>Keep track of what I'm up to</h4>
+
+I'll try not to overload you with too many #sxsw updates but you can keep track of what I'm up to via the following:
+
+<ol>
+<li><a href="http://twitter.com/leemunroe">Twitter</a> - for tweets and OHs</li>
+<li><a href="http://leemun.com">Posterous</a> - for short blog posts</li>
+<li><a href="http://gowalla.com/leemunroe">Gowalla</a> - to keep track of where I am</li>
+<li><a href="http://instagram.com">Instagram</a> - for any random photos</li>
+</ol>
+
+<h4>Are you going to be there?</h4>
+
+If so, let me know (comment, <a href="http://leemunroe.com/contact">email</a>, <a href="http://twitter.com/leemunroe">Twitter</a>). 
+
+If we've met before it'd be great to catch up. If not it'd be good to meet.
+

@@ -1,0 +1,80 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW Day 4
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1936
+wordpress_url: http://www.leemunroe.com/?p=1936
+date: 2010-03-17 16:30:05.000000000 -07:00
+comments:
+- id: 21261
+  author: Techboy
+  author_email: paul@performit.co.uk
+  author_url: http://www.techboy.co.uk
+  date: '2010-03-17 22:50:31 -0700'
+  date_gmt: '2010-03-17 21:50:31 -0700'
+  content: "&gt; Be careful when emulating Amazon features – you need the traffic
+    first\r\n\r\nVery true. A good example of this is sites that have little/no traffic
+    and create a forum - then wonder why nobody is posting.\r\n\r\n&gt; Phase in new
+    design features – target non-cookie users first, then x amount of users, then
+    open up to all\r\n\r\nThat's an interesting idea."
+- id: 21288
+  author: Cristian Pascu
+  author_email: cristian@flairbuilder.com
+  author_url: http://www.flairbuilder.com/
+  date: '2010-03-19 02:41:19 -0700'
+  date_gmt: '2010-03-19 01:41:19 -0700'
+  content: |-
+    Hey Lee,
+
+    SXSW was pretty cool, wasn't it? I wish I met you there. I've been following your blog for a while now and I would have loved to chat a little bit. I met Andy Budd, Paul Boag and a few others. Maybe next time I'll get to meet you, too. :-)
+
+    Cristian
+---
+SXSW continues to be a great experience. The talks are good but the best and most valuable part of the whole experience is meeting and talking to people. People I admire as a designer, people I admire as an entrepreneur, potential clients, existing clients and just people that are working on damn good stuff. It's an inspiration.
+
+<!--more-->
+
+Some notes on what I attended today:
+
+<h4>Social Search: A little help from my friends</h4>
+Panel
+<h5>Notes</h5>
+<ul>
+<li>Users want personalised responses to questions</li>
+<li>Give something good to customers to talk about and they'll start the conversation</li>
+<li>Social search is about providing the user with information on what's going on right now</li>
+<li>Make it personalised and relevant - relate to friends, relate to location</li>
+<li><a href="http://vark.com/">Aardvark</a> - ask a question and it'll find you the answer</li>
+<li><a href="http://www.oneriot.com/">OneRiot</a> - realtime search</li>
+</ul>
+
+
+
+<h4>Revealing design treasures from the Amazon</h4>
+By <a href="http://www.uie.com/">Jared Spool</a>
+Really interesting insight into Amazon and how people use it.
+<h5>Notes</h5>
+<ul>
+<li>Website owners often think "Why don't we do it like Amazon?"</li>
+<li>Alarm clocks aren't going to get good reviews</li>
+<li>1/5 of all orders are heavily influenced by reviews</li>
+<li>The "Was this review helpful" question is worth $2.7bn to Amazon</li>
+<li>Be careful when emulating Amazon features - you need the traffic first</li>
+<li>Phase in new design features - target non-cookie users first, then x amount of users, then open up to all</li>
+<li>Eliminate tool time - shorten steps, remove obstacles</li>
+<li>Don't fear trying new ideas</li>
+</ul>
+
+<h4>@anywhere</h4>
+Evan Williams, CEO of Twitter, introduced us to <a href="http://blog.twitter.com/2010/03/anywhere.html">@anywhere</a> - a new framework for integrating Twitter features into your website.
+
+Product looks interesting, similar to Facebook Connect. The talk/interview itself was a bit underwhelming. No good take-aways, just chatting about Twitter.
+
+Jonathan Cusick is also writing <a href="http://www.jonathancusick.co.uk/">some good blog posts</a> on the Northern Ireland gang too. Worth a read.
+
+ 

@@ -1,0 +1,90 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW Day 1
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1917
+wordpress_url: http://www.leemunroe.com/?p=1917
+date: 2010-03-13 15:30:06.000000000 -08:00
+comments:
+- id: 20645
+  author: Think-Creative
+  author_email: tc.contactus@gmail.com
+  author_url: http://true-creativity.lockd.net/
+  date: '2010-03-13 19:26:12 -0800'
+  date_gmt: '2010-03-13 18:26:12 -0800'
+  content: |-
+    Didn't Matthew finish his speech outside :O Joking there, obviously.
+    Great to read this, every time I read a "diary" about someone's day at a "convention" or something alike it sounds fantastic. I am definitely going to attend one in the future.
+
+    ~TC
+- id: 20816
+  author: Semblance
+  author_email: hello@semblance.co.za
+  author_url: http://www.semblance.co.za
+  date: '2010-03-14 09:34:05 -0700'
+  date_gmt: '2010-03-14 08:34:05 -0700'
+  content: Great to get to read some summarised 'inside info' - for the folks that
+    can not be there. Looking forward to day 2.
+- id: 20861
+  author: lipelip
+  author_email: lipelip@gmail.com
+  author_url: http://www.lipelip.com
+  date: '2010-03-14 13:18:19 -0700'
+  date_gmt: '2010-03-14 12:18:19 -0700'
+  content: Thanks for the inside scoops lee. Can I ask for some picture too ;)
+---
+First day over at SXSW and a new day is upon us. Here's a quick recap of the first day.
+
+<!--more-->
+
+
+<h4>Beauty in web design</h4>
+By <a href="http://www.cennydd.co.uk/">Cennydd Bowles</a>, Clearleft
+
+The talk focused on created masterpieces in web design. To date we haven't really had any - not to the measure of other masterpieces such as the IBM logo, London Tube Map or the intro credits to Se7en.
+
+<h5>Notes</h5>
+<ul>
+<li>We're kinder to attractive people</li>
+<li>Beauty makes things easier to use - our brains respond differently to aesthetically pleasing objects</li>
+<li>3 types of beauty - universal sociacultural and subjective</li>
+<li>3 modes of design - visceral, behavioural and reflective</li>
+<li>How to get to your masterpiece - get emotional, think bigger, lead, thing long term, broaden horizons, be brave.
+</ul>
+
+<h4>Get stoked on web typography</h4>
+By <a href="http://badassideas.com/">Samantha Warren</a>
+
+Samantha's talk was about using beautiful typography on websites, pushing the boundaries and not just settling for Georgia or Arial. Very inspiring and some great examples used throughout her presentation.
+
+<h5>Notes</h5>
+<ul>
+<li>It's not about what font you use, it's how you use it</li>
+<li>Get stoked = be completely and intensely enthusiastic about type</li>
+<li>Find the emotion of your site and based the type choice around that</li>
+<li>Start to experiment with modern web type solutions: Cufon, @Font-Face, TypeKit, FontDeck</li>
+<li>Start to endorse CSS3 and make use of text-shadow, multiple columns and rotation</li>
+<li><a href="http://www.yourfonts.com/">Create your own font</a> for $10</li>
+<li>Or <a href="http://www.fontlab.com/">create a more professional font</a> (for a lot more)</li>
+</ul>
+
+<h4>Simple steps to great web design</h4>
+By <a href="http://squaredeye.com/">Matthew Smith</a>, Squared Eye
+
+Unfortunately the fire alarm went off half way through Matthew's talk and we had to evacuate, which is a real shame as he was building up to something great. But the basis of his talk was about how it's not just about creating a lovely looking website
+
+<h5>Notes</h5>
+<ul>
+<li>Design around the content</li>
+<li><strong>Great</strong> web design helps content get stuff done - on the web <strong>with pleasure</strong></li>
+<li>Know your audience</li>
+<li>Know your content</li>
+<li>It's all about knowing the core of what you're designing for</li>
+</ul>
+
+So far so good for SXSW. Roll on Day 2.

@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+title: Designing better web type with Typecast
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2884
+wordpress_url: http://www.leemunroe.com/?p=2884
+date: 2012-10-01 09:55:07.000000000 -07:00
+comments: []
+---
+New project. Blank slate. You open up Photoshop. Design your interface. Some questions you might find asking yourself:
+
+<ul>
+<li>What font should I use for the headings?</li>
+<li>How will this typeface look alongside this one?</li>
+<li>What em size should the main paragraph be?</li>
+<li>Are there Typekit fonts that would suit this design?</li>
+</ul>
+
+With <a href="http://typecastapp.com">Typecast</a> you can <strong>easily design type in the browser</strong> and <strong>experiment with different type styles</strong>.
+
+
+<h4>Designing type in Photoshop is poor</h4>
+
+Photoshop is a great tool, and it's an application I have open all day every day, but designing type for the web has always been poor.
+
+The options of <strong>Sharp, Crisp, Strong and Smooth</strong> don't translate to CSS or browser interfaces. You don't truly know how the content will look and feel until it is marked up.
+
+<img src="http://www.leemunroe.com/wp-content/uploads/type.jpg" alt="Type" border="0" width="580" height="184" />
+
+"Designing in the browser", in its typical sense, isn't ideal either. It means going back and forth from browser to CSS editor and to test a font from Typekit, Google or Font Deck, you have to go to that service, set something up and/or copy a new Javascript snippet.
+
+
+<h4>Typecast solves the problem of designing type for the web</h4>
+
+The guys at <a href="http://designbyfront.com">Front</a> recognised the need for designers to have a better way to design type. So they made <a href="http://typecastapp.com">Typecast</a>.
+
+<blockquote>Designing should be a joy, not a chore, and we deserve the freedom to follow a last minute inspiration, try an even better idea, or completely change creative direction without fear that it might 'waste' project time or money.</blockquote>
+
+<img src="http://www.leemunroe.com/wp-content/uploads/typecast1.jpg" alt="Typecast" border="0" />
+
+Typecast is a great tool for experimenting with different <strong>fonts, sizes, spacing, colours and more</strong>.
+
+It integrates seamlessly with <strong>Typekit, Font Deck, Google Fonts</strong> so you can compare all sorts of typefaces.
+
+The app also spits out a <strong>hosted CSS file</strong> so you can <strong>rapid prototype</strong> locally with the fonts you're experimenting with in the product. This CSS can then be passed onto developers for use in production.
+
+The Typecast team have taken the time to write lots of great tutorials on how to use the product and on designing type. <a href="http://beta.typecastapp.com/blog/4-simple-steps-to-vertical-rhythm/">4 Simple Steps to Vertical Rhythm</a> and <a href="http://beta.typecastapp.com/blog/designing-with-web-fonts/">Designing with Web Fonts</a> are worth a read.
+
+
+<h4>Try it today</h4>
+
+Typecast is currently in private beta and will be launching soon. You can <a href="http://beta.typecastapp.com/">sign up for a beta invite today</a>. The service is currently <strong>free while in beta</strong>, so you'd be mad not to sign up.

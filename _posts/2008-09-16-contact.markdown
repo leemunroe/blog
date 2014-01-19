@@ -1,0 +1,15 @@
+---
+layout: page
+status: publish
+published: true
+title: Contact Lee Munroe
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 79
+wordpress_url: http://localhost:8888/?page_id=144
+date: 2008-09-16 00:43:52.000000000 -07:00
+comments: []
+---
+[contact-form 1 "Contact form 1"]

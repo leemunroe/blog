@@ -1,0 +1,42 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW Day 3
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1931
+wordpress_url: http://www.leemunroe.com/?p=1931
+date: 2010-03-16 18:24:39.000000000 -07:00
+comments: []
+---
+Day 3 involved walking around the exhibition hall. Lots of great apps, amazing companies and awesome freebies.
+
+<!--more-->
+
+<h4>Notes</h4>
+
+Some of the companies I was chatting to:
+
+<ul>
+<li><a href="http://lytiks.com/">Lytics</a> - analytics tool</li>
+<li><a href="http://clientshow.com/">Client Show</a> - tool for showing clients stuff</li>
+<li><a href="http://sysomos.com/">Sysomos</a> - social media management for businesses</li>
+<li><a href="http://www.istockphoto.com/index.php">iStock Photo</a> - the world's premier stock photography website</li>
+<li><a href="http://www.shutterstock.com/">Shutter Stock</a> - also a very good royalty free photography site</li>
+<li><a href="http://www.snappages.com/">Snap Pages</a> - simple website creation</li>
+<li><a href="http://www.rackspace.co.uk/rackspace-home/">Rackspace</a> - web hosting</li>
+<li><a href="http://www.onesite.com/">OneSite</a> - social network solution</li>
+<li><a href="http://www.appiction.com/">Appiction</a> - iPhone development</li>
+<li><a href="http://ideafoundry.info/">Idea Foundry</a> - training</li>
+</ul>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/google2.jpg" alt="google.jpg" border="0" width="540" height="405" /></div>
+
+The big brands are also here like Google, Microsoft etc.
+
+There's a 3D Panasonic TV on display and its absolutely amazing. Like looking through a window rather than at a TV. <em>Apparently</em> these are going to be the next big thing and will be in homes within the month.
+
+Would be great to see some Northern Ireland companies here this time next year.

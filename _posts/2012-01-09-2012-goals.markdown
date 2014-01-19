@@ -1,0 +1,111 @@
+---
+layout: post
+status: publish
+published: true
+title: Goals for 2012
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2696
+wordpress_url: http://www.leemunroe.com/?p=2696
+date: 2012-01-09 08:01:03.000000000 -08:00
+comments:
+- id: 76421
+  author: John S.
+  author_email: johnmsanchez@gmail.com
+  author_url: http://
+  date: '2012-01-09 17:35:18 -0800'
+  date_gmt: '2012-01-09 16:35:18 -0800'
+  content: Just discovered your blog from a search on "2012 UX Goals." Looking forward
+    to keeping up with it. As for your goals, I think I'll use some of your 2011 goals
+    myself. I hope you accomplish all of your 2012 goals; I just snowboarded for the
+    first time this past March and fell in love with it. Best of luck!
+- id: 86375
+  author: chris vallejos
+  author_email: chrisvallejos@hotmail.com
+  author_url: http://www.chrisvallejos.com
+  date: '2012-02-03 10:13:39 -0800'
+  date_gmt: '2012-02-03 09:13:39 -0800'
+  content: "Hey Lee,\r\nlove your drive, hustle and perspective on things. You must
+    be my alter ego or something, we are working on so many of the same things. Anyways,
+    keep at it, and good luck on your goals. \r\n\r\nChris V."
+---
+A quick blog post about things I learned and accomplished in 2011 and goals for 2012.
+
+I hope that by writing them down there's more chance of me actually doing them.
+
+
+<h4>Things I learned and put into practice in 2011</h4>
+
+<ul>
+<li>Learned <a href="http://haml-lang.com/">Haml</a> and <a href="http://sass-lang.com/">Sass</a> for a couple of Rails projects</li>
+<li>Started using <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+<li>Started making websites <a href="http://www.leemunroe.com/adaptive-responsive/">responsive</a></li>
+<li>Am now using <a href="http://www.leemunroe.com/html5-web-designer/">HTML5 and CSS3</a> for every web project</li>
+<li>Learned how to deploy web apps with <a href="http://www.leemunroe.com/deploy-rails-with-capistrano/">Capistrano</a></li>
+<li>Redesigned <a href="http://tweetni.com">TweetNI</a></li>
+<li>Redesigned <a href="http://webdesignire.com">WebDesignire</a></li>
+</ul>
+
+<h4>Books read in 2011</h4>
+
+<ul>
+<li><a href="http://www.amazon.co.uk/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602/">The Lean Startup</a></li>
+<li><a href="http://www.amazon.co.uk/gp/product/0321719905?ie=UTF8&tag=10homepa-21&linkCode=shr&camp=3194&creative=21330&creativeASIN=0321719905&ref_=sr_1_1&s=books&qid=1325564474&sr=1-1">Undercover UX Design</a></li>
+<li><a href="http://www.amazon.co.uk/gp/product/1430232889?ie=UTF8&tag=10homepa-21&linkCode=shr&camp=3194&creative=21330&creativeASIN=1430232889&ref_=sr_1_1&s=books&qid=1325564561&sr=1-1">Pro CSS for High Traffic Websites</a></li>
+<li><a href="http://www.amazon.co.uk/gp/product/B001AQ95UY?ie=UTF8&tag=10homepa-21&linkCode=shr&camp=3194&creative=21330&creativeASIN=B001AQ95UY&ref_=sr_1_1&s=books&qid=1325564620&sr=1-1 ">Inspired: How to Create Products Customers Love</a></li>
+<li><a href="https://www.rosenfeldmedia.com/books/prototyping/">Prototyping</a></li>
+<li><a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design</a></li>
+</ul>
+
+<h4>New software/apps for 2011</h4>
+
+Some of these apps I had used before, but in 2011 I found myself becoming more reliant on them and working them into my daily routine.
+
+<ul>
+<li><a href="http://axure.com/">Axure</a> for prototyping</li>
+<li><a href="https://www.evernote.com/">Evernote</a> for taking notes (and sharing across multiple devices)</li>
+<li><a href="https://agilebits.com/onepassword">OnePassword</a> for remembering usernames/passwords</li>
+<li><a href="http://www.leemunroe.com/omnigraffle/">Omnigraffle</a> for wireframing and sitemaps</li>
+<li><a href="http://www.tripit.com/">Tripit</a> for keeping track of travel plans</li>
+</ul>
+
+
+
+<h4>Goals for 2011</h4>
+A look back at the goals I set this time last year.
+
+<strong><del>1. Read more books</del></strong>
+Success: I read a good few books.
+
+<strong>2. Talk at more events</strong>
+Fail: There were a few Barcamp and Bizcamp opportunities, but I struggled to find the time to commit to any.
+
+<strong>3. Develop an iPhone app</strong>
+Fail: Purchased "Beginning iPhone 4 Development" but struggled to get past the first chapter. Started looking at <a href="http://www.appcelerator.com/">Appcelorator</a> instead.
+
+<strong>4. More side projects</strong>
+Fail: Started off the year well by redesigning a couple of <a href="http://tweetni.com/">older</a> <a href="http://webdesignire.com/">projects</a>, but didn't get around to working on anything new.
+
+<strong><del>5. Blog more</del></strong>
+Success: Blogged more this year than I did last year.
+
+
+<h4>Goals for 2012</h4>
+<strong>1. Be more mobile focused</strong>
+Kind of broad but comes down to designing/developing for mobile. Whether that's native apps, html5 apps, responsive websites - who knows.
+
+<strong>2. Release an iPhone app</strong>
+Related to the first goal, I want the experience of developing an app from scratch, submitting it to the app store and seeing it go live. 
+
+<strong>3. Compete in a triathlon</strong>
+I don't own a race bike yet and can't swim very far, but I figure I might have a go at it.
+
+<strong>4. Snowboard</strong>
+Just something I've always wanted to try.
+
+<strong>5. Release at least 3 side projects</strong>
+There are 46 items on my "Someday" list so at least 3 of them should be achievable.
+
+What do you think, decent list?

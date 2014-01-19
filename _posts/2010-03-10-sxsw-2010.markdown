@@ -1,0 +1,83 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW Here We Go
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1910
+wordpress_url: http://www.leemunroe.com/?p=1910
+date: 2010-03-10 11:01:50.000000000 -08:00
+comments:
+- id: 20496
+  author: thomas
+  author_email: thomas@thebrandingfarm.com
+  author_url: http://www.thebrandingfarm.com
+  date: '2010-03-13 06:30:00 -0800'
+  date_gmt: '2010-03-13 05:30:00 -0800'
+  content: |-
+    ive been here for 5 hours and here's my advice so far...
+
+    hotel: san jose
+    pizza: home slice
+    sweets: hey cupcake
+- id: 21416
+  author: SXSW Wrap Up Post &#8211; Amazing &#8211; Freelance Web Designer Lee Munroe
+  author_email: ''
+  author_url: http://www.leemunroe.com/sxsw-wrapup/
+  date: '2010-03-22 10:07:44 -0700'
+  date_gmt: '2010-03-22 09:07:44 -0700'
+  content: '[...] and tell them what you do over a beer.Northern Ireland crewIt was
+    good to get to know all the companies and people that attended from Northern Ireland.A
+    big thank you is due to Invest NI for funding the trip, in particular Terry Reilly,
+    and Matt [...]'
+---
+Tomorrow I have the pleasure of flying out to Austin, Texas for South by Southwest (<a href="http://sxsw.com/">SXSW</a>).
+
+Very excited. Love it in the States and have wanted to go to SXSW for years now. Austin looks like a great place.
+
+<!--more-->
+
+<blockquote>The South by Southwest® (SXSW®) Conferences & Festivals offer the unique convergence of original music, independent films, and emerging technologies. Fostering creative and professional growth alike, SXSW® is the premier destination for discovery. </blockquote>
+
+<h4>Northern Ireland attendees</h4>
+
+Thanks to <a href="http://www.investni.com">Invest NI</a> they're supporting the trip along with several other creative businesses from Northern Ireland:
+
+<ul>
+<li><a href="http://www.airpos.co.uk/">AirPOS</a></li>
+<li><a href="http://goodonpaper.org">Andy Good</a></li>
+<li><a href="http://bodyguardapp.com/">Bodyguard</a></li>
+<li><a href="http://www.digitalrobotsoftware.com/">Digital Robot Software</a></li>
+<li><a href="http://www.filmtrip.tv/">Film Trip</a></li>
+<li><a href="http://www.nomoreart.com/">No More Art</a></li>
+<li><a href="http://www.origin-partners.com">Origin Partners</a></li>
+<li><a href="http://www.sonicacademy.com/">Sonic Academy</a></li>
+<li><a href="http://www.frankideaworks.com/">Frank</a></li>
+</ul>
+
+There have been a couple of sites setup so you can check our progress while we're out there:
+
+<ul>
+<li><a href="http://www.niatsxsw.com/">NI @ SXSW</a> (thanks to <a href="http://www.quadrigaconsulting.co.uk/blog/">Quadriga</a>)</li>
+<li><a href="http://southbyni.ning.com/">SXNI</a> (thanks to <a href="http://goodonpaper.org">Andy</a>)</li>
+</ul>
+
+And of course keep an eye out for tweets tagged with <a href="http://search.twitter.com/search?q=%23sxsw">#sxsw</a> <a href="http://search.twitter.com/search?q=%23nisxsw">#nisxsw</a> <a href="http://search.twitter.com/search?q=%23sxni">#sxni</a> (yep, 3 tags for you).
+
+<h4>Useful apps</h4>
+<a href="http://www.tripit.com/">TripIt</a> - just forward on your travel confirmation emails and it puts together your itinerary. Magic!
+
+<a href="http://www.sitby.us/">SitBy.us</a> - tidy little app listing the interactive schedule. Decide what you're interested in and then check your schedule. You sign in with Twitter so you can also see where your friends are going.
+
+<a href="http://sched.org/">Sched</a> - another useful scheduling app. Haven't played around with it much but seems to have everything covered.
+
+<a href="http://www.happening-app.com/">Happening App</a> - a useful iPhone app showing you all the events happening around your current location.
+
+<h4>See you there?</h4>
+
+Would love to know if you're heading or if you know anyone heading. Looking to meet up with lots of new people, especially other designers, and get chatting over a beer at one of the many parties. 
+
+<em>Planning</em> to do a bit of blogging while I'm out there so will be sharing all that I learn and observe.

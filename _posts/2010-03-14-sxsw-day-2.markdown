@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: SXSW Day 2
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 1927
+wordpress_url: http://www.leemunroe.com/?p=1927
+date: 2010-03-14 19:45:43.000000000 -07:00
+comments:
+- id: 21189
+  author: Miskelly
+  author_email: martinmiskelly@yahoo.co.uk
+  author_url: http://www.martydesignmea.com
+  date: '2010-03-16 11:53:51 -0700'
+  date_gmt: '2010-03-16 10:53:51 -0700'
+  content: Jordan? as in Michael Jordan or Jordan big boobies?
+---
+Day 2 and things are getting a lot busier, which means the talks are crammed but there's more people to meet.
+
+<!--more-->
+
+<h4>10 Commandments of UX</h4>
+By <a href="http://www.nickfinck.com/">Nick Finck</a> and <a href="http://rainavancleave.com/">Raina Van Cleave</a>.
+
+Great talk about UX and what it means.
+
+<h5>Notes</h5>
+<ul>
+<li>UX is a focus</li>
+<li>The core elements are represented by the <a href="http://semanticstudios.com/publications/semantics/000029.php">honeycomb diagram</a></li>
+<li>The user is always right</li>
+<li>Visualise your user - what do they do, what do they look like, what do they wear?</li>
+<li>Find the user's sweet spot, which is a cross between your objectives, technology requirements and the user needs</li>
+<li>95% of users aren't reading 80% of your content - this makes your content even more important</li>
+<li>Access to your site is for everyone, not just your core users (all ages, all cultures, all devices)</li>
+<li>Think about the 1 thing users should be able to do and focus on that</li>
+<li>Learn from failure - Einstein, Jordan, Walt Disney all failed but got back up</li>
+</ul>
+
+<h4>CSS3 design with HTML5</h4>
+Panel
+
+An intro into CSS3 and HTML5.
+
+<h5>Notes</h5>
+<ul>
+<li>It doesn't have to look the same in every browser</li>
+<li>There are HTML5 and CSS3 techniques you can use today</li>
+<li>Educate IE6 customers - if need be use the "it'll cost more to make sure it looks the same on IE6" technique</li>
+<li>HTML5 doctype is very simple - once you declare it you're 'buzz word' compliant</li>
+<li>When using the new HTML5 elements use the IE Javascript fix (<a href="http://remysharp.com/2009/01/07/html5-enabling-script/">like this one</a>)</li>
+</ul>
+
+Awesome day and loads of parties to finish the day off.
+
+I've setup a <a href="http://leemunroe.posterous.com/">posterous blog for various SXSW tidbits</a> if you want to follow it too.

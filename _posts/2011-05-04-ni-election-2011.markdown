@@ -1,0 +1,164 @@
+---
+layout: post
+status: publish
+published: true
+title: 'NI Election 2011: Viewing the party websites on an iPhone'
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2388
+wordpress_url: http://www.leemunroe.com/?p=2388
+date: 2011-05-04 09:33:55.000000000 -07:00
+comments:
+- id: 25273
+  author: BigAlT
+  author_email: james@themedtoptraveller.com
+  author_url: http://
+  date: '2011-05-04 14:01:13 -0700'
+  date_gmt: '2011-05-04 13:01:13 -0700'
+  content: How about greens and TUV?  - could you review theirs?
+- id: 25293
+  author: Buffalo Web Design
+  author_email: konooziseo@gmail.com
+  author_url: http://konoozi.com
+  date: '2011-05-13 15:02:33 -0700'
+  date_gmt: '2011-05-13 14:02:33 -0700'
+  content: The catchy blog with the interesting contents. You give the nice information
+    that many  people don’t know before. most of your contents are make me have more
+    knowledge. it is very  different. I was impressed with your blog. Never be bored
+    to visit your website again. Have  the nice day. Keep enjoyed your blogging.
+- id: 27890
+  author: Martin Hughes
+  author_email: martin@martinhughesportfolio.com
+  author_url: http://martinhughesportfolio.com/
+  date: '2011-06-23 11:37:17 -0700'
+  date_gmt: '2011-06-23 10:37:17 -0700'
+  content: "Hi Lee well reviewed blog post. I was thinking of doing a similar blog
+    post at election time in May. \n\nI'm surprised that all of the NI Parties don't
+    invest a larger part of their budgets in their websites. \n\nTheir websites seem
+    to be improving but slowly, just like their performance at Stormont."
+---
+This Thursday 5th May 2011 we have a <strong>local election</strong> here in Northern Ireland. I wouldn't be that up to speed on local politics. I've a fair idea of what each party stands for but don't know the specifics. So on Sunday afternoon, while lounging around watching the Eastenders omnibus, <strong>I looked up the main party websites on the iPhone</strong> to see what the deal was.
+
+<!--more-->
+
+The main question I had in my head was <strong>"What do you stand for and why should I vote for you in this election?"</strong> but I also wanted to see how they coped in the modern day era of mobile devices (smartphones, tablets etc).
+
+<h4>NI political party websites viewed on iPhones</h4>
+
+Here are screenshots of <strong>my first view</strong> when looking up their respective websites.
+
+The examples I've used below are of Northern Ireland's top 5 parties (as of the last election), ordered A-Z.
+
+<h5><a href="http://www.allianceparty.org/">Alliance</a></h5>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/alliance.jpg" alt="alliance.jpg" border="0" width="400" height="600" /></div>
+
+<strong>What's good</strong>
+<ul>
+<li>Clear intro to what the party is and stands for</li>
+</ul>
+
+<strong>Could be better</strong>
+<ul>
+<li>Not optimised for mobile</li>
+<li>Could do with a <a href="http://www.leemunroe.com/call-to-action-buttons/">call to action</a> to guide me towards the 2011 election page</li>
+<li>Navigation doesn't actually work for iPhone at all</li>
+</ul>
+
+<h5><a href="http://www.dup.org.uk/">DUP</a></h5>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/dup.jpg" alt="dup.jpg" border="0" width="400" height="600" /></div>
+
+<strong>What's good</strong>
+<ul>
+<li>List of 7 priorities on homepage</li>
+<li>iPhone app available to download</li>
+</ul>
+
+<strong>Could be better</strong>
+<ul>
+<li>Not optimised for mobile</li>
+<li>Video doesn't work on iPhone</li>
+<li>Could do with a call to action to guide me towards the 2011 election page</li>
+</ul>
+
+<h5><a href="http://www.sdlp.ie/">SDLP</a></h5>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/sdlp.jpg" alt="sdlp.jpg" border="0" width="400" height="600" /></div>
+
+<strong>What's good</strong>
+<ul>
+<li>Clear intro and call to action for the 2011 election</li>
+<li>From a design perspective, definitely the most aesthetically pleasing</li>
+<li>Video works fine on iPhone</li>
+</ul>
+
+<strong>Could be better</strong>
+<ul>
+<li>Not optimised for mobile</li>
+</ul>
+
+<h5><a href="http://www.sinnfein.ie/">Sinn Fein</a></h5>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/sinn.jpg" alt="sinn.jpg" border="0" width="400" height="600" /></div>
+
+<strong>What's good</strong>
+<ul>
+<li>Video works fine on iPhone</li>
+</ul>
+
+<strong>Could be better</strong>
+<ul>
+<li>Not optimised for mobile</li>
+<li>A splash page with a video blocks me off from the main site (the main site link bottom left doesn't actually work)</li>
+<li>Could do with a call to action to guide me towards the 2011 election page</li>
+</ul>
+
+<h5><a href="http://www.uup.org/">UUP</a></h5>
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/uup.jpg" alt="uup.jpg" border="0" width="400" height="600" /></div>
+
+<strong>What's good</strong>
+<ul>
+<li>Separate navigation for election</li>
+</ul>
+
+<strong>Could be better</strong>
+<ul>
+<li>Not optimised for mobile</li>
+<li>Rotating banner lacks call to action</li>
+</ul>
+
+<h4>Accessibility</h4>
+
+The two major accessibility issues that jumped out for me were:
+<ol>
+<li>Alliance website main <strong>navigation didn't function</strong> at all on iPhone</li>
+<li>DUP's <strong>video didn't work/load</strong> on iPhone (it's a YouTube video so I'm not sure why this is)</li>
+</ol>
+
+<h4>Loading and page weight</h4>
+
+Page download time is also an issue for mobile devices. Mobile users may <strong>not have wifi access</strong> and they may be <strong>paying for the amount of data they download</strong>, so the smaller the 'page weight' the better.
+
+A quick look at Firefox and YSlow shows how large each site is (remember none of the sites are serving up a mobile optimised site).
+
+<ul>
+<li>Alliance: <strong>821.2K</strong></li>
+<li>DUP: <strong>1026.5K</strong></li>
+<li>SDLP: <strong>628.3K</strong></li>
+<li>Sinn Fein: <strong>456.2K</strong></li>
+<li>UUP: <strong>1219.7K</strong></li>
+</ul>
+
+Note that these figures don't take into account the video size.
+
+<h4>Is it important for your website to be mobile optimised?</h4>
+
+Time and budget are an issue for any project and other things often take priority. But for a campaign where you're trying to get as many people to back you as possible, you want to <strong>make sure everything is accessible</strong> to iPhone, iPad, Android, Windows Mobile, Blackberry and other smartphone users.
+
+A <a href="http://www.leemunroe.com/responsive-design/">responsive design</a> is one option or serving up a separate mobile site is another. At the very least the main desktop version of the website should work on a mobile.
+
+<strong><em>Should the local parties have invested in mobile optimised websites? Does it matter? Have you come across any good mobile optimised political websites?</em></strong>

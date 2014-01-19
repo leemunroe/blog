@@ -1,0 +1,543 @@
+---
+layout: post
+status: publish
+published: true
+title: Why the iPad failed
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2063
+wordpress_url: http://www.leemunroe.com/?p=2063
+date: 2010-07-31 08:19:54.000000000 -07:00
+comments:
+- id: 24560
+  author: Mike van Hoenselaar
+  author_email: mike@freshter.com
+  author_url: http://www.freshter.com
+  date: '2010-08-02 13:24:06 -0700'
+  date_gmt: '2010-08-02 12:24:06 -0700'
+  content: "I think you think of it to much of a computer. As a replacement of something.
+    It's a whole new thing and has a whole new target audience.\r\n\r\nI use it for
+    a lot of things. And we have practically the same profession.\r\n\r\n- I like
+    the games, you don't\r\n- I like reading from it, you don't\r\n- I browse a lot
+    indoors, in the train, at meetings - you don't\r\n- I use it to make notes, take
+    sketches when in a meeting - you don't\r\n- I watch movies (in bed, on the couch)
+    - you don't\r\n- I love reading my news on an iPad - you don't\r\n\r\nSo you see
+    I have a lot of point why I like using an iPad. You don't. But maybe you are just
+    not the target audience. The iPad for me is media consumption. Nothing more. I
+    keep creating stuff on my MBP."
+- id: 24561
+  author: marge
+  author_email: alexb171@yahoo.co.uk
+  author_url: ''
+  date: '2010-08-02 13:24:57 -0700'
+  date_gmt: '2010-08-02 12:24:57 -0700'
+  content: Do you really read the Sun!!!
+- id: 24562
+  author: Stuart Gibson
+  author_email: stuart@abovetheinternet.org
+  author_url: http://www.imetstuart.com
+  date: '2010-08-02 13:45:39 -0700'
+  date_gmt: '2010-08-02 12:45:39 -0700'
+  content: You should be castrated for dogearing books anyway :P
+- id: 24563
+  author: Chris Johnson
+  author_email: me@chrismj.net
+  author_url: ''
+  date: '2010-08-02 13:48:12 -0700'
+  date_gmt: '2010-08-02 12:48:12 -0700'
+  content: Very interesting read and echos the thoughts of myself not only for the
+    ipad but for a lot of todays technology.  As much as I am an avid "geek" in terms
+    of technology, like yourself I will never actually buy something I don't actually
+    need.
+- id: 24564
+  author: Clark Caughey
+  author_email: clark.c@sugarrushbelfast.com
+  author_url: http://www.sugarrushbelfast.com
+  date: '2010-08-02 13:49:37 -0700'
+  date_gmt: '2010-08-02 12:49:37 -0700'
+  content: "Couldn't agree more Lee. When it comes down to it, I'm an Apple fanboy
+    but I still couldn't justify the purchase of an iPad because like you I didn't
+    see how I personally would use it.\r\n\r\nI get the idea and I know there are
+    some markets in which it will be very useful, but it's a consumer device, something
+    which you use to explore information &amp; content but not create it and is therefore
+    of little use to me and many other designers."
+- id: 24565
+  author: Mark McCorkell
+  author_email: mark@markmccorkell.com
+  author_url: http://markmccorkell.com
+  date: '2010-08-02 13:52:30 -0700'
+  date_gmt: '2010-08-02 12:52:30 -0700'
+  content: "Since the iPad was launched, I have been trying to justify buying one,
+    and struggling to do so! I think they are a superb piece of technology, but I
+    can't find a use for it that my Mac and iPhone combo doesn't already do for me.\r\n\r\nIt
+    can do a lot of things for some people, but I think I'm in the same boat as yourself,
+    and can't find that niche use for it. I think if I was someone who travelled a
+    lot, it would be great though."
+- id: 24566
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2010-08-02 13:53:51 -0700'
+  date_gmt: '2010-08-02 12:53:51 -0700'
+  content: "@Mike: I guess I'm comparing it to a computer (and less so an iPhone)
+    but only because it does pretty much the same things: browsing, emailing, games,
+    reading, watching movies. Is it worth the money to be able to do these things
+    with something that's more portable and light weight? Depends on your daily routines.\r\n\r\n@Marge:
+    Dear Deidre rocks! ;-)\r\n\r\n@Stuart: Harsh"
+- id: 24567
+  author: Alan Anderson
+  author_email: alan@bluetubedesign.com
+  author_url: http://www.bluetubedesign.com
+  date: '2010-08-02 13:56:59 -0700'
+  date_gmt: '2010-08-02 12:56:59 -0700'
+  content: "your certainly inviting trouble with this post ... yet I agree with you.
+    I've been an apple fan from way back when it wasn't cool to be an apple fan and
+    I haven't got an Ipad for exactly the same reasons you highlighted above. \r\n\r\nI
+    refuse to upgrade my MBP to a unibody one because on long trips I carry two spare
+    batteries, giving me close to 10 hours or so productive battery life in the programs
+    I use and I can have access to all my files offline without needing to sync, I
+    still carry around a pad and paper around the house and buy the newspaper each
+    weekend because I love the feel of something in my hands that I don't worry about
+    my 2 year old son grabbing and destroying."
+- id: 24568
+  author: Rich Dale
+  author_email: rich@craftydevil.co.uk
+  author_url: http://www.craftydevil.co.uk
+  date: '2010-08-02 14:00:48 -0700'
+  date_gmt: '2010-08-02 13:00:48 -0700'
+  content: "A round trip to London on Friday proved *my* use case (read pitiful pleading
+    with wife) for having an iPad. I lugged my MBP about all morning, used it for
+    a presentation, then lugged it about all avo. \r\n\r\nThe opportunities to use
+    it at the airport or on the plane are minimal given the hectic/crushed nature
+    of those environments, whereas the iPad would be a simple, convenient alternative.\r\n\r\nOn
+    the other hand, we need a new sofa, so my iPad travel dreams won't be coming true
+    anytime soon!"
+- id: 24569
+  author: George Kulick
+  author_email: gkulick@gmail.com
+  author_url: http://georgethetechguy.com
+  date: '2010-08-02 14:02:06 -0700'
+  date_gmt: '2010-08-02 13:02:06 -0700'
+  content: I am actually dieing to get one. I don't currently accept Credit Cards
+    for my business except through paypal. And I want to use the Ipad app Square Up
+    to swipe customer cards. I think that is a decent use case for me.
+- id: 24570
+  author: Mark McGall
+  author_email: markmcgall@live.com
+  author_url: http://www.markmcgall.com
+  date: '2010-08-02 14:08:15 -0700'
+  date_gmt: '2010-08-02 13:08:15 -0700'
+  content: Really like this post,  I couldn't agree more. The price tag doesn't reflect
+    the 'need' for the product and I, for one, have no intention of buying one. About
+    time someone said it!
+- id: 24571
+  author: Barry McGee
+  author_email: barrymcgee@gmail.com
+  author_url: http://www.barrymcgee.co.uk
+  date: '2010-08-02 14:10:46 -0700'
+  date_gmt: '2010-08-02 13:10:46 -0700'
+  content: "A colleague brought one just after it was launched and I came to the conclusion
+    after 10 minutes of playing with it that the iPad is a nice to have, a luxury.
+    \r\n\r\nI simply cannot justify buying one because like you, I have a laptop and
+    an iPhone which do evrything I want to do very well already."
+- id: 24572
+  author: Joe Stevens
+  author_email: joemacstevens@me.com
+  author_url: http://joemacstevens.com
+  date: '2010-08-02 14:25:40 -0700'
+  date_gmt: '2010-08-02 13:25:40 -0700'
+  content: I guess it isn't for everyone. I use the hell out of mine, its the first
+    thing I reach for when I want to browse the web. Going to my desk to do browse
+    just seems like a hassle now. Its also my favorite way to read books, comics and
+    watch videos. I agree with you on how much of a hassle it is to share stuff on
+    Twitter and Facebook. Maybe one day Apple will build extensions into mobile Safari
+    to make it easier.
+- id: 24573
+  author: Matt Johnston
+  author_email: Mattj@cimota.com
+  author_url: ''
+  date: '2010-08-02 14:38:39 -0700'
+  date_gmt: '2010-08-02 13:38:39 -0700'
+  content: "I had to weigh in. \r\n\r\nAll of the commentary above says one thing:
+    developers and designers have not delivered for you. \r\n\r\nGames have delivered
+    for me (Mirrors Edge, Osmos) but there are some killer apps missing. Apps like
+    Flipboard provide a new and useful (but sadly not multiuser) way to consume news
+    and there are others. \r\n\r\nWhat's missing I guess are new creator apps. Like
+    the revolution that Kai's Power Tools were for UI wayback when. \r\n\r\nFor my
+    part I'd like to see what the designer of Lookaly could do with a new interface
+    metaphor. Labelling any of it as a fail for you  is premature, I think. iPad (or
+    one of the spiritual descendants) may yet prove to be essential for you. The apps
+    (your particular itch for a touchscreen device may not yet have been scratched
+    or even conceived)."
+- id: 24574
+  author: Colin Mitchell
+  author_email: crmitchell@ntlworld.com
+  author_url: ''
+  date: '2010-08-02 15:25:55 -0700'
+  date_gmt: '2010-08-02 14:25:55 -0700'
+  content: "How could you besmirch such a fine piece of technology by reading the
+    Sun on it? \r\n\r\nI bet if you look closely at it with the power off, you will
+    see, on the inside of the screen, a thin indelible imprint of insouciant innuendo,
+    a masked mish-mash of muddled misanthropic morality, pointedly polemical political
+    posturing and the outline of a pair of breasts.\r\n\r\nThat said, the iPad and
+    similar devices that follow will probably have a high take-up from people with
+    neither laptops nor iPhones, and while I agree completely about the pleasure derived
+    from a physical book or newspaper, lighting and enlarged text will transform reading
+    for many older people who would prefer books but find them too difficult to view."
+- id: 24575
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2010-08-02 15:33:36 -0700'
+  date_gmt: '2010-08-02 14:33:36 -0700'
+  content: "Thanks for weighing in all. Some interesting points arising:\r\n\r\nGaming\r\nThe
+    iPad is good for gaming. I can't argue with this, I'm a fan of Angry Birds as
+    much as the next guy is. Although if I really want to sit down to game I'll generally
+    play the Xbox. Which leads onto the next point...\r\n\r\nTravel\r\nThe iPad fits
+    if you travel. Whether that be by plane, train or bus you can consume media or
+    play a game with ease (where you can't bring your Xbox with you). I don't travel
+    that much so this is where it hasn't fitted for me.\r\n\r\n@Rich: Enjoy the new
+    sofa ;-)\r\n\r\n@George: Does sound like a good use case, accepting credit card
+    payments. If you're in sales it definitely looks professional.\r\n\r\n@Joe: I
+    think more or easier integration between different apps, or like you say Safari
+    extensions, would definitely be useful.\r\n\r\n@Matt: Totally. I'm waiting for
+    the inevitable brainwave that changes my mind. I'm certain I'll end up with another
+    tablet at some stage when the right combination of use case and app(s) come along
+    (whether that be the same iPad, next generation or another make). For me it doesn't
+    exist yet."
+- id: 24576
+  author: Susan
+  author_email: marksusan1@hotmail.com
+  author_url: ''
+  date: '2010-08-02 15:39:29 -0700'
+  date_gmt: '2010-08-02 14:39:29 -0700'
+  content: I've had a Sony Reader for years, upgraded it 1 1/2 yrs ago and passed
+    my old one down. I don't need to be online to read, I'm online long development
+    hours at a dev machine. Maybe if I hadn't already owned something I've been reading
+    on I would've been tempted.  Have several dev machines, have a phone, have a reader...  don't
+    have or want an iPad.
+- id: 24577
+  author: Jim Munro
+  author_email: jim@jimfmunro.com
+  author_url: http://www.jimfmunro.com
+  date: '2010-08-02 16:22:50 -0700'
+  date_gmt: '2010-08-02 15:22:50 -0700'
+  content: "I usually don't respond to obvious linkbait titled posts like this but...
+    ;) \r\n\r\nI seem to be the only commenter that uses their iPad *all the freakin
+    time*.  I bought it with no real use case, but I have found I love being able
+    to lay back and read, not have to wait for it to power up. The battery life is
+    nice too.\r\n\r\nI use it mainly for consumption, so it's not going to replace
+    my laptop. But when I'm not at work, it gets a lot of use.\r\n\r\nI was surprised
+    at your summary that all apps suck, I would agree that most free apps are not
+    that great, but there are a few that shine. I still think it's so early yet that
+    the great apps are yet to arrive and may come after iPad 2.0 (with retina display
+    and 2 cameras comes out). \r\n\r\nYou must have not tried Osfoora for twitter
+    or Reeder for RSS (btw, you can tweet from Reeder within the app. I use that feature
+    frequently.) Both are nice apps that have a lot of features that you might have
+    liked.  \r\n\r\nAlso, you can not only highlight with the Kindle app, you can
+    also dogear pages (without fearing castration). Also, I love GoodReader for PDF
+    books which are becoming more common. I haven't warmed up to iBooks yet.\r\n\r\nIt
+    all boils down to the individual I guess. I guess I must be the iPad's target
+    market."
+- id: 24579
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2010-08-02 16:40:17 -0700'
+  date_gmt: '2010-08-02 15:40:17 -0700'
+  content: "@Jim: Nice one, it is good to hear both points of view. \r\niPad apps
+    don't really suck, that's a bit over the top. They just don't make me think 'wow'.
+    \r\n\r\nThe app store frustrates me a lot. Takes a while to load. When it does
+    load, I want to see the top apps (which actually rarely change). I'll want to
+    load more to see more top apps, so will tap a few times to load 25 more. After
+    clicking through to read about that app, then clicking back, you have to 'load
+    more' again to get back to where you were. When you install an app, the app store
+    closes (same on iPhone actually) which means having to reopen it and start all
+    over again. Just isn't that slick.\r\n\r\nWould like to see trial versions of
+    apps (not just lite versions) before buying them, just like Mac Apps, so you can
+    try them before forking out the money for them.\r\n\r\nBut it is early days, I'm
+    sure there are a lot more to come."
+- id: 24580
+  author: Jim Munro
+  author_email: jim@jimfmunro.com
+  author_url: http://www.jimfmunro.com
+  date: '2010-08-02 17:00:51 -0700'
+  date_gmt: '2010-08-02 16:00:51 -0700'
+  content: "S/B titled the iPad app store failed.  ;) I agree it is lame and probably
+    is preventing or slowing the cream from rising to the top.  I know a lot of app
+    devs are complaining about it.\r\n\r\nLove the idea of try before you buy apps.
+    I always try the Lite version first when possible. I usually base my purchases
+    off of word of mouth (aka twitter) recommendations. for now. until the app store
+    doesn't suck any more."
+- id: 24581
+  author: Adam Cartlidge
+  author_email: hello@adamcartlidge.com
+  author_url: http://www.made-in-belfast.com
+  date: '2010-08-02 17:13:11 -0700'
+  date_gmt: '2010-08-02 16:13:11 -0700'
+  content: "I'd get one, if even just for the filth.\r\n\r\nYea you can watch filth
+    on your iPhone or whatever, but the iPad is bigger.\r\n\r\nWin."
+- id: 24582
+  author: Chris Armstrong
+  author_email: Fatbuoy1@gmail.com
+  author_url: ''
+  date: '2010-08-02 19:14:53 -0700'
+  date_gmt: '2010-08-02 18:14:53 -0700'
+  content: "I think it's perhaps a little ahead of it's time when it comes to making
+    business sense, as that require decent productivity apps that havnt really appeared
+    yet (but which will come I'm sure).\r\n\r\nHowever, I find it hard to beat coming
+    home knackered after work, and rather than sitting down at ANOTHER desk to spend
+    my evening, lying back on the couch or bed and browsing/watching/reading/playing
+    something.\r\n\r\nPerhaps the main sticking point at the minute is the price,
+    which will come down, but I do think that multitouch interfaces are the way forward
+    for 90% of the things we currently use our computers for (not to mention the things
+    we havnt yet thought of). In comparison to multitouch, using a mouse is like using
+    a stick to play a piano. Once theUI puzzles are solved, and there's a multitouch
+    version of Photoshop/InDesign/Etc (or whatever they're called, I actually don't
+    think Adobe are nimble enough to be the ones to make this happen), I dot think
+    we'll look back."
+- id: 24583
+  author: Travis
+  author_email: definetigers@gmail.com
+  author_url: http://flavors.me/definetigers
+  date: '2010-08-02 19:59:34 -0700'
+  date_gmt: '2010-08-02 18:59:34 -0700'
+  content: "It's all a matter of preference, I suppose, but I prefer to do most computing
+    on the iPad. My Macbook Pro, though beautiful and wonderful in every way, is a
+    big, heavy, tethered machine. It has essentially become a desktop. It has hard
+    drives and a Wacom tablet hooked in and it needs near constant power to live.
+    My iPad is unencumbered. I can pick it up and run to a meeting and not worry about
+    bringing a power charger with me. With my stylus, I jot down notes in Penultimate,
+    sketch with ArtStudio. I'll use Reeder or Flipboard or Twittelator to browse RSS
+    and Twitter because they present this information in the best possible way. \r\n\r\nAlso,
+    your note about not being able to share directly to Twitter from an RSS reader
+    is wrong. Reeder and Flipboard do this very well."
+- id: 24584
+  author: Philip
+  author_email: philip@matchmedia.tv
+  author_url: http://www.MatchMedia.tv
+  date: '2010-08-02 20:30:08 -0700'
+  date_gmt: '2010-08-02 19:30:08 -0700'
+  content: "I don't use my 16 GB that much either\r\nI do read the Times on it -most
+    days\r\nI do travel a lot -but a 60 mins flight means it is often 'off' for take
+    off/landing\r\nI used to be good at games -now I am old!\r\nthe sharing thing
+    -really pisses me off\r\nas does 'itunes'\r\n\r\nI do think we are all wrong\r\nthe
+    real beauty of the ipad is in folks that don't own an iphone,don't know what 'mbp'
+    stands for\r\nThe genius of the ipad is not for 'us' -it is for ladies and kids
+    and old people\r\nand perhaps most importantly those that don't currently own
+    an apple product"
+- id: 24585
+  author: Tri
+  author_email: tnnoensie@gmail.com
+  author_url: http://flavors.me/tri
+  date: '2010-08-02 20:40:47 -0700'
+  date_gmt: '2010-08-02 19:40:47 -0700'
+  content: I can't believe this hasn't came up yet. The iPad has REVOLUTIONIZED the
+    experience of sitting on the john. Truthfully, I don't have one, but I made sure
+    I had to take a no. 2 every time I go over to my friend's crib lolz. Seriously,
+    this alone is a good reason enough to buy one for me, but I'm just $500 too poor
+    :o(
+- id: 24586
+  author: Fraser
+  author_email: Fraser@platonik.co.uk
+  author_url: http://www.platonik.co.uk
+  date: '2010-08-02 21:10:16 -0700'
+  date_gmt: '2010-08-02 20:10:16 -0700'
+  content: "Lee\r\nIt does not surprise me that you dont like the iPad. It's a consumption
+    tool. You use productivity tools.\r\n\r\nI have one and use it for presentations
+    and email like you point out. My 9 year old loves it and it's amazing to watch
+    how kids use it to search, learn, play.\r\n\r\nHang on to it. You never know when
+    an interesting client brief comes in.\r\n\r\nF."
+- id: 24589
+  author: Sean
+  author_email: pixelpressed@gmail.com
+  author_url: ''
+  date: '2010-08-03 06:42:16 -0700'
+  date_gmt: '2010-08-03 05:42:16 -0700'
+  content: This headline is just link bait, you've only argued why the iPad has failed
+    for you, not failed in general. I also disagree with your suggestion that web
+    designers don't browse unless its for productive purposes, you say you don't just
+    browse which is fair enough, but 'as a web designer?'
+- id: 24594
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2010-08-03 11:36:02 -0700'
+  date_gmt: '2010-08-03 10:36:02 -0700'
+  content: "@Chris: I think you're right. It wasn't made for productivity but consumption.
+    There will be something that comes out in the future Minority Report style.\r\n\r\n@Travis:
+    Reeder is quite good, never tried FlipBoard. If I read a good article at night
+    say, I'll put it in a 'tweet later' app so it's shared when more friends are online.
+    Which may also go to Facebook. And I'll also tag it on Delicious. But I guess
+    that's just down to my work flow.\r\n\r\n@Philip: Ladies, kids and old people
+    - this is what I originally thought. Maybe it takes a while for the hype to come
+    down for these types of users to jump on board.\r\n\r\n@Fraser: You're spot on.\r\n\r\n@Sean:
+    Yep, to clarify this is a post about why the iPad failed for me and why I sold
+    it. Fair enough re. the web designer bit. Didn't mean to speak for all web designers,
+    just backing up the point that I'll usually be doing a few things."
+- id: 24595
+  author: Zade
+  author_email: ramzibatarseh@gmail.com
+  author_url: ''
+  date: '2010-08-03 12:11:14 -0700'
+  date_gmt: '2010-08-03 11:11:14 -0700'
+  content: "iPad is like Italian sports cars, they look marvelous but are not practical
+    for daily use. Sure they turn heads but when you have to take it to the mechanic
+    every week, it really becomes a pain in the butt, and you wish you didn't get
+    it in the first place. Same thing happened to me when I got the ipad. it was highly
+    recommended by two (executive-type) friends and i quickly ran my fingers on the
+    screen and it looked nice, so i decided i'd like one too. I am neither what's
+    referred to as an \"Apple fan boy\" nor an \"Apple hater\", so my opinion is purely
+    objective coming from someone who believes technology should be used for human
+    increased efficiency and pleasure. \r\n\r\nI can summarize the snags as I encountered
+    them: first off i bought it just before a long 10-hour flight to kill time, only
+    it won't start because it needs activation. why? what if i don't have a PC to
+    activate so you need a pc to start using it, which means right there it cannot
+    be a pc, you need a pc next to it. \r\n\r\nnext i play online fake money poker,
+    but i could not download the software, because ipad does not allow it. why? then
+    i wanted to reserve a car from a well known car rental company, but i could not
+    reserve the car because their website uses flash (and ended up paying more for
+    the car because reservation online is cheaper than showing up at their offices).
+    \r\n\r\nnext I wanted to send an email with an attachment, but i cannot upload
+    an attachment because i simply could not move my files to it. \r\n\r\nthen I wanted
+    to load my songs, I had to download itunes then move my library to it, and from
+    there to sync to ipad (the ipad player is really nice btw). \r\n\r\nthen i needed
+    to move my pictures and that was a hassle too. \r\n\r\nfor web browsing i use
+    Firefox for multi tab, but ipad won't allow me to download it. why? i must use
+    the extremely limited features Safari. why is that? I am not betraying Apple by
+    using firefox. \r\n\r\nby now I started feeling cheated especially as I paid a
+    lot of money for it because i got it from outside the US. i thought fine I am
+    sure my wife would love it (all wives like expensive and flashy stuff), but she
+    too ended up leaving it on the side, and using our old laptop (she says she felt
+    frustrated by the ipad but was unable to tell me why exactly). \r\n\r\nthen i
+    thought let me at least let my 1 year old daughter play with it, but she was not
+    enthused either (she was unable to tell me why either). on top of all of this,
+    I need a pc to use the ipad, so the assumption is i have a pc, which makes it
+    a \"third class citizen\". \r\n\r\nthe ipad is too small to use efficiently but
+    too big to carry around as a personal organizer, I also did not know how to hold
+    it ... it is always feels like it's about to slip, putting it on a table reduces
+    the wi-fi signal, while holding it after 10 minutes becomes hard, on my next trip,
+    i doubt that i will take it as i cannot guarantee that i won't need a usb port,
+    or flash, or to download or upload, so it's not a trusted friend, i will stick
+    to my 3 year old laptop. \r\n\r\ni am writing all of this on my laptop, i won't
+    dream of using the ipad for writing this long letter. I read what people say about
+    \"oh it's for consumption of data not creating it\". What a lame excuse. How can
+    you separate the two? I am not a graphic designer so I know already that I won't
+    be creating logos in my spare time on it. But you cannot separate one from the
+    other, for example you get an email from a colleague or a friend asking you to
+    send them a file or a presentation or a picture. In order to answer him you need
+    to \"attach\" those files but those files cannot reside in the iPad, nor can you
+    access a flash memory. This is data creation because by definition it can't be
+    consumption. So this email cannot be answered on the spot, you need a \"real\"
+    pc for that. Most of my emails contain an attachment. If i needed to send a passing
+    note to anyone I can send an SMS I don't an iPad.\r\n\r\nhaving said all of the
+    above, i thought I don't mind paying a lot for something if it pleases me, but
+    the ipad is not that, it's not a pc nor a laptop, not a phone nor a electronic
+    organizer, not a camera not an mp3 player, it's not a tv nor a media center (does
+    not read flash memory), it's not an internet browser because I am not a kid who
+    needs to start from the beginning every time i close safari to use the calculator.
+    I finally reached the conclusion that the ipad is a lot of wasted energy and effort
+    and R&amp;D by Apple in a nice package. today I sold it to my friend for 25% less
+    than what i bought it for, but I am relieved. and i will never buy a \"closed\"
+    system ever again. One last note, judging by how strongly owners of iPad reply
+    to my bashing it tells me they hate it too, but they suffer from that psychological
+    phenomenon in humans that \"justify the decision after it's made even if utterly
+    wrong\"."
+- id: 24597
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2010-08-03 13:28:07 -0700'
+  date_gmt: '2010-08-03 12:28:07 -0700'
+  content: '@Zade: Insightful experience. You make a very good point about the need
+    to have a PC to activate/update etc. So before you buy an iPad you *need* a PC/Mac
+    (or at least easy access to one)'
+- id: 24657
+  author: Peter BArr
+  author_email: info@petebarr.com
+  author_url: http://www.petebarr.com
+  date: '2010-09-11 23:07:34 -0700'
+  date_gmt: '2010-09-11 22:07:34 -0700'
+  content: I hear ya Lee!
+- id: 24712
+  author: Peter Robinson
+  author_email: info@noostyle.com
+  author_url: http://www.nostyle.com
+  date: '2010-09-30 10:18:36 -0700'
+  date_gmt: '2010-09-30 09:18:36 -0700'
+  content: "I sold one also and I bought mine Lee!!!!\r\n\r\nMy ten year old son thought
+    it was magic, he loved laying with the games and apps. I think there's a bit of
+    insight in there somewhere but I also think it was a bit extravagant to gift to
+    my kid.  Instead, Santa's gonna bring him an iPod Touch.\r\n\r\nFor anyone in
+    the industry, it would make much more sense to buy a decent laptop or save the
+    money towards something bigger. If you are already 'kitted out', I'd recommend
+    satisfying your gadget fix with a Kindle and spend the change on a relaxing weekend
+    away to read the thing."
+- id: 24713
+  author: Peter Robinson
+  author_email: info@noostyle.com
+  author_url: http://www.nostyle.com
+  date: '2010-09-30 10:19:55 -0700'
+  date_gmt: '2010-09-30 09:19:55 -0700'
+  content: "@Zade : iPad is like Italian sports cars, they look marvelous but are
+    not practical for daily use.\r\n\r\nBeautifully articulated."
+---
+Back in June I had the pleasure of winning an iPad from the <a href="http://onotate.com/">Onotate team</a>. Don't get me wrong, I'm extremely thankful but <strong>after less than 2 months of very little usage I've sold it</strong>. Why did it fail me?
+
+<!--more-->
+
+
+<div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/ipad.jpg" alt="ipad.jpg" border="0" width="540" height="159" /></div>
+
+<h4>There's no use case</h4>
+
+I have no use for the iPad. So many times <strong>I've "tried to fit it into my life"</strong> but it never really caught on.
+
+A <strong>£400/£500 gadget shouldn't be something you <em>try</em> to fit into your life</strong>. It should just fit. When I bought my first MacBook Pro a couple years back, it fitted perfectly. When I purchased an iPhone, it fitted perfectly. These things allowed me to be more efficient and productive. The iPad doesn't do that.
+
+I've struggled to find a use case for it. <strong>The best I've found is reading the Sun in bed when I wake up in the morning.</strong> That's a damn expensive newspaper, considering you still have to pay a monthly subscription for the newspaper on top of the initial app purchase.
+
+I've also tried browsing the web while in front of the TV, but again I rely to much on my "work environment". As a web designer I'm never just browsing, I'm usually doing some sort of work on the computer that involves a host of other apps.
+
+<h4>iPad apps suck</h4>
+
+I have yet to discover an iPad app that 'wows' me. Yes there are lots of beautifully designed apps from a lot of talented developers but nothing has stuck out as a 'must have'.
+
+If you ask someone with an iPad to recommend some apps, you'll generally get a response that includes the following.
+
+<h5>File sharing apps</h5>
+What's the deal with file sharing apps? <strong>Haven't we been sharing files easily for years?</strong> Why do we need an app to do this? I can just use my laptop to produce the files I need and remove the need to 'share' them or sync them from the iPad.
+
+<h5>Reading apps</h5>
+I tried to read books on the iPad. I have to admit it is a lot better than I thought it would be, but you still can't beat a physical book.
+
+I prefer lifting a book, highlighting key lines with a highlighter, bending a page corner and setting that beside my bed as a reminder to read it. A digital book doesn't replace that.
+
+<h5>RSS readers</h5>
+When it comes to reading RSS feeds, if I come across a useful article I'll tag in on delicious. If it's really useful, I'll share it on Twitter, or I'll open up TextMate or Photoshop to make something. <strong>I can do these things no problem on the MacBook Pro but on the iPad it can't be done</strong> or in the case of sharing on Twitter, it involves opening and closing apps.
+
+<h4>Why is it so successful?</h4>
+
+The iPad failed for me but it certainly hasn't seemed to have failed Apple.
+
+<blockquote>Apple indicates that it has sold 3.27 million iPads as of June 26. That translates to more than $2 billion in revenue for the company in a product category that didn’t even exist one year ago.</blockquote>
+
+The above is a recent extract from <a href="http://mashable.com/2010/07/20/ipad-revenue/">Mashable</a>.
+
+A few good use cases or suitable personas I can think of include:
+
+<ul>
+<li><strong>People who travel a lot</strong> - it's lighter than a laptop, has longer battery life, so is useful for email management and web browsing if traveling regularly</li>
+<li><strong>Sales people</strong> - if you go out to pitch to potential customers regularly or give one to one presentations on a regular basis it is quite useful</li>
+</ul>
+
+<h4>Is it a fail in the long run?</h4>
+Apple have introduced this new product to the market, and <strong>being the first company to do so has contributed to its success.</strong> It's a new toy, a new era, so people are jumping on board and trying to justify its existence.
+
+One year from now we'll surely see a certain 'type' of person who relies heavily on the iPad, but right now I'm not sure who that will be.
+
+For me, I'd prefer to sell the iPad (which I have done) and upgrade to an iPhone 4 (which I plan on doing).
+
+<strong><em>Have you got an iPad? Do you want one? What do you really think of it?</em></strong>

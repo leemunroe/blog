@@ -1,0 +1,17 @@
+---
+layout: post
+status: publish
+published: true
+title: Cardpay
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2175
+wordpress_url: http://www.leemunroe.com/?p=2175
+date: 2010-11-08 02:15:09.000000000 -08:00
+comments: []
+---
+In 2010 Cardpay approached me looking for a more usable and more trustworthy website. Being an online payment processing provider, security, trustworthiness and usability were very important to them.
+
+My role involved researching existing payment providers, putting together a better user flow than what existed currently then adding a usable and trustworthy design on top of that, that merchants were able to use with ease.

@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: Shhmooze
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2514
+wordpress_url: http://www.leemunroe.com/?p=2514
+date: 2011-05-01 23:41:11.000000000 -07:00
+comments: []
+---
+Shhmooze had their product (iPhone app) and marketing website already designed and they were now building out the web application part of their website, enabling users to find events, manage their profile and manage events if they were organisers. My role was to design the user experience and user interface for these new features.
+
+The project involved defining user flows, sitemaps, wireframing, UI design, front-end markup and integration with the .Net framework their developers were using.
+
+During the process I rewrote the HTML/CSS that existed to help optimise the website, making use of HTML5 and CSS3 where possible. The new features are currently being rolled out as Shhmooze grows.

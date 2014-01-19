@@ -1,0 +1,157 @@
+---
+layout: post
+status: publish
+published: true
+title: Goals for 2011
+author: Lee
+author_login: admin
+author_email: lee@leemunroe.com
+author_url: http://www.leemunroe.com
+wordpress_id: 2214
+wordpress_url: http://www.leemunroe.com/?p=2214
+date: 2011-01-03 18:48:21.000000000 -08:00
+comments:
+- id: 25068
+  author: MiniNaim
+  author_email: mininaim@gmail.com
+  author_url: http://mininaim.com
+  date: '2011-01-05 09:46:48 -0800'
+  date_gmt: '2011-01-05 08:46:48 -0800'
+  content: Great goals for this new year. Inspired
+- id: 25069
+  author: Paul Toner
+  author_email: paul@tonerdigital.com
+  author_url: http://www.tonerdigital.com
+  date: '2011-01-05 21:27:00 -0800'
+  date_gmt: '2011-01-05 20:27:00 -0800'
+  content: Like your style Lee - Always good to see someone setting a mix of challenging
+    goals for the year ahead rather than the normal "resolutions" like quiting smoking
+    etc.
+- id: 25072
+  author: Lee
+  author_email: lee@leemunroe.com
+  author_url: http://www.leemunroe.com
+  date: '2011-01-07 16:40:14 -0800'
+  date_gmt: '2011-01-07 15:40:14 -0800'
+  content: So far so good. Reading It's Hard Boiled and started working on a side
+    project. Speaking, app and blogging to come.
+- id: 25076
+  author: Gareth Watson
+  author_email: gdpwatson@gmail.com
+  author_url: http://www.gdpwatson.com
+  date: '2011-01-11 12:52:39 -0800'
+  date_gmt: '2011-01-11 11:52:39 -0800'
+  content: "Always good to read posts like this Lee. I've big hopes for 2011 myself.
+    Not sure if they'll pan out or not but I've a good feeling about things! Need
+    to get my own blog back on the go and get back into Lookaly!\r\n\r\nWould be cool
+    to get chatting to you in person some day as well!"
+- id: 25077
+  author: Jordan Henderson
+  author_email: jordan@skipskap.com
+  author_url: http://www.skipskap.com
+  date: '2011-01-11 13:22:03 -0800'
+  date_gmt: '2011-01-11 12:22:03 -0800'
+  content: Hey Lee, What martial art did you try out?
+- id: 25081
+  author: Marty McColgan
+  author_email: martymccolgan@yahoo.com
+  author_url: http://www.martymccolgan.com
+  date: '2011-01-11 21:59:34 -0800'
+  date_gmt: '2011-01-11 20:59:34 -0800'
+  content: Like the post Lee, and the blog. As far as planning your wedding goes mine
+    is 6 months away and unless its designing invitations or booklets there wont be
+    much time for much other creativity, unless of course you can bake the cake too!
+    haha good luck!
+- id: 25085
+  author: Advicegraphics
+  author_email: info@advicegraphics.com
+  author_url: http://www.advicegraphics.com
+  date: '2011-01-12 16:39:26 -0800'
+  date_gmt: '2011-01-12 15:39:26 -0800'
+  content: |-
+    We always try to do a lot of things (...at the same time)
+    in our lives. Try to organize your work schedule. The best approch
+    is time management.
+- id: 25097
+  author: Ben
+  author_email: ben.kuyper@gmail.com
+  author_url: http://www.benkuyper.com
+  date: '2011-01-18 21:24:26 -0800'
+  date_gmt: '2011-01-18 20:24:26 -0800'
+  content: Looking forward to more blog posts. Keep them coming. Thanks.
+- id: 25117
+  author: Gray Creative
+  author_email: emailus@graycreative.com
+  author_url: http://www.graycreative.com/
+  date: '2011-02-10 11:02:56 -0800'
+  date_gmt: '2011-02-10 10:02:56 -0800'
+  content: I was looking for some ideas for goals for this year...still. This gave
+    me a good place to get started. Thanks
+- id: 26637
+  author: mag for women
+  author_email: nishantcm@yahoo.com
+  author_url: http://magforwomen.com
+  date: '2011-06-08 13:44:34 -0700'
+  date_gmt: '2011-06-08 12:44:34 -0700'
+  content: this is kind of a good idea. bcoz u r posting them to the public, you are
+    reminded of your goals by ppl who visit the site.
+---
+It's that time of year again. I've put together some goals to help me focus on achieving them this year.
+
+<!--more-->
+
+<h4>A look at the 2010 list</h4>
+
+These are the <a href="http://www.leemunroe.com/new-year-resolutions-2010/">goals I set myself last year</a>.
+
+<strong><del>1. Bungee jump</del></strong>
+Success: Jumped off the Goldeneye Dam in May (<a href="http://www.youtube.com/watch?v=GPYRbGRpW2M">watch the video</a>)
+
+<strong>2. Be a yes man</strong>
+Kinda: Think this just ended up in more trips to the pub. Maybe not such a good resolution.
+
+<strong>3. Learn something new</strong>
+Fail: Did some martial arts classes but didn't keep at it. And my guitar just gathered more dust.
+
+<strong><del>4. Attend an international conference</del></strong>
+Success: Had the pleasure of attending SXSW in Austin, Texas.
+
+<strong><del>5. Redesign this site</del></strong>
+Success: Simplified it and it's been a work in progress ever since.
+
+<strong><del>6. Launch/design an iPhone app</del></strong>
+Success: Designed and launched the <a href="http://lookaly.com/iphone">Lookaly iPhone app</a> (<a href="http://eclipticlabs.com">Ecliptic Labs</a> did the hardcore development)
+
+<strong>7. Review at least 1 book per month</strong>
+Fail: Stopped reviewing books after a while, although I did listen to quite a lot of audio books.
+
+<strong><del>8. Work with some really cool clients</del></strong>
+Success: Of course I did.
+
+<h4>Goals for 2011</h4>
+
+I'm going to try and keep it simple and stick to some basic goals that are achievable. Most of them are sharpening things up. I spent too much time on the Xbox in 2010 and let a few things slip.
+
+<strong>1. Read more books</strong>
+I listen to audio books while at the gym but have too many unfinished or unopened books. Need to get back in the habit of reading. Would love to say I'll read 12 books but I think 6 is more realistic.
+
+<strong>2. Talk at more events</strong>
+I shied away from a couple of barcamp/bizcamp talks this year mainly due to not being prepared. Would like to get better and more confident at public speaking so no excuses this year.
+
+<strong>3. Develop an iPhone app</strong>
+I want to have a stab at this, at least so I understand how Xcode and Interface Builder works. If I'm able to develop something that gets into the App Store then I'll count that as a success. I opened Xcode over Christmas so that's a start ;-)
+
+<strong>4. More side projects</strong>
+Didn't do too many of these in 2010. They're a great way to keep up the learning and to keep 'shipping' stuff. I'm thinking 3 side projects in 2011, or maybe a tidy up of some of the ones I have out there.
+
+<strong>5. Blog more</strong>
+I don't blog as much as I used to, mainly due to lack of time. Blog posts start off as 30minute tasks but end up taking hours. Will try for shorter manageable/consistent blog posts.
+
+Nothing too adventurous or extreme in there this year. I've got a wedding in 2012 to plan for so that will take up some time (and money :-?).
+
+Work wise I've been doing a lot of work with <a href="http://sharethrough.com/">Sharethrough</a> over the past year, who are really kicking ass in the field of social video advertising, and two other projects/businesses I'm heavily involved with <a href="http://lookaly.com/">Lookaly</a> and <a href="http://www.referalot.com/">Referalot</a>, all which will continue into the year ahead.
+
+Conferences I'm definitely attending this year are <a href="http://newadventuresconf.com/">#naconf</a>, <a href="http://sxsw.com/">#sxsw</a>, <a href="http://buildconf.com/">#buildconf</a> and a few more I'm sure.
+
+<h4>Any other suggestions?</h4>
+Am willing to take on other goals to accomplish in 2011 if you have any suggestions. Serious and/or random welcome.
