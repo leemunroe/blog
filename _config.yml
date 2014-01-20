@@ -4,4 +4,4 @@ pygments: true
 baseurl: /blog
 permalink: /:title
 paginate: 5
-paginate_path: blog/page/:num
+paginate_path: /blog/page/:num
