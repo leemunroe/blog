@@ -5,3 +5,5 @@ baseurl: /blog
 permalink: /:title
 paginate: 10
 paginate_path: /blog/page/:num
+description: Blog of Product and UX Designer Lee Munroe
+url: http://www.leemunroe.com
