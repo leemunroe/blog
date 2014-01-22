@@ -22,14 +22,14 @@
     &:hover,&:focus{
       color:$primary-color;
       background:transparent;
-      span{
+      b{
         border-bottom:2px solid $secondary-color;
         padding-bottom:3px;
       }
     }
     &.selected{
       border-bottom:1px solid $secondary-color;
-      &:hover span,&:focus span{
+      &:hover b,&:focus b{
         border:none;
       }
     }

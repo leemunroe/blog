@@ -13,6 +13,27 @@ article.container{
   overflow:hidden;
 }
 
+// Article
+.article{
+  border-right:1px solid $grey;
+  padding:0 $padding 0 0;
+  @include box-sizing(border-box);
+  width:75%;
+  float:left;
+}
+.aside{
+  padding:0 0 0 $padding;
+  @include box-sizing(border-box);
+/*  font-size:14px;*/
+  width:25%;
+  float:left;
+}
+
+main{
+  @include clearfix;
+  margin-bottom:$padding;
+}
+
 // Logo
 .logo{
 /*  position:fixed;
@@ -29,7 +50,7 @@ article.container{
     display:block;
     width:35px;
     height:40px;
-    background:url(stylesheets/assets/sp@2x.png) no-repeat 0 -40px;
+    background:url(assets/sp@2x.png) no-repeat 0 -40px;
     background-size:249px 249px;
     margin:0 auto;
     text-indent:-9999px;
@@ -58,10 +79,6 @@ article.container{
 }
 
 header{
-  margin-bottom:$padding;
-}
-
-.main{
   margin-bottom:$padding;
 }
 
