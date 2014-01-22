@@ -1,0 +1,42 @@
+img,video,audio{
+	max-width:100%;
+}
+
+
+img.profile{
+  width:80px;
+  @include border-radius(40px);
+  @include box-shadow(inset 0 0 1px #fff,0 0 0 5px rgba(0,0,0,.1));
+  margin-top:10px;
+}
+
+
+img.off-right{
+  position:relative;
+  right:-50px;
+}
+
+img.off-rightx2{
+  position:relative;
+  right:-100px;
+}
+
+img.off-left{
+  position:relative;
+  left:-50px;
+}
+
+img.off-leftx2{
+  position:relative;
+  left:-100px;
+}
+
+a img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.companies img{
+  max-height:50px;
+}

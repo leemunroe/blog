@@ -1,0 +1,112 @@
+body{
+/*  padding-top:20px;*/
+}
+
+article.container{
+  /*max-width:75%;
+    left:25%;
+    position:relative;
+    padding-left:($padding/2)+55;*/
+  @include box-sizing(border-box);
+  z-index:1;
+  padding-bottom:$padding;
+  overflow:hidden;
+}
+
+// Logo
+.logo{
+/*  position:fixed;
+  top:0;
+  left:0;*/
+  height:40px;
+  width:35px;
+  padding:10px;
+  background:#fff;
+  display:block;
+  z-index:20;
+  margin:0 auto;
+  span{
+    display:block;
+    width:35px;
+    height:40px;
+    background:url(stylesheets/assets/sp@2x.png) no-repeat 0 -40px;
+    background-size:249px 249px;
+    margin:0 auto;
+    text-indent:-9999px;
+  }
+  &:hover,&:focus{
+    background:#fff;
+  }
+}
+@include keyframes(bgcolor){
+  0%{background-color:#ff7200;}
+  20%{background-color:#0084ff;}
+  40%{background-color:red;}
+  60%{background-color:#6ec931;}
+  80%{background-color:purple;}
+  100%{background-color:#ff7200;}
+}
+.logo span{
+  background-color:#ff7200;
+  @include animation(infinite, 30s, bgcolor);
+}
+
+// Sections
+.section{
+  margin-bottom:$padding*2;
+  @include clearfix;
+}
+
+header{
+  margin-bottom:$padding;
+}
+
+.main{
+  margin-bottom:$padding;
+}
+
+// Footer
+footer{
+  /*position:fixed;
+    top:100px;
+    left:$padding;*/
+  width:100%;
+  padding:$padding 0;
+  z-index:5;
+  background:whitesmoke;
+  border-top:1px solid $grey;
+  text-align:center;
+  p{
+    font-size:16px;
+    color:$grey-dark;
+  }
+}
+
+.shortbio{
+  margin:50px 0 0;
+  padding:0 25px 0 0;
+  font-size:16px;
+  color:#aaa;
+}
+
+// Page border
+b#l{
+  position: fixed;
+  top: 59px; 
+  width: 55px;
+  bottom: 0;
+  left: 0; 
+  background:#444;
+  z-index:10;
+  display:inline;
+}
+
+// Ads
+#influads_block{
+  float:right;
+  margin:0 0 $padding $padding !important;
+  width:180px;
+  img{
+    margin:auto;
+  }
+}

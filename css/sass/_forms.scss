@@ -1,0 +1,98 @@
+/*
+Forms
+*/
+
+form{
+	label{
+		display:block;
+		margin-bottom:5px;
+	}
+}
+
+button{
+	border:none;
+}
+
+form.form .item,form.wpcf7-form .item, form .actions{
+	margin-bottom:1.4444em
+}
+form.form label,form.wpcf7-form label{
+	display:block;
+}
+form.form input,form.form select,form.form textarea,form.wpcf7-form input, form.wpcf7-form select, form.wpcf7-form textarea{
+	padding:8px 10px;
+	border:1px solid #b7c3c8;
+	font-size:1em;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+	&:focus{
+		border-color:$secondary-color;
+		outline:none;
+	}
+}
+form.form .checkbox,form.wpcf7-form .checkbox{
+	float:left;
+	margin-right:5px;
+}
+form.form .subscribe-to-comments{
+	text-align:right;
+	input{
+	  float:right;
+	  margin-left:5px;
+	}
+}
+form.form span, form.wpcf7-form span{
+	font-weight:normal;
+	font-style:italic;
+	color:#999;
+}
+form.form .note, form.wpcf7-form .note{
+	color:#999;
+	margin-top:5px;
+}
+
+div.wpcf7{
+  position:relative;
+  padding-top:60px !important;
+  .wpcf7-response-output{
+    position:absolute;
+    top:0;
+    margin:0;
+  }
+}
+
+// Notifications
+.flash, .wpcf7-response-output{
+  border:1px solid;padding:10px;margin:10px 0;font-weight:normal;
+  -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+}
+
+.flash.error, .wpcf7-validation-errors{
+  border-color: #cc3333 !important;background:#ffcccc;color:#cc3333;padding-left:10px;
+}
+
+.wpcf7-not-valid-tip-no-ajax{
+  color:#cc3333;
+}
+
+span.wpcf7-not-valid-tip{
+  left:380px !important;top:-9px !important;border-color: #cc3333 !important;background:#ffcccc !important;color:#cc3333 !important;
+  -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+}
+
+.flash.success, .wpcf7-mail-sent-ok{
+  border-color: #618e2c !important;background:#e9f3de !important;color:#618e2c !important;
+}
+
+// Search form
+.search-form{
+  margin-bottom:$padding;
+  input{
+    @include border-radius(50px !important);
+  }
+}

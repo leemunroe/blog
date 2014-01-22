@@ -1,0 +1,23 @@
+ol.books{
+  list-style:none;
+  margin:0 0 $padding;
+  padding:0;
+  a{
+    img{
+      border:2px solid #fff;
+      max-height:120px;
+      @include box-shadow(0 0 10px rgba(0,0,0,.2));
+    }
+    &:hover img,&:focus img{
+      @include box-shadow(0 0 10px rgba(0,0,0,.4));
+    }
+    &:hover{
+      background:transparent;
+    }
+  }
+  li{
+    height:160px;
+    float:left;
+    margin:0 .4em .4em 0;
+  }
+}

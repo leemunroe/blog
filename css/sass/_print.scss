@@ -1,0 +1,9 @@
+@media print{
+  header, footer, #skipto, .followme, .metalinks, #commentform, .comments, #influads_block, #comments, #commentbutton, nav{
+  	display:none; /* Quick fix for print */
+  }
+
+  body, article{
+  	font:14pt/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}

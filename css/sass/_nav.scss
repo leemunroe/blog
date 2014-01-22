@@ -1,0 +1,55 @@
+.nav-primary{
+  /*position:fixed;
+    padding-left:55px;
+    top:0;*/
+  background:#fff;
+  width:100%;
+  border-bottom:1px solid $grey;
+  z-index:10;
+  @include clearfix;
+  @include box-sizing(border-box);
+  a{
+    display:block;
+    float:left;
+    width:25%;
+    text-align:center;
+    text-decoration:none;
+    color:$secondary-color;
+    padding:10px 0;
+    font-size:18px;
+    position:relative;
+    bottom:-1px;
+    &:hover,&:focus{
+      color:$primary-color;
+      background:transparent;
+      span{
+        border-bottom:2px solid $secondary-color;
+        padding-bottom:3px;
+      }
+    }
+    &.selected{
+      border-bottom:1px solid $secondary-color;
+      &:hover span,&:focus span{
+        border:none;
+      }
+    }
+  }
+}
+
+
+// Social icons
+.socialIcons{
+  @include clearfix;
+  list-style:none;
+  margin:0;
+  padding:0;
+  /*position:fixed;
+    bottom:10px;*/
+  li{
+    display:inline;
+    a{
+      display:inline-block;
+      margin:0 5px 0 0;
+    }
+  }
+}

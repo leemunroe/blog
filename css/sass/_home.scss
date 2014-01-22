@@ -1,0 +1,90 @@
+html{
+  height:100%;
+}
+body.home{
+  padding-top:0;
+  background-color:#ff7200;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  @include background-image(linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.2)));
+  height:100%;
+  @include display-box;
+  @include box-align(center);
+  .container{
+    margin:-20% auto 0;
+    max-width:800px;
+    position:relative;
+      div{
+        @include skew(0,-3deg);
+      }
+  }
+  h1,h2,h3,h4{
+    font-family: "skolar",serif;
+    font-weight:normal;
+    margin-top:0;
+    color:rgba(255,255,255,.6);
+    a{
+      color:#fff;
+      text-decoration:none;
+      &:hover,&:focus{
+       border-bottom:2px solid #fff;
+       background:transparent;
+      }
+    }
+  }
+  h1{
+    font-size:64px;
+  }
+  h2{
+    font-size:48px;
+  }
+  h3{
+    font-size:32px;
+  }
+  h4{
+    font-size:24px;
+  }
+}
+
+// Logo on homepage
+.home .logo{
+  position:absolute !important;
+  left:-70px;
+  top:0;
+  width:55px;
+  height:60px;
+  display:block;
+  margin:20px 20px 0 0;
+  background:url(stylesheets/assets/sp@2x.png) no-repeat;
+  background-size:500px 500px;
+  position:relative;
+}
+
+// Page border
+body.home{
+  #t, #b, #l, #r {
+    background: rgba(255,255,255,.9);
+  }
+  #l, #r {
+    position: fixed;
+    top: 10px; bottom: 10px;
+    width: 10px;
+  }
+  #l { 
+    left: 0; 
+  }
+  #r { 
+    right: 0; 
+  }
+  #t, #b {
+    position: fixed;
+    left: 0; right: 0;
+    height: 10px;
+  }
+  #t { 
+    top: 0; 
+  }
+  #b { 
+    bottom: 0; 
+  }
+}
