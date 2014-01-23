@@ -19,6 +19,9 @@
     font-size:18px;
     position:relative;
     bottom:-1px;
+    b{
+      font-weight:normal;
+    }
     &:hover,&:focus{
       color:$primary-color;
       background:transparent;

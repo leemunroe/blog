@@ -22,7 +22,7 @@ article.container{
   float:left;
 }
 .aside{
-  padding:0 0 0 $padding;
+  padding:0;
   @include box-sizing(border-box);
 /*  font-size:14px;*/
   width:25%;
