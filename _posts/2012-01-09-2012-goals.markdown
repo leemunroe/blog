@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Goals for 2012
+title: '2011 Review; 2012 Goals'
 author: Lee
 author_login: admin
 author_email: lee@leemunroe.com
