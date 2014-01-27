@@ -13,7 +13,7 @@
   padding:0;
 }
 
-@media only screen and (min-width: 501px) {
+@media only screen and (min-width: 701px) {
   .nav-primary{
     display:block !important;
   }
@@ -22,86 +22,11 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
 
-  // Article
-  article.container{
-    max-width:1000px;
-    position:relative;
-    top:0;
-    left:0;
-    padding-left:95px;
-  }
-  
-  // Footer
-  footer{
-    position:relative;
-    top:0;
-    left:0;
-    background:whitesmoke;
-    border-top: 1px solid #dddddd;
-    padding:$padding $padding $padding 95px;
-    overflow:hidden;
-    @include box-sizing(border-box);
-    .shortbio{
-      position:relative;
-      background:transparent;
-      top:0;
-      left:0;
-      width:auto;
-      padding:0;
-      @include box-sizing(border-box);
-      border:none;
-      p.aligncenter{
-        float:left;
-        margin:0 $padding $padding 0;
-      }
-    }
-  }
-  
-  .socialIcons{
-    position:relative;
-    top:0;
-    left:0;
-  }
-  
-  // Home
-  body.home{
-    .logo{
-      position:relative !important;
-      left:0;
-      top:0;
-      margin-bottom:10px;
-    }
-  }
+@media only screen and (max-width: 700px) {
 
-}
-
-
-@media only screen and (max-width: 500px) {
-  
-  // Border
-  b#l{
-    display:none;
-  }
-  
-  // Home
-  body.home{
-    #t, #b, #l, #r{
-      display:none;
-    }
-    .container{
-      margin-top:0;
-      padding:10px 20px;
-      div{
-        @include skew(0,0);
-      }
-    }
-    h1,h2,h3,h4{
-      font-size:28px;
-      line-height:38px;
-      margin-bottom:25px;
-    }
+  .container{
+    padding:0 10px;
   }
   
   // Nav + header
@@ -125,7 +50,7 @@
       float:none;
       text-align:left;
       width:100%;
-      padding:0 0.625em;
+      padding:10px;
       border-bottom:1px solid $grey;
       &:first-child{
         border-top:1px solid $grey;
@@ -138,19 +63,29 @@
   }
   
   // Article
-  article.container{
-    left:0;
-    padding:0.625em;
+  .article{
+    width:100%;
+    float:none;
+    padding:0;
+    border:none;
+    margin-bottom:$padding;
+  }
+  .aside{
+    width:100%;
+    float:none;
+  }
+
+  //Blog
+  .posts a{
+    padding-left:10px;
+    padding-right:10px;
   }
   
   // Footer
   footer{
-    left:0;
-    padding-left:0.625em;
-    .shortbio{
-      p.aligncenter{
-        margin-bottom:10px;
-      }
+    .search-form input{
+      width:100%;
+      @include box-sizing(border-box);
     }
   }
   
@@ -194,130 +129,3 @@
   
 }
 
-
-
-/*
-@media only screen and (max-width: 700px) {
-  
-/* Layout 
-  .container{
-    width:90%;
-    padding:0 5%;
-    margin:2% auto;
-  }
-  
-  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .showcase .content,.showcase .img, .showcase section{
-  float:none !important;
-  margin:0 !important;
-  width:100% !important;
-  padding-left:0 !important;
-  padding-right:0 !important;
-  }
-  
-  #slider,.socialIcons,h2,.sidebar,.followme{
-    display:none;
-  }
-  
-  .article p,.article pre,.article ol, .article ul{
-    width:100% !important;
-    max-width:none;
-    box-sizing: border-box;
-  }
-  
-  ul.posts li a span.date{
-    display:block;
-    float:none;
-  }
-  
-  textarea,input{
-    max-width:100% !important;
-    box-sizing: border-box;
-  }
-
-  
-/*  Headings 
-  
-  h1{
-    font-size:32px;
-    line-height:1.2em;
-    margin:12px 0;
-  }
-  
-  h2{
-    font-size:26px;
-    line-height:1.2em;
-    margin:12px 0;
-  }
-  
-  h3,h4,h5{
-    font-size:22px;
-  }
-
-  
-  img{
-    max-width:100% !important;
-    height:auto;
-    border:none !important;
-  }
-  
-  
-/*  Hide 
-  #influads_block,.intro{
-    display:none;
-  }
-  
-}
-
-
-/* styles for desktop 
-.tinynav { 
-  display: none 
-}
-
-/* styles for mobile *
-@media screen and (max-width: 700px) {
-    
-  header{
-    position:absolute;
-    top:-60px;
-    left:0;
-    width:100%;
-    -webkit-border-radius:0;
-    -moz-border-radius:0;
-    -ms-border-radius:0;
-    border-radius:0;
-    height:40px;
-    border-top:none;
-  }
-  
-  body > .container{
-    margin-top:60px;
-  }
-
-    .tinynav { 
-      display: block; 
-      clear:both;
-      font-size:14px;
-      padding:.1em;
-      margin:.2em 2%;
-      position:absolute;
-      bottom:5px;
-    right:10px;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    z-index:20;
-    }
-    #nav { 
-      display: none 
-    }
-}
-
-
-/*Retina display
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-  .iconlink,#logo{
-    background-image:url(images/sprite@2x.png);
-    background-size:500px 500px;
-  }
-}*/
