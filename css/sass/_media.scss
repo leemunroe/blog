@@ -2,8 +2,7 @@ img,video,audio{
 	max-width:100%;
 }
 
-
-img.profile{
+.profile-image{
   width:80px;
   @include border-radius(40px);
   @include box-shadow(inset 0 0 1px #fff,0 0 0 5px rgba(0,0,0,.1));

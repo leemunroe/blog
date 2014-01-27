@@ -46,63 +46,24 @@ a{
 
 
 // Icon links
-.iconlink{
-  display:inline-block;
-  text-indent:-9999px;
-  overflow:hidden;
-  background:url(images/sprite@2x.png) no-repeat 0 0 transparent;
-  background-size:400px 400px;
-  opacity:.4;
+.profile-social a{
+  color:#aaa;
+  font-size:18px;
+  margin:0 2px;
   &:hover{
-    background-color:transparent; 
     opacity:1;
+    background-color:transparent;
   }
-  &.twitter{
-    background-position:-40px -80px;
-    height:28px;
-    width:28px;
-    top:0;
-    position:relative;
-    @include transition(top .2s);
-    &:hover{
-      top:-5px;
-      @include transition(top .2s);
-    }
+  &.twitter:hover{
+    color:lightblue;
   }
-  &.dribbble{
-    background-position:-120px -80px;
-    height:28px;
-    width:28px;
-    top:0;
-    position:relative;
-    @include transition(top .2s);
-    &:hover{
-      top:-5px;
-      @include transition(top .2s);
-    }
+  &.dribbble:hover{
+    color:pink;
   }
-  &.rss{
-    background-position:0 -80px;
-    height:28px;
-    width:28px;
-    top:0;
-    position:relative;
-    @include transition(top .2s);
-    &:hover{
-      top:-5px;
-      @include transition(top .2s);
-    }
+  &.rss:hover{
+    color:orange;
   }
-  &.github{
-    background-position:-80px -80px;
-    height:28px;
-    width:28px;
-    top:0;
-    position:relative;
-    @include transition(top .2s);
-    &:hover{
-      top:-5px;
-      @include transition(top .2s);
-    }
+  &.github:hover{
+    color:black;
   }
 }

@@ -1,17 +1,3 @@
-body{
-/*  padding-top:20px;*/
-}
-
-article.container{
-  /*max-width:75%;
-    left:25%;
-    position:relative;
-    padding-left:($padding/2)+55;*/
-  @include box-sizing(border-box);
-  z-index:1;
-  padding-bottom:$padding;
-  overflow:hidden;
-}
 
 // Article
 .article{
@@ -24,9 +10,12 @@ article.container{
 .aside{
   padding:0;
   @include box-sizing(border-box);
-/*  font-size:14px;*/
   width:25%;
   float:left;
+  font-size:14px;
+  a{
+    border:none;
+  }
 }
 
 main{
@@ -36,9 +25,6 @@ main{
 
 // Logo
 .logo{
-/*  position:fixed;
-  top:0;
-  left:0;*/
   height:40px;
   width:35px;
   padding:10px;
@@ -79,15 +65,13 @@ main{
   @include clearfix;
 }
 
+// Header
 header{
   margin-bottom:$padding;
 }
 
 // Footer
 footer{
-  /*position:fixed;
-    top:100px;
-    left:$padding;*/
   width:100%;
   padding:$padding 0;
   z-index:5;
@@ -100,31 +84,24 @@ footer{
   }
 }
 
-.shortbio{
-  margin:50px 0 0;
-  padding:0 25px 0 0;
-  font-size:16px;
-  color:#aaa;
-}
-
-// Page border
-b#l{
-  position: fixed;
-  top: 59px; 
-  width: 55px;
-  bottom: 0;
-  left: 0; 
-  background:#444;
-  z-index:10;
-  display:inline;
+// Profile
+.profile{
+  margin:0 0 $padding;
+  p{
+    margin-bottom:5px;
+    &.profile-status{
+      color:#aaa;
+    }
+  }
 }
 
 // Ads
-#influads_block{
-  float:right;
-  margin:0 0 $padding $padding !important;
-  width:180px;
-  img{
-    margin:auto;
+#fusion_ad{
+  font-size:12px;
+  margin:0 auto $padding;
+  width:70%;
+  a{
+    border:none;
+    color:#aaa;
   }
 }
