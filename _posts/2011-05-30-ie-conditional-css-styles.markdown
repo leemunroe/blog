@@ -118,11 +118,11 @@ I've been using bits and pieces of the HTML5 boilerplate for a while now and one
 
 Most of the sites I work on usually include something like this:
 
-<pre><code>
+{% highlight html %}
 <!--[if lt IE 7]>
 <link rel="stylesheet" href="ie.css" /> 
 <![endif]-->
-</code></pre>
+{% endhighlight %}
 
 This was to fix anything that looked out of place in IE6, usually fixes for pngs, floats, widths, positioning etc.
 
@@ -132,12 +132,12 @@ In some cases <strong>the site might have 2 or 3 of these conditional stylesheet
 
 Recently I've started using something like this instead:
 
-<pre><code>
+{% highlight html %}
 <!--[if lt IE 7]><html class="ie6" lang="en-GB"><![endif]-->
 <!--[if IE 7]><html class="ie7" lang="en-GB"><![endif]-->
 <!--[if IE 8]><html class="ie8" lang="en-GB"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en-GB"><!--<![endif]-->
-</code></pre>
+{% endhighlight %}
 
 This <strong>adds classes to the HTML tag</strong> in the different versions of IE, enabling you to target them with different CSS rules. 
 
@@ -145,11 +145,11 @@ If the user isn't using Internet Explorer then it only recognises the <strong>ht
 
 So you can do stuff like this in your core stylesheet:
 
-<pre><code>
+{% highlight css %}
 fieldset legend{background-color:#f6f6f6;}
 .ie6 fieldset{position:relative;}
 .ie6 fieldset legend{position: absolute;top: -.5em;left: .2em;}
-</code></pre>
+{% endhighlight %}
 
 This works better for a couple of reasons:
 

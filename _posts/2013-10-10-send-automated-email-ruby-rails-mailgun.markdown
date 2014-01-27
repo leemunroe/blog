@@ -34,9 +34,9 @@ Create an account and add a subdomain to start (you can add your own custom doma
 
 Generate your mailer by typing this in Terminal:
 
-<pre lang="bash">
+{% highlight bash %}
 rails g mailer model_mailer new_record_notification
-</pre>
+{% endhighlight %}
 
 <strong>model_mailer</strong> is the name of the mailer and <strong>new_record_notifcation</strong> is the method. You can name these anything you like, whatever makes sense for your project, and you can add more methods later.
 
@@ -56,7 +56,7 @@ Now open up <code>config/environments/development.rb</code>
 
 There should already be some default settings here. Add the following:
 
-<pre lang="ruby">
+{% highlight ruby %}
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
   :authentication => :plain,
@@ -66,7 +66,7 @@ config.action_mailer.smtp_settings = {
   :user_name => "postmaster@MYDOMAIN.mailgun.org",
   :password => "MYPASSWORD"
 }
-</pre>
+{% endhighlight %}
 
 Be sure to <strong>replace MYDOMAIN</strong> with your Mailgun subdomain.
 
@@ -74,18 +74,18 @@ Be sure to <strong>replace MYDOMAIN</strong> with your Mailgun subdomain.
 
 Open up <code>app/mailers/model_mailer.rb</code> and change the default from email:
 
-<pre lang="ruby">
+{% highlight ruby %}
 default from: "me@MYDOMAIN.com"
-</pre>
+{% endhighlight %}
 
 Then define your new_record_notification method:
 
-<pre lang="ruby">
+{% highlight ruby %}
 def new_record_notification(record)
   @record = record
   mail to: "recipient@MYDOMAIN.com", subject: "Success! You did it."
 end
-</pre>
+{% endhighlight %}
 
 Couple of things to note above:
 
@@ -100,13 +100,13 @@ Open up <code>app/views/model_mailer/new_record_notification.text.erb</code>
 
 In this view we add the body content of our email. Remember we passed the record model so you can use it for some values if you like.
 
-<pre lang="ruby">
+{% highlight ruby %}
 Hi,
 
 A new record has been added: <%= @record.name %>
 
 Thanks
-</pre>
+{% endhighlight %}
 
 <h4>Send the email</h4>
 
@@ -114,13 +114,13 @@ Last thing to do is to call the email method from your controller.
 
 Whenever you want to send this email, in this case when a new record is created, call this mailer method:
 
-<pre lang="ruby">
+{% highlight ruby %}
 ModelMailer.new_record_notification(@record).deliver
-</pre>
+{% endhighlight %}
 
 To clarify, your full create action might look something like this:
 
-<pre lang="ruby">
+{% highlight ruby %}
 def create
   @record = Record.new
     
@@ -129,7 +129,7 @@ def create
     redirect_to @record
   end
 end
-</pre>
+{% endhighlight %}
 
 <h4>All done</h4>
 
