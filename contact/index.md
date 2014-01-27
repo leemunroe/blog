@@ -1,12 +1,21 @@
 ---
-layout: default
-title: Contact Lee Munroe
-description: Product and UX Designer in San Francisco, Lee Munroe
+layout: full
+title: Contact Lee Munroe, Product and UX Designer in San Francisco
+description: Contact me to hook up for coffee or chat about work opportunities. Find me on Twitter, LinkedIn, GitHub, Dribbble etc.
 ---
 
-Send me an email lee@leemunroe.com
+# Contact Lee Munroe
 
-Or find my on one of the websites below
+## Find me on one of the websites below
 
-Twitter, Dribbble, GitHub, LinkedIn, Medium, Instagram
+* [Twitter](http://twitter.com/leemunroe)
+* [Dribbble](http://dribbble.com/leemunroe)
+* [GitHub](http://github.com/leemunroe)
+* [LinkedIn](www.linkedin.com/in/leemunroe/)
+* [Medium](http://medium.com/@leemunroe)
+
+The best and fastest way to get a response from me is to <a href="http://twitter.com/leemunroe">tweet @leemunroe</a>.
+
+
+If that fails, send me an email [lee@leemunroe.com](mailto:lee@leemunroe.com).
 

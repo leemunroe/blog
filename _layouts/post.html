@@ -2,10 +2,19 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<h2>{{ page.date | date_to_string }}</h2>
 
 <div class="post">
-{{ content }}
+	{{ content }}
+
+	<p>
+	  {% if page.previous.url %} 
+	    <a href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
+	  {% endif %} 
+	  {% if page.next.url %} 
+	    <a href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} &raquo;</a> 
+	  {% endif %} 
+	</p>
 </div>
 
 <div id="disqus_thread"></div>

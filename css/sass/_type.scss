@@ -80,11 +80,12 @@ h6 {
 }
 
 p, ul, ol, pre, label{
-  margin: 0 0 25px;
-/*  font-size:22px;
-  line-height:1.6;*/
+  margin: 0 0 $padding;
   strong{
-    font-weight:400;
+    // font-weight:400;
+  }
+  li{
+    margin-bottom:5px;
   }
 }
 

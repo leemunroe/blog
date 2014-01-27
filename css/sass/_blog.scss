@@ -1,31 +1,7 @@
 
-// Article
-.end{
-  text-align:center;
-  position:relative;
-  height:50px;
-  margin-left:-40px;
-  margin-right:-$padding;
-  i{
-    background:$secondary-color;
-    color:#fff;
-    @include border-radius(50px);
-    padding: 10px;
-    font-size: 24px;
-    position: absolute;
-    top: -20px;
-    left:50%;
-    margin-left:-20px;
-    width:25px;
-    height:25px;
-    display:inline-block;
-  }
-  hr{
-    border:none;
-    border-top:1px solid $grey;
-  }
+.post{
+  margin:0 0 $padding;
 }
-
 
 // Posts
 ul.posts{
