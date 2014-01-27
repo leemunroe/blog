@@ -14,33 +14,21 @@ a{
 .button,.pagination a{
 	background:$primary-color;
 	display:inline-block;
-	padding:8px 25px;
-	border:3px solid darken($primary-color,20%);
-	text-transform:capitalize;
+	padding:10px 25px;
+	border:none;
+	text-transform:uppercase;
 	color:#fff;
 	cursor:pointer;
-/*  text-shadow:1px 1px 0 rgba(0,0,0,.3);*/
-/*  margin:0 0 10px 0;*/
 	text-align:center;
-/*  font-family: bree,helvetica,arial,sans-serif;*/
-	font-size:18px;
-	@include border-radius(50px);
+	font-size:16px;
+	@include border-radius(5px);
 	outline:none;
-	/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-	 background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,.2)));
-	 background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));*/
-	/*-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 3px rgba(0,0,0,.2),0 0 5px rgba(0,0,0,.2);
-	 -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 3px rgba(0,0,0,.2),0 0 5px rgba(0,0,0,.2);
-	 -ms-box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 3px rgba(0,0,0,.2),0 0 5px rgba(0,0,0,.2);
-	 box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 1px 3px rgba(0,0,0,.2),0 0 5px rgba(0,0,0,.2);*/
 	&:hover,&:focus{
 		color:#fff;
 		background-color:$secondary-color;
-		border-color:darken($secondary-color,20%);
 	}
 	&:active{
-		position:relative;
-		top:1px;
+		background-color:darken($secondary-color,5);
 	}
 }
 
