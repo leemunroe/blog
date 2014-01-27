@@ -3,7 +3,7 @@
   text-align: center;
   line-height:1;
   list-style: none;
-  margin-left:0;
+  margin:$padding 0;
   padding-left:0;
   li{
     @extend .span2;
@@ -17,7 +17,7 @@
     border:none;
   }
   img{
-    max-width:80px;
+    max-width:60px;
   }
 }
 
