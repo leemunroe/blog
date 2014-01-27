@@ -1,3 +1,6 @@
+body{
+  background:whitesmoke;
+}
 
 // Article
 .article{
@@ -20,7 +23,8 @@
 
 main{
   @include clearfix;
-  margin-bottom:$padding;
+  padding:$padding 0;
+  background:#fff;
 }
 
 // Logo
@@ -67,7 +71,7 @@ main{
 
 // Header
 header{
-  margin-bottom:$padding;
+  background:#fff;
 }
 
 // Footer
