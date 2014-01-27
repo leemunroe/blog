@@ -13,8 +13,8 @@ ul.posts{
     a{
       display:block;
       border-bottom:1px solid $grey;
-      padding:$padding/2;
-      font-size:1.2em;
+      padding:15px 20px;
+      font-size:18px;
       color:#666;
       font-weight:normal;
       &:hover,&:focus{
@@ -22,8 +22,6 @@ ul.posts{
       }
       span.date{
         color:#aaa;
-        float:right;
-        -webkit-font-smoothing: antialiased;
       }
     }
   }
