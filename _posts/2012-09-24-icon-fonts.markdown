@@ -76,11 +76,14 @@ In summary:
 
 <h5>HTML</h5>
 
-<pre><code><a href="" class="icon" data-icon="G">My Link</a></code></pre>
+{% highlight html %}
+<a href="" class="icon" data-icon="G">My Link</a>
+{% endhighlight %}
 
 <h5>CSS</h5>
 
-<pre><code>@font-face { 
+{% highlight css %}
+@font-face { 
 	font-family: Signify; 
 	src: url('signifylite-webfont.ttf'); 
 } 
@@ -91,7 +94,8 @@ In summary:
 	-webkit-font-smoothing: antialiased;
 	vertical-align: text-bottom;
 	margin-right:5px;
-}</code></pre>
+}
+{% endhighlight %}
 
 
 <strong><em>Are you using icon fonts yet?</em></strong>

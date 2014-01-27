@@ -18,7 +18,7 @@ blockquote {
   text-indent: 0px;
   font-size: 26px;
   line-height: 37px;
-  margin:0 0 14px;
+  margin:0 0 $padding;
   padding-left:$padding;
   border-left:2px solid $secondary-color;
 }

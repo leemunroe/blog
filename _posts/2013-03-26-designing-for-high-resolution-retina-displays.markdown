@@ -236,11 +236,11 @@ Using CSS media queries you can <strong>target any device with a high-resolution
 
 It's very straight forward, and some what similar to providing responsive or alternate mobile styles.
 
-<pre><code>
+{% highlight css %}
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
   /* High-res styles go here */
 }
-</code></pre>
+{% endhighlight %}
 
 This should be enough, but if you want to target other highish-res screens, you can read up on Chris Coyier's <a href="http://css-tricks.com/snippets/css/retina-display-media-query/">Retina Display Media Query post here</a>.
 
@@ -256,14 +256,14 @@ Loomans recommends having <strong>two sprite files, one for standard and one for
 
 Using the <strong>media query I shared above</strong>, simply change the background image reference and then resize the background image.
 
-<pre><code>
+{% highlight css %}
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
   .logo{
     background-image:url(assets/sprite@2x.png);
     background-size:500px 500px; /* This replicates the original standard sprite dimensions, and assumes the actual dimensions of sprite@2x.png are 1000x1000px */
   }
 }
-</code></pre>
+{% endhighlight %}
 
 
 
@@ -277,7 +277,9 @@ The script will check your server to see if you have any image source with @2x a
 
 For example:
 
-<pre><code><img src="/images/my_image.png" /></code></pre>
+{% highlight html %}
+<img src="/images/my_image.png" />
+{% endhighlight %}
 
 Retina.js will look for:
 

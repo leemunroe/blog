@@ -78,7 +78,9 @@ Then I added some effects using the awesome <a href="http://johnpolacek.github.c
 
 Using Scrollorama it's very easy to add an effect to an element. 
 
-<pre><code>scrollorama.animate('.iphoneapp',{ delay: 0, duration: 600, property:'left', start:-800, end:0 });</code></pre>
+{% highlight javascript %}
+scrollorama.animate('.iphoneapp',{ delay: 0, duration: 600, property:'left', start:-800, end:0 });
+{% endhighlight %}
 
 
 <h4>Promotion</h4>

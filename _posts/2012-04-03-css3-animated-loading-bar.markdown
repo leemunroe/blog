@@ -135,7 +135,7 @@ Inspired by 37 Signals loading bar (pictured above) and making good use of Chris
 
 Here is the source code if you want to try it yourself.
 
-<pre><code>
+{% highlight html %}
 <style>
 /* 
 Set the container for the bar
@@ -279,7 +279,7 @@ Animate the stripes
 	<span></span>
 </div>
 <!-- End of loading bar -->
-</code></pre>
+{% endhighlight %}
 
 <a href="http://www.leemunroe.com/demos/css3-loading-bar/" class="button cta">View demo here</a>
 
