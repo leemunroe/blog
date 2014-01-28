@@ -257,21 +257,21 @@ I'm going to be using Firefox 3.6 for the previews below.
 
 <h5>The markup</h5>
 
-<pre><code>
+{% highlight html %}
 <button>Notify me</button>
-</code></pre>
+{% endhighlight %}
 This is how the default button looks.
 <div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/1.jpg" alt="1.jpg" border="0" width="92" height="55" /></div>
 
 <h5>Basic styling</h5>
 First apply some basic styling to get started.
-<pre><code>
+{% highlight css %}
 button{
 color:#08233e;
 font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
 padding:14px;
 }
-</code></pre>
+{% endhighlight %}
 
 Nothing strange or startling about these styles. This is what we have now.
 
@@ -292,9 +292,9 @@ Let's add a background. Remember, we want to make the button reusable for any co
 
 Decide what background colour you want to use and apply it to the button along with the overlay you just made.
 
-<pre><code>
+{% highlight css %}
 background:url(overlay.png) repeat-x center #ffcc00;
-</code></pre>
+{% endhighlight %}
 
 This gives us a nice yellow background with a glossy overlay.
 
@@ -314,9 +314,9 @@ border:1px solid #ffcc00;
 
 Make your button a bit friendlier by giving it rounded corners. This is where Webkit and Mozilla browser users will take advantage, while IE browsers will be stuck with sharp corners.
 
-<pre><code>
+{% highlight css %}
 -moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
-</code></pre>
+{% endhighlight %}
 
 <div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/6.jpg" alt="6.jpg" border="0" width="182" height="89" /></div>
 
@@ -325,10 +325,10 @@ Starting to look good eh? But a good designer likes to pay attention to detail.
 <h5>Pixel perfection</h5>
 Now finish off the button with some pixel perfect embossing. We're going to give it a 1 pixel border and a 1 pixel inset shadow.
 
-<pre><code>
+{% highlight css %}
 border-bottom:1px solid #9f9f9f;
 -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
-</code></pre>
+{% endhighlight %}
 
 Notice how we're using RGBA colours here. This allows us to apply alpha opacity to the colour. In this case, we're giving white a 50% opacity.
 
@@ -349,17 +349,17 @@ cursor:pointer;
 We now have a pretty sexy looking button. But what about a hover state?
 
 To save us from thinking about a colour for the hover state, we can use the RGBA approach. Let's revisit the background style. Add this after your background declaration.
-<pre><code>
+{% highlight css %}
 background-color:rgba(255,204,0,1);
-</code></pre>
+{% endhighlight %}
 
 Nothing changes. All we did was change it to the same colour but using RGBA.
 
 But how for the button's hover state, give it the same background colour but alter the opacity slightly.
 
-<pre><code>
+{% highlight css %}
 button:hover{background-color:rgba(255,204,0,0.8);}
-</code></pre>
+{% endhighlight %}
 
 This gives us a slightly different shade of background on hover, giving the user some feedback so they know they've hovered over a clickable button.
 
@@ -367,7 +367,7 @@ This gives us a slightly different shade of background on hover, giving the user
 
 The final code.
 
-<pre><code>
+{% highlight css %}
 button{
 color:#08233e;
 font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
@@ -383,7 +383,7 @@ cursor:pointer;
 button:hover{background-color:rgba(255,204,0,0.8);}
 
 button:active{position:relative;top:2px;}
-</code></pre>
+{% endhighlight %}
 
 I've slipped in an active state as well for the button so the user knows when they've clicked it.
 
@@ -411,7 +411,7 @@ cursor:pointer;
 
 Remember the button is reusable so if you apply a class to the button, e.g. class="save", you can apply a different colour to this button.
 
-<pre><code>
+{% highlight css %}
 button.save{
 background-color:#a7dd32;background-color:rgba(167,221,50,1);
 border-color:#a7dd32;
@@ -420,7 +420,7 @@ border-color:#a7dd32;
 button.save:hover{
 background-color:rgba(167,221,50,0.8);
 }
-</code></pre>
+{% endhighlight %}
 And you'd get something like this.
 <div style="text-align:center;"><img src="http://www.leemunroe.com/wp-content/uploads/10.jpg" alt="10.jpg" border="0" width="180" height="91" /></div>
 
@@ -431,17 +431,17 @@ Yes, unfortunately IE users won't get the full benefits of the sexy button. Howe
 
 And IE6? It doesn't support PNG transparency so you can remove the overlay background image with an IE6 conditional stylesheet.
 
-<pre><code>
+{% highlight html %}
 <!--[if lt IE 7]>
 <link rel="stylesheet" href="ie.css" type="text/css" />
 <![endif]-->
-</code></pre>
+{% endhighlight %}
 
 Then in ie.css:
 
-<pre><code>
+{% highlight css %}
 button{background-image:none !important;}
-</code></pre>
+{% endhighlight %}
 
 And there you have it. A beautifully designed button using (pretty much) only CSS.
 
