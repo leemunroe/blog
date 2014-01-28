@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	
+	<style>
+		.box1{
+			width:200px;
+			height:200px;
+			background:rgba(255,0,0,0.5);
+			position:absolute;
+			top:100px;
+			left:50%;
+			margin-left:-100px;
+		}
+		
+		.box2{
+			width:200px;
+			height:200px;
+			background:rgba(0,0,255,0.5);
+			position:absolute;
+			top:100px;
+			left:90%;
+			margin-left:-100px;
+		}
+		
+		@-webkit-keyframes movingbox{
+			0%{left:90%;}
+			50%{left:10%;}
+			100%{left:90%;}
+		}
+		
+		.box2{
+			-webkit-animation:movingbox 5s infinite;
+		}
+	</style>
+	
+	<title>CSS3 Animation Demo 3</title>
+</head>
+
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+</body>
+</html>

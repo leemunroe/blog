@@ -67,7 +67,7 @@ Don't know what SCSS is? <a href="http://sass-lang.com/">SCSS</a> (or SASS, or S
 What does this mean? Basically you can do a lot of cool stuff with CSS to help you maintain it and streamline your development.
 
 For example, this SCSS:
-<pre><code>
+{% highlight css %}
 // Set primary color variable
 $primary-color: purple;
 
@@ -79,26 +79,26 @@ ul{
     }
   }
 }
-</code></pre>
+{% endhighlight %}
 
 Becomes this CSS:
-<pre><code>
+{% highlight css %}
 ul li a{
   color:purple;
 }
-</code></pre>
+{% endhighlight %}
 
 <a href="http://compass-style.org/">Compass</a> adds an extra layer on top of SCSS with more cool stuff so you don't have to worry about browser specific prefixes and so forth.
 
 For example, this SCSS using Compass:
-<pre><code>
+{% highlight css %}
 div{
   @include border-radius(5px);
 }
-</code></pre>
+{% endhighlight %}
 
 Becomes this CSS:
-<pre><code>
+{% highlight css %}
 div{
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
@@ -106,7 +106,7 @@ div{
   -o-border-radius:5px;
   border-radius:5px;
 }
-</code></pre>
+{% endhighlight %}
 
 SCSS requires Ruby and getting a little dirty with Terminal commands. But it's very straight forward. 
 
@@ -143,10 +143,10 @@ Macs come pre-installed with Ruby but if you need to you can <a href="http://www
 
 Open up terminal (or command line) and install compass.
 
-<pre><code>
+{% highlight bash %}
 $ gem update --system 
 $ gem install compass
-</code></pre>
+{% endhighlight %}
 
 <h5>Download Motherplate</h5>
 
@@ -156,10 +156,10 @@ $ gem install compass
 
 In terminal go to your project folder and run compass.
 
-<pre><code>
+{% highlight bash %}
 $ cd sites/mynewproject/
 $ compass watch
-</code></pre>
+{% endhighlight %}
 
 Make sure you run the compass watch command in the same directory as the config.rb file.
 
