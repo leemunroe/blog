@@ -3,10 +3,10 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <h2>{{ page.date | date_to_string }}</h2>
-
 <div class="post">
+	<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a></p>
 	{{ content }}
-
+	<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a></p>
 	<p>
 	  {% if page.previous.url %} 
 	    <a href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
@@ -16,7 +16,6 @@ layout: default
 	  {% endif %} 
 	</p>
 </div>
-
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
