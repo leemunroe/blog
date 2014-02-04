@@ -14,7 +14,13 @@
     }
   }
   a{
-    border:none;
+    display: inline-block;
+    border: 1px solid $grey;
+    padding: 10px 30px;
+    border-radius: 5px;
+    @include box-shadow(0 0 10px rgba(0,0,0,.05));
+    width: 100%;
+    @include box-sizing(border-box);
   }
   img{
     max-width:60px;
@@ -32,6 +38,18 @@
     &:nth-child(3n+1){
       clear:both;
     }
+  }
+
+}
+
+
+//Responsive homepage
+@media only screen and (max-width: 500px) {
+
+  .home-showcase li{
+    width: 100%;
+    float:none;
+    margin-right:0;
   }
 
 }
