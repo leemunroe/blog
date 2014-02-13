@@ -11,7 +11,7 @@ description: Contact me to hook up for coffee or chat about work opportunities. 
 * [Twitter](http://twitter.com/leemunroe)
 * [Dribbble](http://dribbble.com/leemunroe)
 * [GitHub](http://github.com/leemunroe)
-* [LinkedIn](www.linkedin.com/in/leemunroe/)
+* [LinkedIn](http://www.linkedin.com/in/leemunroe/)
 * [Medium](http://medium.com/@leemunroe)
 
 The best and fastest way to get a response from me is to <a href="http://twitter.com/leemunroe">tweet @leemunroe</a>.
