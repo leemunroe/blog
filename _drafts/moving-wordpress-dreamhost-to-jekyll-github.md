@@ -7,33 +7,37 @@ Recently I switched my website from Wordpress, which I hosted on Dreamhost, to J
 
 #### Why switch from Wordpress to Jekyll?
 
-I've been on Wordpress now for 7 or 8 years. It's a great tool. However *my website is fairly simple*. I have 3 pages and a blog. Wordpress is big, it's complex, and runs on PHP. [Jekyll](http://jekyllrb.com/) is a light weight satic site generator.
+I've been on Wordpress now for 7 or 8 years. It's a great tool. However **my website is fairly simple**. I have 3 pages and a blog. Wordpress is big, it's complex, and runs on PHP with a MySQL database. [Jekyll](http://jekyllrb.com/) is a light weight static site generator.
 
-I also seen this as a good *learning opportunity*. After reading [Anna's tutorial](http://24ways.org/2013/get-started-with-github-pages/) on using GitHub Pages, I was keen to try it out with Jekyll. Also seen this as an opportunity to use Grunt for the first time, again after reading a [24 Ways tutorial](http://24ways.org/2013/grunt-is-not-weird-and-hard/) by Chris Coyier.
+I also seen this as a good **learning opportunity**. After reading [Anna's tutorial](http://24ways.org/2013/get-started-with-github-pages/) on using GitHub Pages, I was keen to try it out with Jekyll. On a side note, I also used this opportunity to use Grunt for the first time, again after reading a [24 Ways tutorial](http://24ways.org/2013/grunt-is-not-weird-and-hard/) by Chris Coyier.
 
 #### Why switch from Dreamhost to GitHub?
 
 I've had a Dreamhost account for a long time. I use it to register domains and to host Wordpress and static sites (Rails or Node.js apps I'll put on Heroku). My personal site was the biggest site, which gets around 30,000 pageviews/mth.
 
-For this I was paying Dreamhost $120/yr for an account + $30ish/mth for a VPS; *~$480/yr*.
+For this I was paying Dreamhost $120/yr for an account + $30ish/mth for a VPS; **~$480/yr**.
+<p class="aligncenter"><a href="http://www.dreamhost.com"><img src="{{site.baseurl}}/wp-content/uploads/dh.jpg" alt="Dreamhost Cost" width="600"></a></p>
 
-[GitHub Pages](http://pages.github.com/) on the other hand, is *free*.
+[GitHub Pages](http://pages.github.com/) on the other hand, is **free**.
 
-I'm usually on a machine with a dev environment, with Git and access to GitHub so writing a new blog post or making a change isn't a problem. Even if I'm not, I can log on to GitHub and use the UI as a CMS. GitHub seems reliable and my blog is a heck of a lot faster than it was before. Therefore I've been able to cancel my Dreamhost VPS and save myself some beer money.
+I'm usually on a machine with a dev environment, with Git and access to GitHub so writing a new blog post or making a change isn't a problem. Even if I'm not, I can log on to GitHub and use the UI as a CMS. GitHub seems reliable and my blog is a heck of a lot faster than it was before. Therefore I've been able to cancel my Dreamhost VPS and **save myself some beer money**.
 
 #### The switch is easy, but will probably take longer than you think
 
-Import blog posts. Import comments. Find a commenting solution. URL structures. Existing urls matching up. Pagination.
-I thought I could do it one Saturday. But I was learning Jekyll for the first time and then came up against all this other stuff I forgot about. So it took me a Saturday and a few week nights in total.
+Import blog posts. Import comments. Find a commenting solution. Set up URL structure. Make sure existing urls matching up. Add pagination&hellip;I thought I could do it one Saturday. But between using Jekyll for the first time and a bunch of other stuff I forgot I'd have to do, it took a few extra week nights in total.
+
+##### How to host your blog on GitHub Pages
 
 * Read [this GitHub Pages tutorial](http://24ways.org/2013/get-started-with-github-pages/) from Anna Debenham
 * Then read the [Jekyll docs](http://jekyllrb.com/)
 
+<p class="aligncenter"><a href="http://www.jekyllrb.com"><img src="{{site.baseurl}}/wp-content/uploads/jekyll.jpg" alt="Jekyll Docs" width="600"></a></p>
+
 ##### URL structures
 
-You can see all the code for my blog [publicly on GitHub](https://github.com/leemunroe/blog). Here is the current _config.yml file:
+You can see all the code for my blog [publicly on GitHub](https://github.com/leemunroe/blog). Here is the current `_config.yml` file:
 
-{% highlight yml %}
+{% highlight yaml %}
 name: Lee Munroe
 markdown: redcarpet
 pygments: true
@@ -55,13 +59,9 @@ Jekyll has you covered.
 
 Install the [jekyll-import gem](http://import.jekyllrb.com/docs/installation/) then follow [these instructions for Wordpress](http://import.jekyllrb.com/docs/wordpress/).
 
-##### Images and wp-uploads
+##### Images and wp-content
 
-Don't forget to download your wp-uploads folder. Typically where all your blog images and uploads go. Also keep in mind that your posts most likely have absolute paths to these images so you'll want to keep them in the same folder, unless you do a find/replace.
-
-Hosting how to
-
-Pagination
+Don't forget to download your `wp-content/uploads` folder. Typically where all your blog images and uploads go. Also keep in mind that your posts most likely have absolute paths to these images so you'll want to keep them in the same folder, unless you do a find/replace.
 
 ##### Comments
 
@@ -75,21 +75,17 @@ GitHub have a useful [how-to article](https://help.github.com/articles/setting-u
 
 I added 3 records:
 
-# A: 192.30.252.153 (for leemunroe.com)
-# A: 192.30.252.154 (for leemunroe.com)
-# CNAME: leemunroe.github.io (for www.leemunroe.com)
+1. A: 192.30.252.153 (for leemunroe.com)
+2. A: 192.30.252.154 (for leemunroe.com)
+3. CNAME: leemunroe.github.io (for www.leemunroe.com)
 
-Note that you also have to add a `CNAME` file to your repo, with your domain name written here.
+Note that you also have to add file called `CNAME` to your repo, with your domain name written here.
 
-{% highlight yml %}
+{% highlight yaml %}
 www.leemunroe.com
 {% endhighlight %}
 
 The annoying part comes when you don't know if you've done this right or not as it can take a while for DNS changes to propogate. You could be left waiting 15 minutes or 15 hours, wondering whether the changes you made were correct.
-
-Working with grunt
-
-Open source
 
 ##### Other things easily forgot
 
@@ -100,8 +96,3 @@ Open source
 
 * [How to: Wordpress to Jekyll](http://paulstamatiou.com/how-to-wordpress-to-jekyll/) by Paul Stamatiou
 * [Using GitHub Pages to host your website](http://blog.teamtreehouse.com/using-github-pages-to-host-your-website) by Treehouse
-
-
-
-
-<p class="aligncenter"><a href="http://www.producthunt.co"><img src="{{site.baseurl}}/wp-content/uploads/ph.jpg" alt="Product Hunt" width="600"></a></p>
