@@ -3,7 +3,7 @@ layout: default
 description: Writing about UX, Interaction Design and Front-end Development
 ---
 <h1>{{ page.title }}</h1>
-<h2>{{ page.date | date_to_string }}</h2>
+<h2>{{ page.date | post.date| date: "%B %Y" }}</h2>
 <div class="post">
 	<p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a></p>
 	{{ content }}

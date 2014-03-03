@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,nav,.button{
 
 h1 {
   font-size: 38px;
-  line-height: 1.2;
+  line-height: 1.4;
   margin: 0 0 25px;
   text-transform:capitalize;
   font-weight:400;
@@ -72,6 +72,9 @@ h5 {
   font-size:26px;
   color:#999;
 }
+.article h5{
+  margin-top:60px;
+}
 
 h6 {
   font-weight: 400;
@@ -80,7 +83,7 @@ h6 {
 }
 
 p, ul, ol, pre, label{
-  margin: 0 0 $padding;
+  margin: 0 0 40px;
   strong{
     // font-weight:400;
   }
@@ -90,16 +93,16 @@ p, ul, ol, pre, label{
 }
 
 pre{
-  background:whitesmoke;
-  padding:$padding/2;
+  // background:whitesmoke;
+  padding:20px;
   overflow-x:auto;
   font-size:16px;
   word-break:break-all;
   word-wrap:break-word;
   white-space:pre-wrap;
-  @include border-radius($br);
+  // @include border-radius($br);
   font-family:"Courier New", monospace;
-  border:1px solid darken(whitesmoke,20%);
+  // border:1px solid darken(whitesmoke,20%);
   code{
     background:transparent;
     padding:0;
@@ -109,9 +112,10 @@ pre{
 }
 
 code{
-  background:whitesmoke;
+  background:#555;
+  color:#fff;
   @include border-radius(3px);
   font-family:"Courier New", monospace;
-  border:1px solid darken(whitesmoke,20%);
-  padding:3px;
+  // border:1px solid darken(whitesmoke,20%);
+  padding:3px 6px;
 }
