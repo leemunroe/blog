@@ -67,4 +67,4 @@ I recently did this with [Mailgun](http://www.mailgun.com). It helped identify s
 
 Here is a blank template I put together with Omnigraffle. Feel free to download and use it for documenting your CX map.
 
-<a href="{{ site.url }}/downloads/cxmap.graffle" class="button">Download CX Map Omnigraffle Template</a>
+<a href="{{ site.url }}/downloads/cxmap.graffle.zip" class="button">Download CX Map Omnigraffle Template</a>
