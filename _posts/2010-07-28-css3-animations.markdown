@@ -207,34 +207,34 @@ Keyframe animations involve you setting the object state (or property) at differ
 <h5>Setup the environment</h5>
 Let's setup a little demo. I'm going to start with two basic boxes.
 
-<pre><code>
+{% highlight html %}
 <div class="box1"></div>
 <div class="box2"></div>
-</code></pre>
+{% endhighlight %}
 
 Now apply some basic styling so we can see them.
 
-<pre><code>
+{% highlight css %}
 .box1{
-width:200px;
-height:200px;
-background:rgba(255,0,0,0.5);
-position:absolute;
-top:100px;
-left:50%;
-margin-left:-100px;
+  width:200px;
+  height:200px;
+  background:rgba(255,0,0,0.5);
+  position:absolute;
+  top:100px;
+  left:50%;
+  margin-left:-100px;
 }
 
 .box2{
-width:200px;
-height:200px;
-background:rgba(0,0,255,0.5);
-position:absolute;
-top:100px;
-left:90%;
-margin-left:-100px;
+  width:200px;
+  height:200px;
+  background:rgba(0,0,255,0.5);
+  position:absolute;
+  top:100px;
+  left:90%;
+  margin-left:-100px;
 }
-</code></pre>
+{% endhighlight %}
 
 And you've got yourself two boxes.
 
@@ -245,13 +245,13 @@ And you've got yourself two boxes.
 <h5>Setup the animation affect</h5>
 Setup the animation affect and call it 'movingbox'.
 
-<pre><code>
+{% highlight css %}
 @-webkit-keyframes movingbox{
-0%{left:90%;}
-50%{left:10%;}
-100%{left:90%;}
+  0%{left:90%;}
+  50%{left:10%;}
+  100%{left:90%;}
 }
-</code></pre>
+{% endhighlight %}
 
 <strong>movingbox</strong> is the name we're giving the animation. It's up to you what you want to call it.
 
@@ -267,11 +267,11 @@ So far we still have two static boxes.
 
 Our last step applies the magic to the object of our choosing. We're going to apply it to 'box2'.
 
-<pre><code>
+{% highlight css %}
 .box2{
--webkit-animation:movingbox 5s infinite;
+  -webkit-animation:movingbox 5s infinite;
 }
-</code></pre>
+{% endhighlight %}
 
 <strong>movingbox</strong> calls the animation we want to use, which we have already defined.
 
@@ -301,12 +301,12 @@ For the -webkit-animation property, there are a number of other values you can t
 
 For the @-webkit-keyframes rule, instead of using percentage as keyframes, we can also declare a from and to state. You can also make it transform while animating.
 
-<pre><code>
+{% highlight css %}
 @-webkit-keyframes movingbox{
-from{left:90%;-webkit-transform: rotate(0deg);}
-to{left:10%;-webkit-transform: rotate(360deg);}
+  from{left:90%;-webkit-transform: rotate(0deg);}
+  to{left:10%;-webkit-transform: rotate(360deg);}
 }
-</code></pre>
+{% endhighlight %}
 
 <a href="http://leemunroe.com/animation/animation4.html">View demo.</a>
 
