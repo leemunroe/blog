@@ -38,11 +38,11 @@ Generate your mailer by typing this in Terminal:
 rails g mailer model_mailer new_record_notification
 {% endhighlight %}
 
-<strong>model_mailer</strong> is the name of the mailer and <strong>new_record_notifcation</strong> is the method. You can name these anything you like, whatever makes sense for your project, and you can add more methods later.
+<strong>model\_mailer</strong> is the name of the mailer and <strong>new\_record\_notifcation</strong> is the method. You can name these anything you like, whatever makes sense for your project, and you can add more methods later.
 
 Notice this creates a bunch of files.
 
-<code>model_mailer.rb</code> is where the logic will go for sending email and <code>new_record_notification.text.erb</code> is the content of the email that will be sent.
+<code>model\_mailer.rb</code> is where the logic will go for sending email and <code>new\_record\_notification.text.erb</code> is the content of the email that will be sent.
 
 <h4>Configure your development environment</h4>
 
@@ -72,13 +72,13 @@ Be sure to <strong>replace MYDOMAIN</strong> with your Mailgun subdomain.
 
 <h4>Add logic to send the emails</h4>
 
-Open up <code>app/mailers/model_mailer.rb</code> and change the default from email:
+Open up <code>app/mailers/model\_mailer.rb</code> and change the default from email:
 
 {% highlight ruby %}
 default from: "me@MYDOMAIN.com"
 {% endhighlight %}
 
-Then define your new_record_notification method:
+Then define your new\_record\_notification method:
 
 {% highlight ruby %}
 def new_record_notification(record)
@@ -96,11 +96,11 @@ Couple of things to note above:
 
 <h4>Create a view template (content) for the email</h4>
 
-Open up <code>app/views/model_mailer/new_record_notification.text.erb</code>
+Open up <code>app/views/model\_mailer/new\_record\_notification.text.erb</code>
 
 In this view we add the body content of our email. Remember we passed the record model so you can use it for some values if you like.
 
-{% highlight ruby %}
+{% highlight html %}
 Hi,
 
 A new record has been added: <%= @record.name %>
