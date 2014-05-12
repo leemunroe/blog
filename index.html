@@ -15,10 +15,29 @@ description: Lee Munroe is a web designer from Northern Ireland based in San Fra
 	<li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/kareo-icon.gif" alt="Kareo"><br>Kareo</a></li>
 </ul>
 
-<ul class="posts">
-{% for post in site.posts limit: 5 %}
-  <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}<span class="date"> - {{post.date| date: "%b %Y"}}</span></a></li>
-{% endfor %}
-</ul>
-
-<p><a href="{{site.baseurl}}/blog" class="button">More blog posts &raquo;</a></p>
+<div class="group">
+  <div class="span6">
+    <h3>Some of my recent articles</h3>
+    <ul class="posts">
+    {% for post in site.posts limit: 5 %}
+      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+    <p><a href="{{site.baseurl}}/blog" class="button">More blog posts &raquo;</a></p>
+  </div>
+  <div class="span6 last">
+    <h3>About Lee</h3>
+    <div class="group">
+      <div class="span8">
+        <p>Leading UX Design at Mailgun by Rackspace.</p>
+        <p>I design product experiences, web and mobile interfaces, and write front-end code.</p>
+        <p><a href="{{site.baseurl}}/about" class="button">More about me &raquo;</a></p>
+      </div>
+      <div class="span4 last">
+        <figure>
+          <img src="{{ site.baseurl }}/img/leemunroe.jpg" alt="Profile photo of Lee Munroe" title="Lee Munroe">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
