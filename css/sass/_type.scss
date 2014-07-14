@@ -4,7 +4,7 @@ Style headings and body text
 */
 
 body {
-  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-family: "Merriweather","Roboto",Helvetica,Arial,sans-serif;
   font-style: normal;
   font-size:16px;
   color:#444;
@@ -24,25 +24,25 @@ blockquote {
 }
 
 h1,h2,h3,h4,h5,nav,.button{
-   font-family: "Roboto Slab",Helvetica,Arial,sans-serif;
+   font-family: "Merriweather","Roboto Slab",Helvetica,Arial,sans-serif;
 }
 
 h1 {
-  font-size: 38px;
-  line-height: 1.4;
-  margin: 0 0 25px;
+  font-size: 42px;
+  line-height: 1.2;
+  margin: 0 0 20px;
   text-transform:capitalize;
-  font-weight:400;
+  font-weight:900;
   strong{
     color:$primary-color;
-    font-weight:400;
+    font-weight:900;
   }
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.4;
-  margin: 0 0 25px;
+  margin: 0 0 20px;
   color:$grey-dark;
   font-weight:400;
 }
@@ -56,24 +56,25 @@ h3 {
 }
 
 h4 {
-  margin: 0 0 25px;
+  margin: 0 0 20px;
   font-weight: 400;
   font-style: normal;
   font-size:32px;
 }
 .article h4{
-  margin-top:100px;
+  margin-top:80px;
 }
 
 h5 {
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   font-style: normal;
-  font-weight: normal;
-  font-size:26px;
-  color:#999;
+  font-weight: 700;
+  font-size:18px;
+  line-height: 1.4;
+  // color:#999;
 }
 .article h5{
-  margin-top:60px;
+  margin-top:40px;
 }
 
 h6 {
@@ -83,7 +84,7 @@ h6 {
 }
 
 p, ul, ol, pre, label{
-  margin: 0 0 40px;
+  margin: 0 0 20px;
   strong{
     // font-weight:400;
   }
@@ -109,6 +110,11 @@ pre{
     border:none;
     @include border-radius(none);
   }
+}
+
+.highlight{
+  margin-right:-$padding*2;
+  position:relative;
 }
 
 code{
