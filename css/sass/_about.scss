@@ -1,3 +1,5 @@
+
+// Books
 ol.books{
   list-style:none;
   margin:0 0 $padding;
@@ -19,5 +21,22 @@ ol.books{
     height:160px;
     float:left;
     margin:0 .4em .4em 0;
+  }
+}
+
+// Photo
+.about-photo{
+  width:200px;
+  float:right;
+  margin:0 0 $padding $padding;
+}
+
+
+// Responsive
+@include responsive($small-break) {
+  .about-photo{
+    width:100%;
+    float:none;
+    margin:0 0 10px;
   }
 }
