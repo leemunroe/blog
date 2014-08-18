@@ -67,7 +67,7 @@ main{
     left:-$sidebar-width;
     transition: $sidebar-speed;
     &.show-main-nav{
-      position:absolute;
+      position:fixed;
       left:0;
     }
   }
