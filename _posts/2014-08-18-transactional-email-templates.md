@@ -11,4 +11,4 @@ They've had a pretty good response so far with discussions on [Hacker News](http
 
 If you're a developer working on an app, or a designer designing email templates, I encourage you to check out the blog post for more.
 
-<a href="(http://blog.mailgun.com/transactional-html-email-templates/)" class="button">Read the full post</a>
+<a href="http://blog.mailgun.com/transactional-html-email-templates/" class="button">Read the full post</a>
