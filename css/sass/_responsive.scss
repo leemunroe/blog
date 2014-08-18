@@ -1,135 +1,27 @@
-/*
-# Mobile Styles ############################################################################################### 
-*/
-
-#show-nav{
-  display:none;
+// Responsive nav trigger
+.btn-trigger-nav{
   position:absolute;
+  top:10px;
   right:10px;
-  top:0;
-  color:#aaa;
-  background:transparent;
-  font-size:32px;
-  padding:0;
+  display:none;
 }
 
-@media only screen and (min-width: 701px) {
-  .nav-primary{
-    display:block !important;
-  }
-  body.home{
-    @include animation(infinite, 60s, bgcolor);
-  }
-}
+@include responsive($big-break) {
 
-
-@media only screen and (max-width: 700px) {
-
-  .container{
-    padding:0 10px;
-  }
-  
-  // Nav + header
-  
-  #show-nav{
-    display:block;
-  }
-  body{
-    padding-top:0;
-  }
-  .nav-primary, .logo{
-    position:relative;
-  }
-  .nav-primary{
-    display:none;
-    left:0;
-    padding:0;
-    border-bottom:none;
-    a{
-      @include box-sizing(border-box);
-      float:none;
-      text-align:left;
-      width:100%;
-      padding:10px;
-      border-bottom:1px solid $grey;
-      &:first-child{
-        border-top:1px solid $grey;
-      }
-      &.selected{
-        background:#eef5fa;
-        border-color:$grey;
-      }
-    }
-  }
-  
-  // Article
-  .article{
-    width:100%;
-    float:none;
-    padding:0;
-    border:none;
-    margin-bottom:$padding;
-  }
-  .aside{
-    width:100%;
-    float:none;
-  }
-
-  //Blog
-  .posts a{
-    padding-left:10px;
-    padding-right:10px;
-  }
-  
-  // Footer
-  footer{
-    .search-form input{
-      width:100%;
-      @include box-sizing(border-box);
-    }
-  }
-  
-  // Type
-  h1{
-    font-size:32px;
-    line-height:1.2em;
-    margin:12px 0;
-  }
-  
-  h2{
-    font-size:26px;
-    line-height:1.2em;
-    margin:12px 0;
-  }
-  
-  h3,h4,h5{
-    font-size:22px;
-  }
-  
-  // Blog
-  ul.posts{
-    span.date{
-      float:none !important;
-    }
-  }
-  #influads_block{
-    display:none;
-  }
-  
-  // Portfolio
-  img.off-right, img.off-rightx2, img.off-left, img.off-leftx2{
-    right:0 !important;
-    left:0 !important;
-  }
-  
-  // Links and buttons
-  .button{
+  // Show the responsive nav trigger
+	.btn-trigger-nav{
     display:block;
   }
 
-  .highlight{
-    margin-right:0;
+  // Hide the ads
+  #fusion_ad{
+    display:none;
   }
-  
 }
 
+@include responsive($small-break) {
+  // e.g. iPhone, mobile
+	body{
+		overflow-x:hidden;
+	}
+}

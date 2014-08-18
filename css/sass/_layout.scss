@@ -1,111 +1,93 @@
-body{
-  background:whitesmoke;
-}
+//Delcare sidebar width
+$sidebar-width:200px;
+$sidebar-speed:.5s;
 
-// Article
-.article{
-  border-right:1px solid $grey;
-  padding:0 $padding*2 0 0;
-  @include box-sizing(border-box);
-  width:70%;
-  float:left;
-}
-.aside{
-  padding:0 $padding*2;
-  @include box-sizing(border-box);
-  width:30%;
-  float:left;
-  font-size:14px;
-  a{
-    border:none;
-  }
+.container{
+  max-width:1000px;
 }
 
 main{
-  @include clearfix;
-  padding:$padding 0;
-  background:#fff;
+  margin:50px 0;
 }
 
-// Logo
-.logo{
-  height:40px;
-  width:35px;
-  padding:10px;
-  background:#fff;
-  display:block;
-  z-index:20;
-  margin:0 auto;
-  border-bottom:none;
-  span{
-    display:block;
-    width:35px;
-    height:40px;
-    background:url(assets/sp@2x.png) no-repeat 0 -40px;
-    background-size:249px 249px;
-    margin:0 auto;
-    text-indent:-9999px;
+.main-article{
+  padding-left:$sidebar-width;
+}
+
+.main-sidebar{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  width:$sidebar-width;
+  padding:50px 20px;
+  font-size:13px;
+  color:rgba(white,.6);
+  @include background(linear-gradient(120deg, $primary-gradient));
+  .about-lee a{
+    text-decoration: none;
+    &:hover,&:focus{
+      border-bottom:1px solid #fff;
+    }
   }
-  &:hover,&:focus{
-    background:#fff;
-  }
-}
-@include keyframes(bgcolor){
-  0%{background-color:#ff7200;}
-  20%{background-color:#0084ff;}
-  40%{background-color:red;}
-  60%{background-color:#6ec931;}
-  80%{background-color:purple;}
-  100%{background-color:#ff7200;}
-}
-.logo span{
-  background-color:#ff7200;
-  @include animation(infinite, 30s, bgcolor);
-}
-
-// Sections
-.section{
-  margin-bottom:$padding*2;
-  @include clearfix;
-}
-
-// Header
-header{
-  background:#fff;
-}
-
-// Footer
-footer{
-  width:100%;
-  padding:$padding 0;
-  z-index:5;
-  background:whitesmoke;
-  border-top:1px solid $grey;
-  text-align:center;
-  p{
-    font-size:16px;
-    color:$grey-dark;
+  strong{
+    font-weight: 400;
+    color:#fff;
   }
 }
 
-// Profile
-.profile{
-  margin:0 0 $padding;
-  p{
-    margin-bottom:5px;
-    &.profile-status{
-      color:#aaa;
+
+
+// Sidebar colors
+.home .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient));
+}
+.blog .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-blog));
+}
+.portfolio .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-portfolio));
+}
+.about .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-about));
+}
+.contact .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-contact));
+}
+
+
+
+
+// Responsive styles
+@include responsive($big-break) {
+
+  // Hide sidebar
+  .main-sidebar{
+    position:absolute;
+    left:-$sidebar-width;
+    transition: $sidebar-speed;
+    &.show-main-nav{
+      position:absolute;
+      left:0;
+    }
+  }
+
+  // Crush the container padding
+  .container{
+    max-width:1000px-$sidebar-width;
+    transition: $sidebar-speed;
+    .main-article{
+      padding-left:0;
+      transition: $sidebar-speed;
     }
   }
 }
 
-// Ads
-#fusion_ad{
-  font-size:12px;
-  margin:0 auto $padding;
-  width:70%;
-  a{
-    border:none;
-    color:#aaa;
-  }
-}
+// @include responsive($small-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }

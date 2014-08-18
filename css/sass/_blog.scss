@@ -1,7 +1,27 @@
-
-.post{
-  margin:0 0 $padding;
+// Author and meta
+.publisher{
+  color:$grey;
+  font-size:14px;
+  img{
+    border-radius:50px;
+    height:40px;
+    width:40px;
+    vertical-align: middle;
+  }
+  iframe{
+    vertical-align: middle;
+  }
+  a{
+    border-bottom:1px solid $grey;
+    color:$grey;
+    text-decoration: none;
+    &:hover,&:focus{
+      border:none;
+    }
+  }
 }
+
+
 
 // Posts
 ul.posts{
@@ -12,58 +32,29 @@ ul.posts{
     margin:0;
     a{
       display:block;
-      border-bottom:1px solid $grey;
-      padding:15px 20px;
-      font-size:18px;
-      color:#666;
+      border-bottom:1px dotted $silver;
+      padding:20px 0;
+      // font-size:18px;
+      // color:#666;
       font-weight:normal;
+      text-decoration: none;
       &:hover,&:focus{
         color:$primary-color;
       }
       span.date{
         color:#aaa;
       }
+      span.title{
+        text-decoration: underline;
+        font-size:22px;
+      }
+      span.excerpt{
+        color:#333;
+        display:block;
+      }
+      &:hover span.title{
+        text-decoration: none;
+      }
     }
   }
-}
-
-
-
-// Comments
-#commentform textarea,#commentform input[type=text]{
-	width:100%;
-	box-sizing:border-box;
-}
-ol.comments{
-	list-style:none;
-	padding:0;
-	margin-bottom:$padding;
-	margin-left:-40px;
-  margin-right:-$padding;
-	li{
-	  @include clearfix;
-		border-bottom:1px solid $grey;
-		padding:$padding;
-		margin:0;
-		color:#999;
-		a{
-			color:#999;
-		}
-		img{
-			@include border-radius(40px);
-			@include box-shadow(0 0 0 5px rgba(0,0,0,.1));
-		}
-		&.author{
-		  background:lighten(whitesmoke,1%);
-		}
-		&:hover{
-			color:#666;
-			a{
-				color:$secondary;
-			}
-		}
-		p:last-child{
-			margin-bottom:0;
-		}
-	}
 }

@@ -1,16 +1,20 @@
 ---
 layout: default
+body: blog
 title: UX Design Blog of Lee Munroe
 description: Product and UX Designer in San Francisco, Lee Munroe
 ---
 
-<h1>Design blog</h1>
+<h1>UX Design blog</h1>
 
-<h2>Ramblings on user experience design and front-end development</h2>
+<form class="search-form" action="http://www.google.com/search" method="get">
+      <input type="search" name="q" placeholder="Search the blog" autofocus>
+      <input type="hidden" name="sitesearch" value="leemunroe.com">
+    </form>
 
 <ul class="posts">
 {% for post in paginator.posts %}
-  <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}<span class="date"> - {{post.date| date: "%b %Y"}}</span></a></li>
+  <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
 {% endfor %}
 </ul>
 

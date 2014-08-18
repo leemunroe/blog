@@ -1,43 +1,49 @@
-/*
-Grid
-Uses a 12-column grid that is fluid and responsive
-*/
+// 12 Column fluid and responsive grid
 
-.container {
-	padding: 0 $padding;
-	max-width:1200px;
-	margin:0 auto;
+.container{
+	margin: 0 auto;
+	padding: 0 20px;
+    overflow-x: hidden;
 }
 
-[class*="span"] {
+.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12{
 	display: block;
-	margin-bottom: 1em;
+	margin-bottom: 20px;
 }
 
-/*
-Grid columns are stacked until the display size is greater than 480px
-*/
+// Grid columns are stacked until the display size is greater than min-width
 
-@media (min-width: 700px) {
-	[class*="span"] {
-		float: left;
-		margin-right: 2.1277%;
-		margin-bottom: 0;
-	}
+@include mobilefirst($small-break) {
 
-	.span1  { width: 6.3829%; }
-	.span2  { width: 14.8936%; }
-	.span3  { width: 23.4042%; }
-	.span4  { width: 31.9148%; }
-	.span5  { width: 40.4255%; }
-	.span6  { width: 48.9362%; }
-	.span7  { width: 57.4468%; }
-	.span8  { width: 65.9574%; }
-	.span9  { width: 74.468%; }
-	.span10 { width: 82.9787%; }
-	.span11 { width: 91.4891%; }
+    $unit: 6.2056333%; // Width of each grid column unit
+    $margin: 2.1277%; // Margin between the grid columns
 
-	[class*="span"].last{
-		margin-right: 0;
-	}
+    .container{
+        padding:0 60px;
+    }
+
+    .group {
+        margin-left: -$margin;
+    }
+
+    .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12{
+        float: left;
+        margin-left: $margin;
+        margin-bottom: 0;
+        @include box-sizing(border-box);
+    }
+
+    @for $i from 1 through 12 {
+        .span#{$i} {
+            width: ($unit * $i) + ($margin * ($i - 1));
+            // remove float so span#'s don't stack inline.
+            &.break {
+                float:none;
+            }
+        }
+        .offset#{$i} {
+            margin-left: ($unit * $i) + ($margin * ($i +1));
+        }
+    }
+
 }

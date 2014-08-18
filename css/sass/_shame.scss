@@ -1,0 +1,47 @@
+// Anything quick and dirty that needs thrown in but you will tidy/optimise later
+
+
+// Home
+.home-features,.home-logos,.home-posts{
+  margin-bottom:$padding;
+  @include clearfix;
+}
+
+.home-logos{
+  ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  li{
+    margin:0;
+    padding:0;
+    a{
+      @extend .span2;
+      text-align:center;
+      img{
+        max-width:60%;
+      }
+    }
+  }
+}
+
+.home-features{
+
+}
+
+.home-posts{
+
+}
+
+
+// Animate
+.transition{
+  transition: $sidebar-speed;
+}
+
+
+// Portfolio
+.portfolio .section img{
+  box-shadow:0 2px 4px rgba(0,0,0,.2);
+}

@@ -1,62 +1,118 @@
-// Links
+// Text links
 a{
-	color:$secondary-color;
-	text-decoration:none;
-  padding-bottom:1px;
-  border-bottom:2px solid $secondary-color;
-	&:hover, &:focus{
-		color:$primary-color;
-		background-color:#eef5fa;
-	}
-}
-
-// Buttons
-.button,.pagination a{
-	background:$primary-color;
-	display:inline-block;
-	padding:10px 25px;
-	border:none;
-	text-transform:uppercase;
-	color:#fff;
-	cursor:pointer;
-	text-align:center;
-	font-size:16px;
-	@include border-radius(5px);
-	outline:none;
+	color:$primary-color;
 	&:hover,&:focus{
-		color:#fff;
-		background-color:$secondary-color;
-	}
-	&:active{
-		background-color:darken($secondary-color,5);
+		text-decoration:none;
 	}
 }
 
-// Pagination buttons
-.pagination a{
-  padding:5px 15px;
-  font-size:14px;
+// Default button
+.btn{
+  @include border-radius($btn-br);
+  background:$tertiary-color;
+  border:2px solid $tertiary-color;
+  color:#fff;
+  text-decoration:none;
+  display:inline-block;
+  line-height: $line-height;
+  padding:0 25px;
+  text-transform: capitalize;
+  font-size:22px;
+  // @include box-shadow(inset 0 1px 0 rgba(255,255,255,.2),0 0 5px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.2));
+  outline:none;
+  &:hover,&:focus{
+    background:darken($tertiary-color,5);
+    text-decoration: none;
+    // @include box-shadow(inset 0 1px 0 rgba(255,255,255,.2),0 0 10px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2));
+  }
+  &:active{
+    background:darken($tertiary-color,10);
+    // @include box-shadow(inset 0 1px 2px rgba(0,0,0,.2));
+  }
 }
 
-// Icon links
-.profile-social a{
-  color:#aaa;
-  font-size:18px;
-  margin:0 2px;
-  &:hover{
-    opacity:1;
-    background-color:transparent;
+// Primary action button
+.btn-primary,.button{
+  @extend .btn;
+  background-color:$primary-color;
+  border-color:$primary-color;
+  color:#fff;
+  &:hover,&:focus{
+    background-color:darken($primary-color,5);
+    border-color:darken($primary-color,5);
+    color:#fff;
   }
-  &.twitter:hover{
-    color:lightblue;
-  }
-  &.dribbble:hover{
-    color:pink;
-  }
-  &.rss:hover{
-    color:orange;
-  }
-  &.github:hover{
-    color:black;
+  &:active{
+    background-color:darken($primary-color,10);
+    border-color:darken($primary-color,10);
   }
 }
+
+// Secondary action button
+.btn-secondary{
+  @extend .btn;
+  background-color:transparent;
+  border-color:$primary-color;
+  color:$primary-color;
+  &:hover,&:focus{
+    background-color:darken($primary-color,5);
+    border-color:darken($primary-color,5);
+    color:#fff;
+  }
+  &:active{
+    background-color:darken($primary-color,10);
+    border-color:darken($primary-color,10);
+  }
+}
+
+// Call to action - slightly bigger
+.btn-cta{
+  font-size:1.4em;
+  padding:0 50px;
+  height:$line-height*1.5;
+}
+
+// Link button - a button that looks like a link
+.btn-link{
+  @extend .btn;
+  color:$primary-color;
+  background:transparent;
+  border:none;
+  text-shadow:none;
+  text-transform:none;
+  @include box-shadow(none);
+  &:hover,&:focus{
+  	text-decoration:underline;
+    background:transparent;
+  	@include box-shadow(none);
+  }
+  &:active{
+
+  }
+}
+
+// Icon button
+.btn-icon{
+  background:transparent;
+  border:none;
+  padding:0;
+}
+
+
+// Responsive styles
+// @include responsive($big-break) {
+// }
+
+@include responsive($small-break) {
+  .btn,.btn-primary,.btn-secondary,.button{
+    display:block;
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }

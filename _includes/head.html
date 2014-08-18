@@ -17,24 +17,22 @@
 
 </head>
 
-<body>
+<body class="{{ page.body }}">
 
-<header>
-  <div class="container">
+{% include svg.html %}
 
-    <a href="{{site.baseurl}}/" class="logo"><span>Lee Munroe</span></a>
-    
-    <button id="show-nav"><i class="icon-reorder"></i></button>
-
-    <nav class="nav-primary">
-      <a{% if page.path contains '_posts' or page.url == "/blog/index.html" or page.path contains "/page" %} class="selected"{% endif %} href="{{ site.baseurl }}/blog"><b>Blog</b></a>
-      <a{% if page.url == "/portfolio/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/portfolio"><b>Portfolio</b></a>
-      <a{% if page.url == "/about/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/about"><b>About Lee</b></a>
-      <a{% if page.url == "/contact/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/contact"><b>Contact</b></a>
-    </nav>
-
-  </div>
-</header>
-  
 <main>
+  <button id="trigger-nav" class="btn-icon btn-trigger-nav"><svg class="icon-three-bars"><use xlink:href="#icon-three-bars"></use></svg></button>
+  <aside class="main-sidebar">
+    <p class="about-lee"><a href="{{site.baseurl}}/"><strong>Lee Munroe</strong></a> is a Product Designer in San Francisco, leading design for Mailgun by Rackspace.</p>
+    <nav class="main-nav">
+      <a{% if page.path contains '_posts' or page.url == "/blog/index.html" or page.path contains "/page" %} class="selected"{% endif %} href="{{ site.baseurl }}/blog"><svg class="icon-align-left"><use xlink:href="#icon-align-left"></use></svg> <b>Blog</b></a>
+      <a{% if page.url == "/portfolio/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/portfolio"><svg class="icon-windows"><use xlink:href="#icon-windows"></use></svg> <b>Portfolio</b></a>
+      <a{% if page.url == "/about/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/about"><svg class="icon-user-outline"><use xlink:href="#icon-user-outline"></use></svg> <b>About Lee</b></a>
+      <a{% if page.url == "/contact/index.html" %} class="selected"{% endif %} href="{{ site.baseurl }}/contact"><svg class="icon-bubble-3"><use xlink:href="#icon-bubble-3"></use></svg> <b>Contact</b></a>
+      <a href="http://twitter.com/leemunroe"><svg class="icon-twitter-alt"><use xlink:href="#icon-twitter-alt"></use></svg> <b>@leemunroe</b></a>
+    </nav>
+    <div id="fusion_ad"></div>
+  </aside>
   <div class="container">
+    <article class="main-article">

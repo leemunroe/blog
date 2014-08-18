@@ -1,5 +1,9 @@
+*{
+	@include box-sizing(border-box !important);
+}
+
 .aligncenter{
-	text-align:center;
+  text-align:center;
 }
 
 .alignright{
@@ -16,4 +20,48 @@
 
 .left{
 	float:left;
+}
+
+.nolist{
+	list-style:none;
+	padding-left:0;
+	margin-left:0;
+}
+
+.valign{
+	vertical-align:middle;
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #ddd;
+	margin:$padding 0;
+}
+
+.subtle{
+	color:$subtle-color;
+}
+
+.relative{
+	position:relative;
+}
+
+.section{
+	margin-bottom:$padding;
+}
+
+// Fusion ad
+#fusion_ad{
+	margin-top:50px;
+	text-align: center;
+	img{
+		display:block;
+		margin:0 auto 5px;
+	}
+	a{
+		color:#fff;
+		text-decoration: none;
+		color:rgba(white,.6);
+		font-size:12px;
+	}
 }
