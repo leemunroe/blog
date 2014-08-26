@@ -7,7 +7,7 @@ After attending [The Email Design Conference](https://litmus.com/conference) las
 
 Inspired by [Brian](https://twitter.com/briangraves), [Fabio](https://twitter.com/flcarneiro) and [Kevin](https://twitter.com/KEVINgotbounce) who shared their email design processes, I thought I’d share my own. In particular, designing [these transactional emails](https://github.com/mailgun/transactional-email-templates) (as I rarely design promotional emails these days).
 
-For this post I’m going to look specifically at **front-end implementation** of the emails.
+For this post I’m going to look specifically at front-end implementation of the emails.
 
 
 ## The tools I use
@@ -60,7 +60,7 @@ This is a very simple example using variables and nesting. There is [so much mor
 
 ### Templating and layouts
 
-Chances are the **header and footer of your emails aren’t going to change**. Therefore some sort of templating comes in useful.
+Chances are the header and footer of your emails aren’t going to change. Therefore some sort of templating comes in useful.
 
 I use [Handlebars](http://handlebarsjs.com/) and split my emails up into something like this.
 
@@ -116,7 +116,7 @@ At this point I have a solid HTML email template designed. Since these are trans
 
 ### Sending email
 
-It’s a good idea to **use a 3rd party email service** (Mailgun is a good option) instead of managing your own email infrastructure. Then all you need to do is make an API call and they handle the delivery.
+It’s a good idea to use a 3rd party email service (Mailgun is a good option) instead of managing your own email infrastructure. Then all you need to do is make an API call and they handle the delivery.
 
 ### Code integration
 
@@ -129,4 +129,4 @@ The best approach is to look at the documentation for the email service you deci
 
 ## What’s your email design process?
 
-I’m very curious to learn how other designers are managing this. What text editor are you using to put together your emails? **What’s your workflow when it comes to sharing emails with developers?** Share your comments.
+I’m very curious to learn how other designers are managing this. What text editor are you using to put together your emails? **What’s your workflow when it comes to sharing emails with developers, or integrating them into your code base?** Share your comments.
