@@ -29,8 +29,8 @@ h1 {
   font-style: normal;
   text-transform: capitalize;
   line-height:1.2;
-  @include background(linear-gradient(#555,#222));
-  @include background-clip(text);
+  background:-webkit-linear-gradient(#555555,#222222);
+  -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
   em{
     font-style: normal;
