@@ -108,8 +108,7 @@ comments:
   date_gmt: '2008-10-17 09:53:01 -0700'
   content: "@zul can you direct me to an example page so I can take a look? I'm assuming
     you've put the image that you want to use in your images folder?\r\n\r\nAlso remember
-    how to reference images in your theme folder:\r\n<code><img src=\"<?php bloginfo('template_directory');
-    ?>/images/myimage.gif\" alt=\"\" /></code>"
+    how to reference images in your theme folder:\r\n"
 - id: 265
   author: John
   author_email: john@mildfuzz.com
@@ -192,7 +191,6 @@ Before using the snippets below you might want to start with the basics of desig
 Referencing images in your stylesheet (style.css) are relative.
 <pre><code>background:url(images/myimage.gif)</code></pre>
 Referencing images in your html templates are absolute so use the template directory tag.
-<pre><code><img src="<?php bloginfo('template_directory'); ?>/images/myimage.gif" alt="" /></code></pre>
 <h4>Full size images</h4>
 Wordpress 2.6 resizes your images to 500px width, even when you tick the full width option, so there's a hack to get around this. Go to /wp-includes/media.php on line 84 and comment that line (//)
 <pre><code>// any other type: use the real image and constrain it
