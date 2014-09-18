@@ -23,7 +23,7 @@
 
 <main>
   <button id="trigger-nav" class="btn-icon btn-trigger-nav"><svg class="icon-three-bars"><use xlink:href="#icon-three-bars"></use></svg></button>
-  <aside class="main-sidebar">
+  <aside class="main-sidebar" id="main-sidebar">
     <p class="about-lee"><a href="{{site.baseurl}}/"><strong>Lee Munroe</strong></a> is a Product Designer in San Francisco, leading design for Mailgun by Rackspace.</p>
     <nav class="main-nav">
       <a{% if page.path contains '_posts' or page.url == "/blog/index.html" or page.path contains "/page" %} class="selected"{% endif %} href="{{ site.baseurl }}/blog"><svg class="icon-align-left"><use xlink:href="#icon-align-left"></use></svg> <b>Blog</b></a>
@@ -34,5 +34,5 @@
     </nav>
     <div id="fusion_ad"></div>
   </aside>
-  <div class="container">
-    <article class="main-article">
+  <div class="container" id="container">
+    <article class="main-article" id="main-article">

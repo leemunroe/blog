@@ -44,6 +44,19 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false,
                 }
+            },
+            options : {
+                spawn : false,
+                atBegin : true
+            }
+        },
+
+        jekyll: {
+            server : {
+                options: {
+                    serve : true,
+                    server_port : 4000
+                }
             }
         }
 
@@ -54,9 +67,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-jekyll');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify','compass']);
+    grunt.registerTask('default', ['jekyll:server','watch']);
 
 };
