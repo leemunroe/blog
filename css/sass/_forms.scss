@@ -10,6 +10,7 @@ input[type=text],input[type=email],input[type=phone],input[type=password],input[
 	outline:none;
 	height: $line-height;
 	width:300px;
+	font-size:22px;
 	&:focus{
 		border-color:$primary-color;
 	}
@@ -70,3 +71,55 @@ form{
 		}
 	}
 }
+
+
+// Subscribe form
+.post-subscribe{
+	padding:$padding;
+	margin:0 0 $padding;
+	background-color:$secondary-color;
+	text-align: center;
+	color:#fff;
+	margin-right:-20px;
+  margin-left:-20px;
+  position:relative;
+	input{
+		border:none;
+	}
+	.btn-primary{
+		border:none;
+		vertical-align: top;
+	}
+	h3{
+		margin:0 0 $padding/2;
+	}
+	p{
+		color:rgba(255,255,255,.7);
+	}
+	form{
+		margin-bottom:$padding/2;
+	}
+}
+
+
+
+// Responsive styles
+// @include responsive($big-break) {
+// }
+
+@include responsive($small-break) {
+  .post-subscribe{
+  	padding:10px;
+  	input,button{
+  		width:100%;
+  		display:block;
+  		margin-bottom:10px;
+  	}
+  }
+}
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }
