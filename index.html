@@ -9,41 +9,12 @@ description: Web designer from Northern Ireland based in San Francisco, leading 
 
 <p><a href="{{site.baseurl}}/about" class="btn-primary">About Lee &raquo;</a> <a href="{{site.baseurl}}/blog" class="btn-secondary">Design blog &raquo;</a> <a href="{{site.baseurl}}/portfolio" class="btn-secondary">Portfolio &raquo;</a></p>
 
-<!-- <section class="home-features">
-  <div class="group">
-    <div class="span4 aligncenter">
-      <p><strong>Experience Design</strong></p>
-      <p>UX Design is about the full experience. I design systems and solutions to solve problems, look at experience across the full spectrum of a product or service. Every interaction. Every pixel.</p>
-    </div>
-    <div class="span4 aligncenter">
-      <p><strong>Product Development</strong></p>
-      <p>Products and features have to be functional and usable. I constantly validate goals and features through the product development lifecycle with users and development team. Measuring success and iterating accordingly.</p>
-    </div>
-    <div class="span4 aligncenter">
-      <p><strong>Front-End HTML/CSS</strong></p>
-      <p>Pushing forward the boundaries of modern web browsers, with HTML5 and CSS3. Using SCSS. Integrating with backend code. What good is coming up with solutions if you can't implement them and push code.</p>
-    </div>
-  </div>
-</section> -->
-
-<!-- <section class="home-logos">
-  <ul class="group">
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/mailgun-icon.gif" alt="Mailgun"><br>Mailgun</a></li>
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/rackspace-icon.gif" alt="Rackspace"><br>Rackspace</a></li>
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/flask-icon.gif" alt="Mailgun"><br>Flask</a></li>
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/codeshare-icon.gif" alt="Codeshare"><br>CodeShare</a></li>
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/runnable-icon.gif" alt="Runnable"><br>Runnable</a></li>
-    <li><a href="{{site.baseurl}}/portfolio"><img src="{{ site.baseurl }}/img/kareo-icon.gif" alt="Kareo"><br>Kareo</a></li>
-  </ul>
-  <p><a href="{{site.baseurl}}/about" class="button">Portfolio &raquo;</a></p>
-</section> -->
-
 <section class="home-posts">
   <ul class="posts">
   {% for post in site.posts limit: 3 %}
     <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
   {% endfor %}
+    <li><a href="/blog"><span class="title">More articles &raquo;</span></a></li>
   </ul>
-  <!-- <p><a href="{{site.baseurl}}/blog" class="button">More blog posts &raquo;</a></p> -->
 </section>
 

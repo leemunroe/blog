@@ -8,6 +8,7 @@
     "grunt-contrib-sass": "~0.6.0",
     "grunt-contrib-compass": "~0.7.0",
     "grunt-jekyll": "^0.4.2",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-concurrent": "^1.0.0"
   }
 }

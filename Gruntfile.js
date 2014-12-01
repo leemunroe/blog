@@ -30,6 +30,16 @@ module.exports = function(grunt) {
             }
         },
 
+        jekyll: {
+            server : {
+                options: {
+                    serve : true,
+                    server_port : 4000,
+                    watch : true
+                }
+            }
+        },
+
         watch: {
             scripts: {
                 files: ['js/*.js'],
@@ -51,13 +61,11 @@ module.exports = function(grunt) {
             }
         },
 
-        jekyll: {
-            server : {
-                options: {
-                    serve : true,
-                    server_port : 4000
-                }
-            }
+        concurrent: {
+          tasks: ['watch', 'jekyll'],
+          options: {
+            logConcurrentOutput: true
+          }
         }
 
     });
@@ -68,9 +76,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-jekyll');
+    grunt.loadNpmTasks('grunt-concurrent');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat','uglify','compass','watch']);
+    grunt.registerTask('default', ['concurrent']);
 
 };
