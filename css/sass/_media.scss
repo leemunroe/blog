@@ -9,3 +9,9 @@ img,video,audio,iframe,object{
   display: inline-block;
   fill: currentColor;
 }
+
+// Media class to break container
+.media{
+  margin-left:-50px;
+  margin-right:-50px;
+}
