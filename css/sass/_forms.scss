@@ -53,7 +53,29 @@ form{
 			border-color:$bad-color;
 		}
 	}
+
+	// Small forms e.g. subscribe floater
+	.input-sm{
+		width:auto;
+		font-size:16px;
+		height:32px;
+	}
+
+	.btn-sm{
+		font-size:16px;
+		height:32px;
+		line-height:32px;
+		padding:0 15px;
+	}
+
+	.input-sm + .btn-sm{
+		margin:5px 0 0 5px;
+	}
 }
+
+
+
+
 
 // Search form
 .search-form{
@@ -71,6 +93,9 @@ form{
 		}
 	}
 }
+
+
+
 
 
 // Subscribe form

@@ -20,3 +20,26 @@ function showNav(){
 
 }
 showNav();
+
+
+
+
+
+// Show email subscribe box when scrolling
+if($('#email-subscribe-floater').length > 0) {
+  var $floater = $('#email-subscribe-floater'),
+      postHeight = $('.post').height(),
+      postOffset = $('.post').offset().top,
+      windowHeight = $(window).height(),
+      displayOffset = (postHeight + postOffset) - 100
+
+  $(window).on('scroll', function(){
+    var scrollDistance = $(window).scrollTop() + windowHeight
+
+    if(scrollDistance > displayOffset) {
+      $floater.addClass('is-visible')
+    } else {
+      $floater.removeClass('is-visible')
+    }
+  })
+}

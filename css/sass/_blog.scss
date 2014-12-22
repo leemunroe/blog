@@ -58,3 +58,30 @@ ul.posts{
     }
   }
 }
+
+
+
+
+// Email subscribe floater
+.email-subscribe-floater{
+  background:#fff;
+  padding:20px;
+  position:fixed;
+  z-index:999;
+  bottom:20px;
+  right:-200px;
+  min-width:200px;
+  max-width:400px;
+  @include box-shadow(0 0 5px rgba(0,0,0,.3));
+  transition:5s;
+  display:none;
+
+  &.is-visible{
+    display:block;
+    right:20px;
+  }
+
+  form{
+    margin:0;
+  }
+}
