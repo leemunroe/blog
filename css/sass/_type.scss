@@ -11,10 +11,14 @@ blockquote {
   font-style: italic;
   font-weight: 400;
   font-family: Georgia, Times, "Times New Roman", serif;
-  padding-left: 25px;
-  font-size: 1.4em;
+  padding-left: 20px;
+  font-size: 1.2em;
   margin: 0 0 $padding/2;
   border-left:2px solid $primary-color;
+  color: $grey;
+  margin-left:-20px;
+  margin-right:-20px;
+  @include box-sizing(border-box);
 }
 
 h1,h2,h3,h4,h5,.main-nav,.btn{
