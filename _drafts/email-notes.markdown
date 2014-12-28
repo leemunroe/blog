@@ -3,7 +3,7 @@ layout: post
 title: Notes on Sending Email for Web Designers and Developers
 ---
 
-In 2013 I joined [Mailgun](http://www.mailgun.com), an email service and ex-YC startup acquired by Rackspace. Since joining the team I've learned a lot about email that I had no clue about before. Some might be obvious you, some not so much. Here are my notes.
+In 2013 I joined [Mailgun](http://www.mailgun.com), an email service and ex-YC startup acquired by Rackspace. Since joining the team I've learned a lot about email that I was clueless about before. Some might be obvious you, some not so much. Here are my notes.
 
 ### Types of email
 
@@ -15,7 +15,7 @@ Emails can typically be grouped into the following:
 
 ### Email services for marketing purposes
 
-There are a lot more ESPs (Email Service Providers) than I could have imagined. I used to think it was between Campaign Monitor and Mailchimp. Nope, lots more. Here are just a few of the better known providers:
+There are a lot more ESPs (Email Service Providers) than I could have imagined. I used to think your options were Campaign Monitor and Mailchimp. Nope, lots more. Here are just a few of the better known providers:
 
 * [Campaign Monitor](https://www.campaignmonitor.com/)
 * [Mailchimp](http://mailchimp.com/)
@@ -26,13 +26,13 @@ There are a lot more ESPs (Email Service Providers) than I could have imagined. 
 
 ### Email services for developers
 
-Mailgun is for developers, in that it is API driven and focused more on deliverability and automation over WYSIWYG tools. Some of the leaders in this pack are:
+Mailgun is for developers. The product is primarily an API focused on deliverability and automation over WYSIWYG tools. Some of the leaders in this pack are:
 
 * [Mailgun](http://www.mailgun.com)
 * [Sendgrid](http://www.sendgrid.com)
 * [Mandrill](http://www.mandrill.com)
 
-The alternative to a service is to roll your own email server with something like [Postfix](http://www.postfix.org/). The problem with this is its up to you to implement the tracking, ubsubscribing and getting your emails delivered into inboxes.
+The alternative to a service is to roll your own email server with something like [Postfix](http://www.postfix.org/). The problem with this is its up to you to implement the tracking, unsubscribing and getting your emails delivered into inboxes.
 
 ### Life-cycle email services
 
@@ -86,7 +86,7 @@ Also remember that **open rates and click through rates can be vanity metrics** 
 
 ### Reputation and score
 
-Your emails have a reputation and score associated with them. This affects how ISPs (Internet Service Providers, also known as mailbox providers) deal with your email, whether they accept it or not, and whether they put it in your inbox or straight to spam.
+Your emails have a reputation and score associated with them. This affects how ISPs (Internet Service Providers, also known as mailbox providers) deal with your email, **whether they accept it or reject it, and whether they put it in your inbox or straight to spam**.
 
 Things that contribute:
 
@@ -96,40 +96,49 @@ Things that contribute:
 
 ### Building HTML emails
 
-Email design is still in the dark ages. Due to the various email clients and devices, there are various ways your email will get rendered for users. This means you have to:
+Email design is still in the dark ages. Due to the **numerous email clients and devices**, there are various ways your email will get rendered for users. This means you have to:
 
-* Write HTML using table markup
-* Inline CSS before sending
-* Use older well supported CSS styles
+* Write HTML using **table markup**
+* **Inline CSS** before sending
+* Use older well supported CSS styles (**be careful with CSS3**)
 
 I’ve written before about optimizing your [email design workflow](http://www.leemunroe.com/email-design-workflow/) and have open-sourced a [Grunt email design task](https://github.com/leemunroe/grunt-email-design) to help with this.
 
 ### Image rendering
 
-Some clients will show your images by defaul. Some wont'. Keep this in mind when including images in your email content.
+Some clients will show your images by default. Some won't. Keep this in mind when including images in your email content.
+
+* Outlook blocks image rendering by default
+* Apple Mail doesn't
+* Gmail doesn't (anymore)
+
+Litmus has a good <a href="https://litmus.com/blog/the-ultimate-guide-to-email-image-blocking">guide to image blocking</a>.
 
 
 ### Test emails before you send them
 
-I don't think I've ever sent an email successfully first time. There is always something to fix. There are a few ways you can test your emails:
+I don't think I've ever sent an email successfully first time. **There is always something to fix**. There is always a typo.
 
-* Send an email to yourself and check in a desktop client, web client and mobile client
-* [Litmus](https://litmus.com/)
-* [Email on Acid](https://www.emailonacid.com/)
-* Remember to proof read the content as well as check the layout
+A few ways you can test your emails:
+
+* Send an email to yourself and check it on a desktop client (Outlook), web client (Gmail) and mobile client (iOS Mail)
+* [Litmus](https://litmus.com/) or [Email on Acid](https://www.emailonacid.com/) can automate tests for you
+* Proof read the content as well as checking the layout renders
 * A/B test varying types of content, lengths of content and subject lines
 
 ### Sending bulk email and queues
 
-When you send a lot of email (imagine a campaign with millions of emails) **they don’t all send instantaneously**. They can only be sent as fast as the servers can handle. Keep in mind that all recipients may not receive the email at exactly the same time.
+When you send a lot of email (imagine a campaign with millions of emails) **they don’t all send instantaneously**. They can only be sent as fast as the servers can handle. Keep in mind that all recipients may not receive the email at *exactly* the same time.
 
 So if you’re sending millions of emails at once, you probably want quite a few servers/IPs to handle the load.
 
 ### MIME and multi-part
 
-A plain text email is just that, plain text. An HTML email is just HTML. Most emails you send or receive are multi-part emails. They combine both plain text and HTML, and leave it up to the recipient to decide which to render.
+A plain text email is just that, plain text. An HTML email is just HTML. Most emails you send or receive are MIME MIME (Multipurpose Internet Mail Extensions) multi-part emails. **They combine both plain text and HTML**, and leave it up to the recipient to decide which to render.
 
-A plain text email is not a text only email constructed in Gmail. Even these emails are HTML. Just very basic HTML.
+When you send an email, transactional or bulk, you should include both the HTML and plain text versions.
+
+Also note, a plain text email is not just a text only email. Even text emails in Gmail, that look like plain text, are usually rendered as HTML.
 
 ### Responsive emails
 
@@ -159,17 +168,18 @@ Litmus keep track of the current breakdown, based on their stats. Keep in mind t
 
 Some rules I try to stick to when writing or sending email. These aren’t rules for everyone, some are subjective and personal opinion.
 
-* Keep it short (5 sentences max)
-* Number your questions
-* Don't add long signatures
-* Think carefully before you throw your logo in there - and don't throw it in as an attachment
+* Keep it **short** (5 sentences max)
+* **Number** your questions
+* Don't add **long signatures**
+* Think carefully before you throw your company logo in there - and don't throw it in as an attachment
 * Likewise when it comes to social media icons - don’t just throw them in there for the sake of it
-* End the email with the recipients name - people love their own name, not your name
+* End the email with the **recipient's name** - people love their own name, not yours
 * Don't send unnecessary emails
 * Don’t needlessly cc others into email chains
-* Use a real email address (not noreply@) to send emails
+* Use a real email address (**not noreply@**) to send emails
 * Use joyful email subject lines
 * Try to remove “I” from your emails
+* Keep it focused - **one primary objective** per email
 
 ### Conclusion
 
