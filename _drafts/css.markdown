@@ -9,7 +9,7 @@ Typically when I start a new project I’ll use my own framework [Motherplate](h
 
 **Most developers I know now use [Bootstrap](http://getbootstrap.com/)**. If a friend or startup comes to me with an app  they want design help with, usually it has been marked up with Bootstrap classes. Makes sense, especially if it’s their prototype or version 0. Bootstrap is fast and efficient.
 
-Most projects I work on I "own" the CSS. This is great, but having my own conventions, either **documented in my head, or made up on the spot, is a terrible way to manage CSS**. It makes it harder for others to contribute in the future. Harder to maintain larger projects. Harder to write clean code.
+Most projects I work on I typically "own" the CSS. This is great, but I tend to have my own conventions, either **documented in my head, or made up on the spot, which is a terrible way to manage CSS**. It makes it harder for others to contribute in the future. Harder to maintain larger projects. Harder to write clean code.
 
 With the rise of Bootstrap, BEM, SMACCs and other frameworks and methodologies, there are common best practice recommendations when it comes to naming your elements.
 
@@ -35,7 +35,7 @@ div {
 
 In 2007 along came Sass. Particularly useful for importing and maintaining **multiple stylesheets**. Very useful for **variables, repeating patterns** and all sorts of other powerful things.
 
-Sass (Syntactically Awesome Style Sheets) came first. SCSS (Sassy CSS) came shortly after, with more familiar CSS syntax. You probably want to go with SCSS.
+Sass (Syntactically Awesome Style Sheets) came first. SCSS (Sassy CSS) came shortly after, with more familiar CSS syntax. You probably want to go with SCSS. I can't imagine not using SCSS on a project, and having to write pure CSS.
 
 {% highlight scss %}
 $primary-color: purple;
@@ -77,7 +77,7 @@ div {
 > Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.
 > — <cite><a href="http://lesscss.org/">Less</a></cite>
 
-Less is very **similar to Sass**, except it uses Node (Javascript) to compile (as opposed to Ruby). I’ve never actually used it myself and I believe it is the less popular choice.
+Less is very **similar to Sass**, except it uses Node (Javascript) to compile (as opposed to Ruby). I’ve never actually used it myself.
 
 [More on Less](http://lesscss.org/).
 
@@ -163,11 +163,11 @@ CCSS is **combines the best of SMACSS and BEM for Sass projects**. It acts as a 
 
 ### Conclusions and observations
 
-Reading through these different frameworks and methodologies gives you a better understanding of how to best name your classes.
+Reading through these different frameworks and methodologies gives you a better understanding of how to best name your classes. It makes me realize I've been writing rather sloppy CSS over the years.
 
-Going forward I plan to use a **combination of SMACCs, OOCSS and BEM**. I also plan to stay **closely aligned with Bootstrap** for common components like buttons, alerts, form elements.
+Going forward I plan to use a **combination of SMACCs, OOCSS and BEM, and staying closely aligned with Bootstrap** for common components like buttons, alerts, form elements.
 
-Recently I've rewritten [my own boilerplate](https://github.com/leemunroe/motherplate) to better align to this thinking. I've also restructured the **CSS file tree** to look like so:
+Recently I've modified [my own boilerplate](https://github.com/leemunroe/motherplate) to better align to this way of thinking. I've also restructured the CSS to look like so:
 
 {% highlight text %}
 +-- main.scss
@@ -202,8 +202,8 @@ Finally here are some closing observations and tips that I try to stick to:
 * **Stay away from Sass @extends** as a general rule of thumb - they can get confusing
 * Write lots of **comments** to document your styles
 * Have a standard **agreed way** for you and your team to **write CSS** - Harry Roberts has some great [CSS Guidelines](http://cssguidelin.es/)
-* In addition, good practice to have a **pattern library** showcasing all the styled elements that are currently available
-* And use a **linter** like Causes [scss-lint](https://github.com/causes/scss-lint) to keep your SCSS/CSS inline with those guidelines
+* In addition, it's good practice to have a **pattern library** showcasing all the styled elements that are currently available
+* Use a **linter** like Causes [scss-lint](https://github.com/causes/scss-lint) to keep your SCSS/CSS inline with those guidelines
 * Try not to use **&#42; global selector**
 * Prefix classes with `js-` for class names used as **Javascript hooks**
 * Make classes and **modules reusable** throughout your project
