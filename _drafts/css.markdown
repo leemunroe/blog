@@ -3,7 +3,7 @@ layout: post
 title: CSS, Sass, SCSS, Compass, Less, BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS?
 ---
 
-I’ve been thinking more about my CSS authoring recently, its current state and how it has changed over the years.
+I’ve been thinking a lot about my CSS authoring recently, its current state and how it has changed over the years.
 
 Typically when I start a new project I’ll use my own framework [Motherplate](https://github.com/leemunroe/motherplate). It uses SCSS and Compass. Most of the class names were’t originally based on any other framework. Not deliberately anyway.
 
@@ -165,7 +165,7 @@ CCSS is **combines the best of SMACSS and BEM for Sass projects**. It acts as a 
 
 Reading through these different frameworks and methodologies gives you a better understanding of how to best name your classes.
 
-Going forward I plan to use a **combination of SMACCs, OOCSS and BEM**. I also plan to stay **closely aligned with Bootstrap** for common framework elements like buttons, alerts, form elements.
+Going forward I plan to use a **combination of SMACCs, OOCSS and BEM**. I also plan to stay **closely aligned with Bootstrap** for common components like buttons, alerts, form elements.
 
 Recently I've rewritten [my own boilerplate](https://github.com/leemunroe/motherplate) to better align to this thinking. I've also restructured the **CSS file tree** to look like so:
 
