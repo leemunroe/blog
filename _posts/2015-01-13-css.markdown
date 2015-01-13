@@ -95,15 +95,15 @@ Higher level thinking on how to **reuse styles, patterns and abstract modules**.
       <h3 class="item-heading">...
 {% endhighlight %}
 {% highlight css %}
-.item{
+.item {
   ...
 }
-.item-list{
+.item-list {
   ...
-}.item-list--item{
+}.item-list--item {
   ...
 }
-.item-heading{
+.item-heading {
   ...
 }
 {% endhighlight %}
