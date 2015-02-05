@@ -1,6 +1,6 @@
 name: Lee Munroe
 markdown: redcarpet
-highligher: true
+highligher: pygments
 baseurl: 
 permalink: /:title
 paginate: 10

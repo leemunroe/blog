@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Notes on Sending Email for Web Designers and Developers
+title: My Notes on Building and Sending Email, for Web Designers and Developers
 ---
 
-In 2013 I joined [Mailgun](http://www.mailgun.com), an email service and ex-YC startup acquired by Rackspace. Since joining the team I've learned a lot about email that I was clueless about before. Some might be obvious you, some not so much. Here are my notes.
+In 2013 I joined [Mailgun](http://www.mailgun.com), an email service and ex-YC startup acquired by Rackspace. Since joining the team I've learned a lot about email that I knew little to nothing about before. Some might be obvious you, some not so much. Here are my notes.
 
 ### Types of email
 
@@ -19,7 +19,6 @@ There are a lot more ESPs (Email Service Providers) than I could have imagined. 
 
 * [Campaign Monitor](https://www.campaignmonitor.com/)
 * [Mailchimp](http://mailchimp.com/)
-* [Vero](http://getvero.com/)
 * [Sendicate](http://www.sendicate.net/)
 * [Emma](http://myemma.com/)
 * [Exact Target](http://www.exacttarget.com/)
@@ -34,19 +33,21 @@ Mailgun is for developers. The product is primarily an API focused on deliverabi
 
 The alternative to a service is to roll your own email server with something like [Postfix](http://www.postfix.org/). The problem with this is its up to you to implement the tracking, unsubscribing and getting your emails delivered into inboxes.
 
-### Life-cycle email services
+### Life-cycle/behaviour based email services
 
 When users sign up to your product, service or mailing list, there are a number of services that help with onboarding and re-engagement. Some of those include:
 
 * [Intercom](http://intercom.io/)
 * [Customer.io](http://customer.io/)
 * [Drip](https://www.getdrip.com/)
+* [Vero](http://getvero.com/)
+* [ConvertKit](http://convertkit.com/)
 
 ### Email list best practices
 
 **Don’t buy email lists.** Maybe there are a handful of legit services out there but you’re best to stay away from buying lists altogether. My experience is any one that buys an email list, they suffer a lot of bounces, their IP gets a bad reputation, and **ISPs block their emails or they go to spam**.
 
-**Double opt in.** Personally, I used to hate this as a user. Having to **verify your email** adds an extra step to the process. But it makes sense and **stops people from abusing your email** by signing you up for lists without your permission. It also helps keep your lists clean.
+**[Double opt in](http://en.wikipedia.org/wiki/Opt-in_email).** Personally, I used to hate this as a user. Having to **verify your email** adds an extra step to the process. But it makes sense and **stops people from abusing your email** by signing you up for lists without your permission. It also helps keep your lists clean.
 
 ### CAN-SPAM
 
@@ -56,7 +57,7 @@ These are your legal requirements when sending email, enforced by the [CAN-SPAM 
 1. Don’t use deceptive subject lines.
 1. Identify the message as an ad.
 1. Tell recipients where you’re located.
-1. Tell recipients how to opt out of receiving future email from you.
+1. Tell recipients how to opt-out of receiving future email from you.
 1. Honor opt-out requests promptly.
 1. Monitor what others are doing on your behalf.
 
@@ -71,15 +72,16 @@ I’ve open-sourced a few "simple" email templates and there are a few others I�
 * [Simple responsive HTML email template](https://github.com/leemunroe/html-email-template)
 * [Transactional email templates](https://github.com/mailgun/transactional-email-templates)
 * [Ink](http://zurb.com/ink/) by Zurb
+* [Salted](https://github.com/rodriguezcommaj/salted) by Jason Rodriguez
 
 ### Email analytics and measuring performance
 
-This will differ *vastly* depending on what you do, the type of emails you send and the context, but in general:
+This will differ *vastly* depending on what you do, your industry, the type of emails you send and the context, but in general:
 
 * 20% is a good open rate
 * 3-7% is a good click through rate
 * 5% is a poor bounce rate
-* 0.01% is a poor spam rate (I was surprised how low this was)
+* 0.01% is a poor spam rate
 * 1% is a poor unsubscribe rate
 
 Also remember that **open rates and click through rates can be vanity metrics** (read "they don't matter"). At the end of the day what you really want to track is that end goal or conversion. Google’s [URL builder](https://support.google.com/analytics/answer/1033867?hl=en) can help with this if you're using Google Analytics.
@@ -91,7 +93,7 @@ Your emails have a reputation and score associated with them. This affects how I
 Things that contribute:
 
 * IP reputation (check yours with [SenderScore](https://senderscore.org/))
-* Domain name signatures (DKIM and SPF)
+* Domain name signatures ([DKIM](http://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) and [SPF](http://en.wikipedia.org/wiki/Sender_Policy_Framework)
 * Bounce rates and complaint rates
 
 ### Building HTML emails
@@ -117,7 +119,7 @@ Litmus has a good <a href="https://litmus.com/blog/the-ultimate-guide-to-email-i
 
 ### Test emails before you send them
 
-I don't think I've ever sent an email successfully first time. **There is always something to fix**. There is always a typo.
+I don't think I've ever sent an email successfully first time. **There is always something to fix**. There is always a typo. There is always a rendering issue in Outlook.
 
 A few ways you can test your emails:
 
@@ -128,59 +130,70 @@ A few ways you can test your emails:
 
 ### Sending bulk email and queues
 
-When you send a lot of email (imagine a campaign with millions of emails) **they don’t all send instantaneously**. They can only be sent as fast as the servers can handle. Keep in mind that all recipients may not receive the email at *exactly* the same time.
+When you send a lot of email (imagine a campaign with millions of emails) **they don’t all send instantaneously**. They can only be sent as fast as the servers/IPs can handle. Keep in mind that all recipients may not receive the email at *exactly* the same time.
 
-So if you’re sending millions of emails at once, you probably want quite a few servers/IPs to handle the load.
+So if you’re sending millions of emails at once, you probably want quite a few IPs to handle the load.
 
 ### MIME and multi-part
 
-A plain text email is just that, plain text. An HTML email is just HTML. Most emails you send or receive are MIME MIME (Multipurpose Internet Mail Extensions) multi-part emails. **They combine both plain text and HTML**, and leave it up to the recipient to decide which to render.
+A plain text email is just that, plain text. An HTML email is just HTML. Most emails you send or receive are MIME (Multipurpose Internet Mail Extensions) multi-part emails. **They combine both plain text and HTML**, and leave it up to the recipient to decide which to render.
 
-When you send an email, transactional or bulk, you should include both the HTML and plain text versions.
+When you send an email, transactional or bulk, **you should include both the HTML and plain text versions**.
 
-Also note, a plain text email is not just a text only email. Even text emails in Gmail, that look like plain text, are usually rendered as HTML.
+Also note, a plain text email is not just a text only email. Even simple text emails in Gmail, that look like plain text, are usually rendered as HTML.
+
 
 ### Responsive emails
 
-Today it's more important than ever to support email on mobile devices. Some clients do and some don’t support media queries.
+Today it's more important than ever to support email on mobile devices. It has been reported that **over 50% of email opens happen on mobile devices**. Some clients do and some don’t support media queries.
 
-When you write media queries don’t inline them like the rest of your styles.
+When you write media queries don’t inline them like the rest of your styles. Keep these in your head.
 
-Media queries are currently supported in …
+Media queries are currently supported in iOS Mail, Android native client, Windows Phone and supposedly Blackberry.
+
+Litmus has a good article on [media query support in email](https://litmus.com/help/email-clients/media-query-support/).
+
 
 ### Email client breakdown
 
-Litmus keep track of the current breakdown, based on their stats. Keep in mind this is probably not the same for your customer base, but a good indicator to go by.
+Litmus [keep track](http://emailclientmarketshare.com/) of the current breakdown, based on their own internal stats. Keep in mind this is probably not the same for your customer base, but a good indicator to go by.
 
-1.
-1.
-1.
-1.
-1.
-1.
+1. Apple iPhone 27%
+1. Gmail 17%
+1. Apple iPad 12%
+1. Outlook 9%
+1. Apple Mail 8%
+
+Keep in mind that not all emails can be tracked. Email tracking is done via pixel tracking, so only those clients with images enabled report back. 
 
 ### Recommended reading
 * [HTML Email Pocket Guide](http://www.fivesimplesteps.com/products/html-email) by Andy Croll
-* [Modern HTML Email](http://modernhtmlemail.com/) by Jason Rodriguez
+* [Professional HTML Email](http://professionalemaildesign.com/) by Jason Rodriguez
 * Campaign Monitor [guides](https://www.campaignmonitor.com/guides/)
 
 ### My personal etiquette for email
 
-Some rules I try to stick to when writing or sending email. These aren’t rules for everyone, some are subjective and personal opinion.
+Some rules I try to stick to when writing or sending email (internal and external). These aren’t rules for everyone, they are mostly subjective.
 
 * Keep it **short** (5 sentences max)
 * **Number** your questions
 * Don't add **long signatures**
-* Think carefully before you throw your company logo in there - and don't throw it in as an attachment
+* Think carefully before you throw your company logo in there
+* And whatever you do don't throw it in as an attachment
 * Likewise when it comes to social media icons - don’t just throw them in there for the sake of it
 * End the email with the **recipient's name** - people love their own name, not yours
 * Don't send unnecessary emails
 * Don’t needlessly cc others into email chains
-* Use a real email address (**not noreply@**) to send emails
+* Use a real email address (**not no-reply@**) to send emails
 * Use joyful email subject lines
 * Try to remove “I” from your emails
-* Keep it focused - **one primary objective** per email
+* Keep it focused - **one primary objective** and call-to-action per email
+* Be consistent; sender (name and email), template, branding, voice and tone
+* Remember that people don't read everything, so make use of hierarchy; buttons, headings, bold text, colors
 
 ### Conclusion
 
-Email is a beast. My notes above are very high level and you could deep dive into every one of those points. Hopefully it gives you a quick intro into the world of sending email.
+Email is a beast. My notes above are a high level overview and you could deep dive into every one of those points. Hopefully it gives you a quick intro into the world of building and sending email.
+
+I recommend you read the books mentioned above, read Mailgun's [email best practices](https://documentation.mailgun.com/best_practices.html) and look at my [email design workflow](http://www.leemunroe.com/email-design-workflow/) if you're designing HTML emails.
+

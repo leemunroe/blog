@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                     serve : true,
                     server_port : 4000,
                     watch : true,
-                    // drafts : true
+                    drafts : true
                 }
             }
         },
