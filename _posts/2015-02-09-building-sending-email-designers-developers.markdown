@@ -17,7 +17,7 @@ Emails can typically be grouped into the following:
 
 ### Email services for marketing purposes
 
-There are a lot more ESPs (Email Service Providers) than I could have imagined. I used to think your options were Campaign Monitor and Mailchimp. Nope, lots more. 
+There are a lot more **ESPs (Email Service Providers)** than I could have imagined. I used to think your options were Campaign Monitor and Mailchimp. Nope, lots more. 
 
 Here are just a few of the better known providers:
 
@@ -29,7 +29,7 @@ Here are just a few of the better known providers:
 
 ### Email services for developers
 
-Mailgun is for developers. Our customers typically send transactional emails through our API or SMTP, although they can send any type of email they desire. The product is primarily an API focused on deliverability and automation over WYSIWYG tools. 
+Mailgun, for example, is for developers. Our customers typically send **transactional emails (receipts, alerts, welcome, password reset etc.) through our API or SMTP**, although they can send any type of email they desire. The product is primarily an API focused on deliverability and automation over WYSIWYG tools. 
 
 Some of the leaders in this pack are:
 
@@ -41,7 +41,7 @@ An alternative to a service is to roll your own email server with something like
 
 ### Life-cycle/behaviour based email services
 
-When users sign up to your product, service or mailing list, there are a number of services that help with onboarding and re-engagement. 
+When users sign up to your product, service or mailing list, there are a number of services that help with **onboarding and re-engagement**. 
 
 Some of those include:
 
@@ -64,7 +64,7 @@ My experience is any one that buys an email list, they suffer a lot of bounces, 
 
 ### CAN-SPAM
 
-These are your legal requirements when sending email, enforced by the [CAN-SPAM Act](http://en.wikipedia.org/wiki/CAN-SPAM_Act_of_2003) of 2003.
+These are your **legal requirements** when sending email, enforced by the [CAN-SPAM Act](http://en.wikipedia.org/wiki/CAN-SPAM_Act_of_2003) of 2003.
 
 1. Don’t use false or misleading header information.
 1. Don’t use deceptive subject lines.
@@ -101,7 +101,7 @@ This will differ *vastly* depending on what you do, your industry, the type of e
 * 0.01% is a poor spam rate
 * 1% is a poor unsubscribe rate
 
-Also remember that **open rates and click through rates can be vanity metrics** (read "they don't really matter"). At the end of the day what you really want to track is that end goal or conversion. 
+Also remember that **open rates and click through rates can be vanity metrics** (read "they don't really matter"). At the end of the day what you **really want to track is that end goal or conversion**. 
 
 Google’s [URL builder](https://support.google.com/analytics/answer/1033867?hl=en) can help with this if you're using Google Analytics.
 
@@ -133,7 +133,7 @@ I’ve written before about optimizing your [email design workflow](http://www.l
 
 Some clients will show your images by default. Some won't. Keep this in mind when including images in your email content. This also affects tracking metrics as typically images will be used to track opens.
 
-* Outlook blocks image rendering by default
+* **Outlook blocks image rendering by default**
 * Apple Mail doesn't
 * Gmail doesn't (anymore)
 
@@ -198,7 +198,7 @@ Litmus [keep track](http://emailclientmarketshare.com/) of the current breakdown
 1. Outlook 9%
 1. Apple Mail 8%
 
-Keep in mind that not all emails can be tracked. Email tracking is done via pixel tracking, so only those clients with images enabled report back. 
+Remember **not all emails can be tracked**. Email tracking is done via pixel tracking, so only those clients with images enabled report back. 
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/email-clients1.jpg" width="400" alt="Email client market share"></p>
 
