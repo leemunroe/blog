@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building and Sending Email, an overview for Web Designers and Developers
+title: Sending Email, an overview for Web Designers and Developers
 ---
 
 In 2013 I joined [Mailgun](http://www.mailgun.com), an email service acquired by Rackspace. Since joining the team I've learned a lot about building email, sending email and the industry that I knew little to nothing about before. Some might be obvious to you, some not so much. 
