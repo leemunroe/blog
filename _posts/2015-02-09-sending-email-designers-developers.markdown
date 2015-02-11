@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginners Guide to Sending Email, for Web Designers and Developers
+title: Things I've Learned About Sending Email, for Web Designers and Developers
 ---
 
 In 2013 I joined [Mailgun](http://www.mailgun.com), an email service acquired by Rackspace. Since joining the team I've learned a lot about building email, sending email and the industry that I knew little to nothing about before. Some might be obvious to you, some not so much. 
