@@ -38,8 +38,21 @@ if($('#email-subscribe-floater').length > 0) {
 
     if(scrollDistance > displayOffset) {
       $floater.addClass('is-visible')
+      $('#mce-EMAIL').focus();
     } else {
       $floater.removeClass('is-visible')
     }
   })
 }
+
+
+
+
+// Close floater
+$('#js-close-subscribe-floater').click(function(event){
+  $('#email-subscribe-floater').hide();
+  event.preventDefault();
+});
+
+
+
