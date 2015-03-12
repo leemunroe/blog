@@ -86,7 +86,7 @@ ul.posts{
   }
 }
 
-.subscribe-freebie{
+.subscribe-freebie {
 
   p,
   a {
@@ -106,9 +106,9 @@ ul.posts{
 
 @include responsive($big-break) {
 
-  // Make pop up full width
+  // Hide pop-up
   .email-subscribe-floater {
-    width: 100%;
+    display: none !important;
   }
   
 }
