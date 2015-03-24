@@ -38,7 +38,7 @@ if($('#email-subscribe-floater').length > 0) {
 
     if(scrollDistance > displayOffset) {
       $floater.addClass('is-visible')
-      $('#mce-EMAIL').focus();
+      $('.js-floater-input').focus();
     } else {
       $floater.removeClass('is-visible')
     }
