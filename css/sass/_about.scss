@@ -33,9 +33,10 @@ ol.books{
 
 // Responsive
 @include responsive($small-break) {
-  .about-photo{
-    width:100%;
-    float:none;
-    margin:0 0 10px;
+  .about-photo {
+    float: none;
+    margin: 0 0 10px;
+    max-width: 200px;
+    width: 100%;
   }
 }

@@ -1,76 +1,76 @@
 label{
-	display:block;
-	margin-bottom:5px;
+  display:block;
+  margin-bottom:5px;
 }
 input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
-	@include box-shadow(inset 0 1px 2px rgba(0,0,0,.05));
-	@include border-radius($btn-br);
-	padding:5px 10px;
-	border:1px solid #ccc;
-	outline:none;
-	height: $line-height;
-	width:300px;
-	font-size:22px;
-	&:focus{
-		border-color:$primary-color;
-	}
-	&.full-width{
-		width:100%;
-	}
+  @include box-shadow(inset 0 1px 2px rgba(0,0,0,.05));
+  @include border-radius($btn-br);
+  padding:5px 10px;
+  border:1px solid #ccc;
+  outline:none;
+  height: $line-height;
+  width:300px;
+  font-size:22px;
+  &:focus{
+    border-color:$primary-color;
+  }
+  &.full-width{
+    width:100%;
+  }
 }
 textarea{
-	height:$line-height*3;
+  height:$line-height*3;
 }
 
 form{
-	margin-bottom:$padding;
+  margin-bottom:$padding;
 
-	// Wrap each form input/element in a field div
-	.field{
-		margin-bottom:$padding/2;
-	}
+  // Wrap each form input/element in a field div
+  .field{
+    margin-bottom:$padding/2;
+  }
 
-	// Notes go under the input fields
-	.note{
-		margin-top:5px;
-		color:$subtle-color;
-	}
+  // Notes go under the input fields
+  .note{
+    margin-top:5px;
+    color:$subtle-color;
+  }
 
-	// Required label
-	.req{
-		font-style: italic;
-	}
+  // Required label
+  .req{
+    font-style: italic;
+  }
 
-	// Validation, add error class to the item div
-	.error{
+  // Validation, add error class to the item div
+  .error{
 
-		// Validation reason
-		.reason{
-			margin-top:5px;
-			color:$bad-color;
-		}
-		input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
-			border-color:$bad-color;
-		}
-	}
+    // Validation reason
+    .reason{
+      margin-top:5px;
+      color:$bad-color;
+    }
+    input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
+      border-color:$bad-color;
+    }
+  }
 
-	// Small forms e.g. subscribe floater
-	.input-sm{
-		width:auto;
-		font-size:16px;
-		height:32px;
-	}
+  // Small forms e.g. subscribe floater
+  .input-sm{
+    width:auto;
+    font-size:16px;
+    height:32px;
+  }
 
-	.btn-sm{
-		font-size:16px;
-		height:32px;
-		line-height:32px;
-		padding:0 15px;
-	}
+  .btn-sm{
+    font-size:16px;
+    height:32px;
+    line-height:32px;
+    padding:0 15px;
+  }
 
-	.input-sm + .btn-sm{
-		margin:5px 0 0 5px;
-	}
+  .input-sm + .btn-sm{
+    margin:5px 0 0 5px;
+  }
 }
 
 
@@ -79,19 +79,19 @@ form{
 
 // Search form
 .search-form{
-	margin-bottom:$padding/2;
-	input[type=search]{
-		width:100%;
-		// padding:5px 10px;
-		// border-radius:50px;
-		// background:rgba(white,.1);
-		// border:1px solid rgba(white,.2);
-		// height:auto;
-		// color:white;
-		&:focus{
-			// border-color:rgba(white,.6);
-		}
-	}
+  margin-bottom:$padding/2;
+  input[type=search]{
+    width:100%;
+    // padding:5px 10px;
+    // border-radius:50px;
+    // background:rgba(white,.1);
+    // border:1px solid rgba(white,.2);
+    // height:auto;
+    // color:white;
+    &:focus{
+      // border-color:rgba(white,.6);
+    }
+  }
 }
 
 
@@ -100,30 +100,30 @@ form{
 
 // Subscribe form
 .post-subscribe{
-	padding:$padding;
-	margin:0 0 $padding;
-	background-color:$secondary-color;
-	text-align: center;
-	color:#fff;
-	margin-right:-20px;
+  padding:$padding;
+  margin:0 0 $padding;
+  background-color:$secondary-color;
+  text-align: center;
+  color:#fff;
+  margin-right:-20px;
   margin-left:-20px;
   position:relative;
-	input{
-		border:none;
-	}
-	.btn-primary{
-		border:none;
-		vertical-align: top;
-	}
-	h3{
-		margin:0 0 $padding/2;
-	}
-	p{
-		color:rgba(255,255,255,.7);
-	}
-	form{
-		margin-bottom:$padding/2;
-	}
+  input{
+    border:none;
+  }
+  .btn-primary{
+    border:none;
+    vertical-align: top;
+  }
+  h3{
+    margin:0 0 $padding/2;
+  }
+  p{
+    color:rgba(255,255,255,.7);
+  }
+  form{
+    margin-bottom:$padding/2;
+  }
 }
 
 
@@ -133,13 +133,23 @@ form{
 // }
 
 @include responsive($small-break) {
+  form {
+    input[type=text],
+    input[type=email],
+    input[type=phone],
+    input[type=password],
+    input[type=number],
+    input[type=search], 
+    textarea,
+    button {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
   .post-subscribe{
-  	padding:10px;
-  	input,button{
-  		width:100%;
-  		display:block;
-  		margin-bottom:10px;
-  	}
+    padding: 20px;
   }
 }
 
