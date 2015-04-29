@@ -3,7 +3,7 @@ layout: post
 title: Rapid User Research with Intercom, PowWow and GoToMeeting
 ---
 
-I'm a big proponent of **talking to users early in the product design process**, getting feedback and iterating - aren't we all? It's a good way to ensure what you're designing and making is on the right path.  
+I'm a big proponent of **talking to users early in the product design process**, getting feedback and iterating - aren't we all? It's a good way to ensure what you're designing and making is on the path to being useful and usable.  
 
 However many of us, including myself, tend to shy away from actually doing this on a regular basis. **The biggest pain point is time.**
 
