@@ -74,4 +74,6 @@ Afterwards I'll write up my notes and key learnings in Evernote and share across
 
 **Recruiting nonusers.** How do you recruit users that aren’t already users? Good question. This is still something I struggle with. If I’m looking to test a nonuser specific feature or flow e.g. sign up and onboarding, I’ll look to the likes of social media, relevant forums, Craigslist or [UserTesting.com](http://www.usertesting.com/) I’ve found do a decent job of this.
 
+**Screening participants.** If you're not already using Intercom, or not tracking the traits you need in order to segment out the persona you want, consider using [Ethnio](https://ethn.io/). Ethnio is a screener that can be a pop-up on your site, or accessed through a direct link. 
+
 What do you think of this workflow? What do you use for rapid user research?
