@@ -13,7 +13,7 @@ It takes time to **schedule** and find a time that suits both parties.
 
 It takes time to set up and **conduct** the sessions.
 
-Today, when designing features at Mailgun, we have a rapid workflow that works pretty well. It enables us to get quick feedback from our user base on new features.
+Today, when designing features at [Mailgun](http://www.mailgun.com], we have a rapid workflow that works pretty well. It enables us to get quick feedback from our user base on new features.
 
 <div class="aligncenter">
 <blockquote class="twitter-tweet" lang="en"><p>A combination of <a href="https://twitter.com/intercom">@intercom</a>, <a href="https://twitter.com/UsePowWow">@UsePowWow</a> and free <a href="https://twitter.com/GoToMeeting">@GoToMeeting</a> (<a href="https://t.co/6gyPsIqMpI">https://t.co/6gyPsIqMpI</a>) is great for rapid user research.</p>&mdash; Lee Munroe (@leemunroe) <a href="https://twitter.com/leemunroe/status/547488947631181824">December 23, 2014</a></blockquote>
