@@ -31,12 +31,20 @@ module.exports = function(grunt) {
         },
 
         jekyll: {
-            server : {
+            prod : {
                 options: {
                     serve : true,
                     server_port : 4000,
                     watch : true,
                     // drafts : true
+                }
+            },
+            dev : {
+                options: {
+                    serve : true,
+                    server_port : 4000,
+                    watch : true,
+                    drafts : true
                 }
             }
         },
@@ -63,10 +71,18 @@ module.exports = function(grunt) {
         },
 
         concurrent: {
-          tasks: ['watch', 'jekyll'],
-          options: {
-            logConcurrentOutput: true
-          }
+            prod : {
+              tasks: ['watch', 'jekyll:prod'],
+              options: {
+                logConcurrentOutput: true
+              }
+            },
+            dev : {
+              tasks: ['watch', 'jekyll:dev'],
+              options: {
+                logConcurrentOutput: true
+              }
+            }
         }
 
     });
@@ -81,6 +97,7 @@ module.exports = function(grunt) {
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concurrent']);
+    grunt.registerTask('default', ['concurrent:prod']);
+    grunt.registerTask('dev', ['concurrent:dev']);
 
 };
