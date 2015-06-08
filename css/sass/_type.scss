@@ -110,7 +110,12 @@ code{
   // @include border-radius(3px);
   font-family:"Courier New", monospace;
   // border:1px solid darken(whitesmoke,20%);
-  padding:3px 6px;
+  padding:1px 2px;
+}
+strong code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
 }
 
 .main-article{

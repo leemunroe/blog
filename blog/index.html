@@ -14,7 +14,9 @@ description: Product and UX Designer in San Francisco, Lee Munroe
 
 <ul class="posts">
 {% for post in paginator.posts %}
-  <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
+  {% unless post.draft %}
+    <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
+  {% endunless %}
 {% endfor %}
 </ul>
 

@@ -12,7 +12,9 @@ description: Web designer from Northern Ireland based in San Francisco, leading 
 <section class="home-posts">
   <ul class="posts">
   {% for post in site.posts limit: 3 %}
-    <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
+    {% unless post.draft %}
+      <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
+    {% endunless %}
   {% endfor %}
     <li><a href="/blog"><span class="title">More articles &raquo;</span></a></li>
   </ul>
