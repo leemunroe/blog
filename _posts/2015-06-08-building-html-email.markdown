@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Things I've Learned About Building &amp; Coding HTML Email Templates
-draft: true
 ---
 
 I previously published “[Things I've learned about sending email](http://www.leemunroe.com/sending-email-designers-developers/)". A lot of people seemed to like the post and thought it was a great intro to sending email or quick cheat sheet.
@@ -353,7 +352,7 @@ Some clients show **extra descriptions** next to or under the subject lines. The
 
 Clients will grab the first bit of text they find in your email body and add it here. 
 
-Make the most of this and **add a hidden element** to your body content that appears first. This text should be an extra incentive for the user to open your email. Hidide the text like so:
+Make the most of this and **add a hidden element** to your body content that appears first. This text should be an extra incentive for the user to open your email. Hide the text like so:
 
 ```html
 <span style="color: transparent; display: none !important; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Preheader text goes here</span>
@@ -371,8 +370,8 @@ I always use [Litmus](http://www.litmus.com) as well as emailing myself and chec
 
 Building HTML email is a lot like building a web page. 10 years ago. 
 
-Email clients haven't been as progressive as web browsers in adopting new properties, while users and companies haven't adopted new email clients like we have web browsers. Add to that the rise of mobile, we're left in this state where we have to support so many convoluted clients and versions.
+Email clients haven't been as progressive as web browsers in adopting new standards, while we users and companies haven't adopted new email clients like we have web browsers. Add to that the rise of mobile, we're left in this state where we have to support so many convoluted clients and versions.
 
-You can play it safe and design email with a "What's the minimal amount of effort required to get the maximum effect" approach. You can provide a bunch of fallbacks or hacks to ensure your emails look identical across all clients. Or you can go above and beyond and experiment with things like web fonts, SVG, animations, video and provide a supperior experience for those that support it.
+You can keep it simple and design email with a "What's the minimal amount of effort required to get the maximum effect" approach. You can provide a bunch of fallbacks or hacks to ensure your emails are "bulletproof" and look identical across all clients. Or you can go above and beyond and experiment with things like web fonts, SVG, animations, video and provide a supperior experience for those that support it.
 
 ***What'd I miss? What advice would you add to this list for any one else reading?***
