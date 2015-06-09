@@ -61,7 +61,7 @@ Note that with the recent launch of Apple Watch, a **[new MIME](https://litmus.c
 * HTML attributes instead of CSS
 * Inline CSS instead of stylesheets
 
-Of course these approaches are recommended best practices. You can certainly ignore the safe route and go above and beyond.
+These approaches are recommended best practices. You can certainly ignore the safe route and go above and beyond.
 
 When using tables don't forget `border="0" cellpadding="0" cellspacing="0"`. If you're using [Premailer](https://github.com/premailer/premailer) it has special [CSS declarations](https://github.com/premailer/premailer#premailer-specific-css) for applying these HTML attributes.
 
@@ -165,7 +165,7 @@ Don't forget to add this to the head of your email:
 <meta name="viewport" content="width=device-width" />
 ```
 
-Some clients will strip out any CSS that isn't inlined, most notably the Gmail mobile apps, therefore this responsive technique will not work for Gmail. [Other](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) [solutions](http://www.slideshare.net/flcarneiro/emaildesign-current) exist that do work in Gmail, and of course you can always go with a 100% fluid width layout or narrow fixed layout for all devices.
+Some clients will strip out any CSS that isn't inlined, most notably the Gmail mobile apps, therefore this responsive technique will not work for Gmail. [Other](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) [solutions](http://www.slideshare.net/flcarneiro/emaildesign-current) exist that do work in Gmail, and you can always go with a 100% fluid width layout or narrow fixed layout for all devices.
 
 Here is ActionRocket's approach to [designing responsive emails](http://labs.actionrocket.co/can-you-just-make-it-responsive).
 
@@ -304,7 +304,7 @@ Keep in mind that for Outlook you should tell the image how wide it should be wi
 
 Support for form elements vary. Best to **stay clear** and link to an **external form** if you need one. Campaign Monitor has some [advice on forms here](https://www.campaignmonitor.com/resources/will-it-work/forms/).
 
-Of course it depends on what your objectives are. It is safer to stay away from forms but I have seen [RebelMail](http://rebelmail.com/) and [MixMax](https://mixmax.com/) doing interesting things with forms for surveys and ecommerce with good fallback support.
+Obviously it depends on what your objectives are. It is safer to stay away from forms but I have seen [RebelMail](http://rebelmail.com/) and [MixMax](https://mixmax.com/) doing interesting things with forms for surveys and ecommerce with good fallback support.
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/build-forms1.png" width="400" alt="Surveys"></p>
 
