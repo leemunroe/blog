@@ -258,7 +258,7 @@ Remember to include font-family, font-size and color on every `<td>` or you risk
 
 Assume images are off/blocked by default.
 
-* Outlook, AOL, Yahoo have images **blocked by default*8
+* Outlook, AOL, Yahoo have images **blocked by default**
 * Apple Mail, iOS, Gmail have images turned on
 
 Remember to include good **alt text**. That could either tell the user what the image says or just reference what it is e.g. company logo, photos that link to interesting things
