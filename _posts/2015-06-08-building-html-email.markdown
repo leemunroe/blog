@@ -289,7 +289,7 @@ Kevin Mandeville wrote this great tutorial on [coding HTML5 video](https://litmu
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/build-video1.gif" width="400" alt="Video"></p>
 
-Remember to **compress your media assets** and upload them to a **CDN** (Content Delivery Network using [Rackspace](http://www.rackspace.co.uk/cloud/files) or [AWS](http://aws.amazon.com/) for example). Most ESPs will handle this for you.
+Remember to **compress your media assets** and upload them to a **CDN** (Content Delivery Network e.g. [Rackspace](http://www.rackspace.co.uk/cloud/files) or [AWS](http://aws.amazon.com/)). Most ESPs will handle this for you.
 
 SVG (Scalable Vector Graphics) have a [lot of advantages](https://css-tricks.com/icon-fonts-vs-svg/) when using them for the web. As you would expect, email support [varies](http://emailcodegeek.com/svg-images/) and they require a couple of fallback hacks/conditionals. I typically stay away from SVG in email.
 
