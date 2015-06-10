@@ -109,8 +109,8 @@ This would target all IE based versions of Outlook:
 We can also target specific version numbers of Outlook:
 
 ```html
-<!--[if mso 9]>
-<p>Only Outlook 2000 would see this.</p>
+<!--[if mso 12]>
+<p>Only Outlook 2007 would see this.</p>
 <![endif]-->
 ```
 
