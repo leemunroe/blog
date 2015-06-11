@@ -185,9 +185,7 @@ Anna Yeaman has a long list of [media query in email support](http://stylecampai
 
 It’s painful trying to achieve the perfect cross client button. As mentioned above you should be using tables and table cells for everything. This includes buttons.
 
-My preference is to use this solution, also know as the **border-based solution**.
-
-Instead of styling a button like this:
+My preference is to use this solution. Instead of styling a button like this:
 
 ```html
 <a href="#" class="btn btn-primary">Click Here</a>
