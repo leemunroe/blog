@@ -177,7 +177,7 @@ Also seen it as a good opportunity to share the tools I use, for any other desig
 
 <img alt="Mac Apps" src="http://www.leemunroe.com/wp-content/uploads/apps1.jpg" width="1000" />
 
-Checklist for setting up a new MacBook for web design &amp; development:
+Checklist for setting up a new MacBook for web design &amp; development (updated July 2015):
 
 <h4>General</h4>
 <ul>
@@ -188,14 +188,15 @@ Checklist for setting up a new MacBook for web design &amp; development:
 	<li>Install <a href="http://www.rdio.com/">Rdio</a>. Music.</li>
 	<li>Install a <a href="http://tweetdeck.com/">Twitter client</a>. Keep track of what's going on.</li>
 	<li>Configure dock (System Preferences &gt; Dock). Hide it. Make it smaller.</li>
-	<li>Add Chrome extensions (<a href="https://chrome.google.com/webstore/detail/delicious-tools/gclkcflnjahgejhappicbhcpllkpakej?hl=en-US">Delicious</a> for bookmarking,<a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en">Window Resizer</a> for quick website screen size testing, <a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en">ColorZilla</a> for quick color picking, <a href="https://chrome.google.com/webstore/detail/yslow/ninejjcohidippngpapiilnmkgllmakh?hl=en">YSlow</a> to check website performance, <a href="https://chrome.google.com/webstore/detail/defer-formerly-instachrom/fldildgghjoohccppflaohodcnmlacpb?hl=en">Instapaper/Defer</a> for reading later)</li>
+	<li>Add Chrome extensions (<a href="https://chrome.google.com/webstore/detail/delicious-tools/gclkcflnjahgejhappicbhcpllkpakej?hl=en-US">Delicious</a> for bookmarking,<a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en">Window Resizer</a> for quick website screen size testing, <a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en">ColorZilla</a> for quick color picking, <a href="https://chrome.google.com/webstore/detail/yslow/ninejjcohidippngpapiilnmkgllmakh?hl=en">YSlow</a> to check website performance, <a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en">Pocket</a> for reading later), <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CC8QFjAC&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fhola-better-internet%2Fgkojfkhlekighikafcpjkiklfbnlmeio%3Fhl%3Den&ei=IreVVYKEDYrUoATzloSQAQ&usg=AFQjCNFkNYFIiWBTLJ48tUeuHVbp-xmivQ">Hola</a> for VPNing, <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fbuffer%2Fnoojglkidnpfjbincgijbaiedldjfbhh%3Fhl%3Den&ei=PLeVVaq-CIW3ogTMwq2YDg&usg=AFQjCNHSnz2gSFr0Ak4UHrLEfnXw5Ml1oQ">Buffer</a> for scheduling tweets</li>
 	<li>Install <a href="http://culturedcode.com/things/">Things</a>. Getting things done.</li>
-	<li>Install <a href="http://www.skype.com/en/">Skype</a>. Video conferencing.</li>
-	<li>Add accounts to Calendar. Work. iCloud. Meetup.com</li>
+  <li>Install <a href="http://mailplaneapp.com/">Mailplane</a>. Manage Gmail accounts.</li>
+	<li>Add accounts to Calendar: Work, iCloud, Meetup.com</li>
 </ul>
 <h4>Design</h4>
 <ul>
-	<li>Purchase <a href="http://www.adobe.com/products/creativecloud.html">Creative Cloud</a>. Install Photoshop, Illustrator, Extension Manager.</li>
+  <li>Purchase <a href="http://bohemiancoding.com/">Sketch</a>. User interface design.</li>
+	<li>Might need to purchase <a href="http://www.adobe.com/products/creativecloud.html">Creative Cloud</a> too. Install Photoshop, Illustrator, Extension Manager.</li>
 	<li>Purchase &amp; install <a href="http://www.axure.com/">Axure</a>. Rapid prototyping. Add Axure <a href="https://chrome.google.com/webstore/detail/axure-rp-extension-for-ch/dogkpdfcklifaemcdfbildhcofnopogp?hl=en-US">Chrome extension</a>.</li>
 	<li>Copy across any personal design resources (icons, photography, PSDs, fonts).</li>
 </ul>
@@ -208,7 +209,7 @@ Checklist for setting up a new MacBook for web design &amp; development:
 	<li>Install <a href="https://rvm.io/rvm/install">RVM</a>. Manage versions of Ruby.</li>
 	<li>Install <a href="http://brew.sh/">Homebrew</a>. Package manager.</li>
 	<li>Install <a href="http://rubyonrails.org/">Rails</a>: gem install rails</li>
-	<li>Install <a href="http://sass-lang.com/">SASS</a>: gem install sass</li>
+	<li>Install <a href="http://sass-lang.com/">Sass</a>: gem install sass</li>
 	<li>Install <a href="http://compass-style.org/">Compass</a>: gem install compass</li>
 	<li>Install <a href="http://postgresapp.com/">Postgres</a>. Heroku's DB of choice.</li>
 	<li>Install <a href="http://nodejs.org/">Node</a>: brew install node</li>
@@ -218,14 +219,21 @@ Checklist for setting up a new MacBook for web design &amp; development:
 There are a bunch of other apps I've been using as of late.
 <ul>
 	<li>Install <a href="http://inboardapp.com/">Inboard</a>. Design inspiration.</li>
-	<li>Install a chat client (e.g. <a href="https://adium.im/">Adium</a>).</li>
-	<li>Install <a href="http://anvilformac.com/">Anvil</a>. Manage local websites.</li>
+	<li>Install <a href="https://slack.com/">Slack</a>.</li>
 	<li>Install <a href="http://evernote.com/skitch/">Skitch</a>. Quick design feedback doodles/notes.</li>
-	<li>Install <a href="http://cordlessdog.com/stay/">Stay</a>. Save window states (handy when going back and forth between external monitor).</li>
-	<li>Install <a href="http://getcloudapp.com/">Cloudapp</a>. Quick screenshot sharing.</li>
-	<li>Install <a href="http://guideguide.me/">GuideGuide</a>. Photoshop guides.</li>
-	<li>Install <a href="http://panic.com/transmit/">Transmit</a>. Still need to FTP now and again.</li>
+	<li>Install <a href="http://panic.com/transmit/">Transmit</a>. Still need to FTP now and again (rarely).</li>
+  <li>Install <a href="http://www.cockos.com/licecap/">Licecap</a>. Recording animated gifs.</li>
 	<li>Related non-digital stuff: Large sheets of paper, sharpies, post-its, adhesive dots, headphones.</li>
+</ul>
+<h4>Services</h4>
+Cloud services that I typically use.
+<ul>
+  <li><a href="https://www.intercom.io/">Intercom</a>. Tracking and communicating with users</li>
+  <li><a href="https://mixpanel.com">Mixpanel</a>. Tracking and aggregating user events.</li>
+  <li><a href="http://www.wufoo.com/">Wufoo</a>. Running surveys.</li>
+  <li><a href="https://segment.com/">Segment</a>. Integrating 3rd-party services.</li>
+  <li><a href="https://www.optimizely.com/">Optimizely</a>. Running A/B tests.</li>
+  <li><a href="https://www.uservoice.com/">Uservoice</a>. Helping to shape feature roadmap.</li>
 </ul>
 
 <strong><em>Would love to hear what you use. Feel free to share your tools in the comments below.</em></strong>
