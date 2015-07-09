@@ -15,3 +15,14 @@ img,video,audio,iframe,object{
   margin-left:-50px;
   margin-right:-50px;
 }
+
+// Responsive styles if needed
+@include responsive($big-break) {
+  .media {
+    margin-left:-10px;
+    margin-right:-10px;
+  }
+}
+
+// @include responsive($small-break) {
+// }

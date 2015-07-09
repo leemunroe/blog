@@ -129,8 +129,12 @@ form{
 
 
 // Responsive styles
-// @include responsive($big-break) {
-// }
+@include responsive($big-break) {
+  .post-subscribe {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 @include responsive($small-break) {
   form {

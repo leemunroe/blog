@@ -42,6 +42,11 @@ h1 {
   }
 }
 
+.h1--home {
+  display: none;
+  font-size: 28px;
+}
+
 h2,h4 {
   font-size: 42px;
   margin: 40px 0 10px;
@@ -126,8 +131,12 @@ strong code {
 
 
 // Responsive styles if needed
-// @include responsive($big-break) {
-// }
+@include responsive($big-break) {
+  .h1--home {
+    display: block;
+  }
+}
+
 @include responsive($small-break) {
   body{
     font-size:14px;
@@ -152,5 +161,6 @@ strong code {
 // Mobile first styles if needed
 // @include mobilefirst($big-break) {
 // }
+
 // @include mobilefirst($small-break) {
 // }

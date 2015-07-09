@@ -25,4 +25,12 @@
 	body{
 		overflow-x:hidden;
 	}
+
+  .button-group--home {
+    flex-direction: column;
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
 }

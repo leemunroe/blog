@@ -39,6 +39,23 @@
 }
 
 
+
+
+
+// Button nav
+.button-group--home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: $padding;
+
+  a {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
+
+
 // Responsive styles if needed
 // @include responsive($big-break) {
 // }

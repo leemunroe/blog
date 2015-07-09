@@ -27,6 +27,7 @@ main{
   padding:50px 20px;
   font-size:13px;
   color:rgba(white,.6);
+  z-index: 99;
   @include background(linear-gradient(120deg, $primary-gradient));
   .about-lee a{
     text-decoration: none;

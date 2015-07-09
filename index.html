@@ -5,9 +5,9 @@ title: Product &amp; UX Designer in San Francisco, Lee Munroe
 description: Web designer from Northern Ireland based in San Francisco, leading product design for Mailgun by Rackspace
 ---
 
-<h1><em>Lee Munroe</em><br>Digital Product Designer<br><em>San Francisco</em></h1>
+<h1 class="h1--home"><em>Lee Munroe</em><br>Digital Product Designer<br><em>San Francisco</em></h1>
 
-<p><a href="{{site.baseurl}}/about" class="btn-primary">About Lee &raquo;</a> <a href="{{site.baseurl}}/blog" class="btn-secondary">Design blog &raquo;</a> <a href="{{site.baseurl}}/portfolio" class="btn-secondary">Portfolio &raquo;</a></p>
+<p class="media"><a href="{{ site.baseurl }}/portfolio"><img src="{{ site.baseurl }}/img/home.jpg" alt="Mailgun"></a></p>
 
 <section class="home-posts">
   <ul class="posts">
@@ -16,7 +16,7 @@ description: Web designer from Northern Ireland based in San Francisco, leading 
       <li><a href="{{site.baseurl}}{{ post.url }}"><span class="title">{{ post.title }}</span> <span class="date"> - {{post.date| date: "%b %Y"}}</span><span class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</span></a></li>
     {% endunless %}
   {% endfor %}
-    <li><a href="/blog"><span class="title">More articles &raquo;</span></a></li>
+    <li><a href="/blog"><span class="title">More blog posts &raquo;</span></a></li>
   </ul>
 </section>
 
