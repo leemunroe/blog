@@ -154,12 +154,33 @@ CCSS is **combines the best of SMACSS and BEM for Sass projects**. It acts as a 
 
 ### ACSS (Atomic CSS)
 
+> A collection of single purpose styling units for maximum reuse
+> — <cite><a href="http://acss.io/">Atomic CSS</a></cite>
+
+With ACSS you are addressing one particular style with each class name, meaning you can reuse your class names over and over throughout your markup.
+
+{% highlight css %}
+.m-10 {
+  margin: 10px
+}
+
+.w-50 {
+  width: 50%;
+}
+{% endhighlight %}
+
+<a href="http://www.smashingmagazine.com/2013/10/challenging-css-best-practices-atomic-approach/">More on Atomic CSS</a>
+
+### Atomic Design
+
+*Edit: Atomic Design is not the same as Atomic CSS - thanks <a href="https://twitter.com/thierrykoblentz">Thierry</a>*
+
 > Atomic design is methodology for creating design systems. There are five distinct levels in atomic design: Atoms, Molecules, Organisms, Templates, Pages.
 > — <cite><a href="http://bradfrost.com/blog/post/atomic-web-design/">Brad Frost</a></cite>
 
 Thinking in terms of systems when designing interfaces. **Atoms** are building blocks of matter e.g. form button. **Molecules** are groups of atoms e.g. a search form has a label, input and button. Molecules combine to make **organisms** and are sections of an interface e.g. a site header has search, navigation etc. **Templates** consist of groups of organisms. Think of a layout of a web page for example. And finally **pages** are specific instances of templates.
 
-<a href="http://patternlab.io/about.html">More on ACSS</a>.
+<a href="http://patternlab.io/about.html">More on Atomic Design</a>.
 
 ### Conclusions and observations
 
