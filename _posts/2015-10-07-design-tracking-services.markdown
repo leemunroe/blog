@@ -6,7 +6,7 @@ title: 'Tools That Help Inform Design Decisions'
 ---
 I’ve written before about the [tools I use for design](http://www.leemunroe.com/macbook-tools-for-web-design/). These implementation tools are indispensable and part of my daily workflow.
 
-Other tools that I find indispensable are services that I use to gather information and help inform design decisions. I’m surprised when I talk to other designers who don’t use or have access to these types of tools for user research and insights. **Without these tools I’d be blind and making decisions based on intuition and best practices**, which can only get you so far.
+Other tools that I find indispensable are services that I use to gather information and help inform design decisions. I’m surprised when I talk to other designers who don’t use or have access to these types of tools for research and insights. **Without these tools I’d be blind and making decisions based on intuition and best practices**, which can only get you so far.
 
 Both quantitative and qualitative research help us validate decisions, discover new opportunities, measure and improve experiences. We don't want to make decisions based purely on data. But if there is data available or an existing user base, **we should be doing everything we can to collect and understand it**, before designing our solutions.
 
