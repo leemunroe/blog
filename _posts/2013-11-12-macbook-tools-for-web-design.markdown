@@ -202,7 +202,7 @@ Checklist for setting up a new MacBook for web design &amp; development (updated
 </ul>
 <h4>Development</h4>
 <ul>
-	<li>Install <a href="http://www.sublimetext.com/">Sublime</a>. Code editor.</li>
+	<li>Install <a href="http://www.sublimetext.com/">Sublime</a> &amp; <a href="https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/">set it up</a>. Code editor.</li>
 	<li>Install <a href="http://www.iterm2.com/">iTerm</a>. Terminal.</li>
 	<li>Install <a href="https://developer.apple.com/xcode/">Xcode</a> (and <a href="http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools">Command line tools</a>). Comes with iOS simulator and other useful behind-the-scene stuff.</li>
 	<li>Set up Git (use <a href="http://mac.github.com/">GitHub for mac</a>). Version control.</li>
