@@ -185,7 +185,7 @@ Checklist for setting up a new MacBook for web design &amp; development (updated
 	<li>Install <a href="http://www.alfredapp.com/">Alfred</a>. A quick launch &amp; productivity tool.</li>
 	<li>Install <a href="http://evernote.com/">Evernote</a>. Keep track of everything.</li>
 	<li>Install <a href="https://www.dropbox.com/">Dropbox</a>. Share files across devices.</li>
-	<li>Install <a href="http://www.rdio.com/">Rdio</a>. Music.</li>
+	<li>Install <del><a href="http://www.rdio.com/">Rdio</a></del> <a href="http://www.spotify.com/">Spotify</a>. Music.</li>
 	<li>Install a <a href="http://tweetdeck.com/">Twitter client</a>. Keep track of what's going on.</li>
 	<li>Configure dock (System Preferences &gt; Dock). Hide it. Make it smaller.</li>
 	<li>Add Chrome extensions (<a href="https://chrome.google.com/webstore/detail/delicious-tools/gclkcflnjahgejhappicbhcpllkpakej?hl=en-US">Delicious</a> for bookmarking,<a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en">Window Resizer</a> for quick website screen size testing, <a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en">ColorZilla</a> for quick color picking, <a href="https://chrome.google.com/webstore/detail/yslow/ninejjcohidippngpapiilnmkgllmakh?hl=en">YSlow</a> to check website performance, <a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?hl=en">Pocket</a> for reading later), <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CC8QFjAC&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fhola-better-internet%2Fgkojfkhlekighikafcpjkiklfbnlmeio%3Fhl%3Den&ei=IreVVYKEDYrUoATzloSQAQ&usg=AFQjCNFkNYFIiWBTLJ48tUeuHVbp-xmivQ">Hola</a> for VPNing, <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fbuffer%2Fnoojglkidnpfjbincgijbaiedldjfbhh%3Fhl%3Den&ei=PLeVVaq-CIW3ogTMwq2YDg&usg=AFQjCNHSnz2gSFr0Ak4UHrLEfnXw5Ml1oQ">Buffer</a> for scheduling tweets</li>
@@ -204,6 +204,7 @@ Checklist for setting up a new MacBook for web design &amp; development (updated
 <ul>
 	<li>Install <a href="http://www.sublimetext.com/">Sublime</a>. Code editor.</li>
 	<li>Install <a href="http://www.iterm2.com/">iTerm</a>. Terminal.</li>
+  <li>Install <a href="http://ohmyz.sh/">Oh My Zsh</a>. Terminal super powers.</li>
 	<li>Install <a href="https://developer.apple.com/xcode/">Xcode</a> (and <a href="http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools">Command line tools</a>). Comes with iOS simulator and other useful behind-the-scene stuff.</li>
 	<li>Set up Git (use <a href="http://mac.github.com/">GitHub for mac</a>). Version control.</li>
 	<li>Install <a href="https://rvm.io/rvm/install">RVM</a>. Manage versions of Ruby.</li>
