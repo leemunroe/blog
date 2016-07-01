@@ -9,3 +9,4 @@ description: Blog of Product and UX Designer Lee Munroe
 url: http://www.leemunroe.com
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
