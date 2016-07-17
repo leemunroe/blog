@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CSS, Sass, SCSS, Compass, Less, BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS?
+redirect_from: "/css"
 ---
 
 I’ve been thinking a lot about my CSS authoring, its current state and how it has changed over the years.
