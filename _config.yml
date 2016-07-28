@@ -2,7 +2,7 @@ name: Lee Munroe
 # markdown: redcarpet
 highligher: pygments
 baseurl: 
-permalink: /:title
+permalink: /:title/
 paginate: 10
 paginate_path: /blog/page/:num
 description: Blog of Product and UX Designer Lee Munroe
