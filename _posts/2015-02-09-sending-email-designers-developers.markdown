@@ -7,6 +7,8 @@ In 2013 I joined [Mailgun](http://www.mailgun.com), an email service acquired by
 
 Here's a **series of notes I think are helpful to know if you're dealing with email** as a designer or developer.
 
+<div class="post-highlight">Sidenote: If it's <a href="http://htmlemail.io">HTML Email Templates</a> you're looking for, I've put together a bundle of fully responsive templates for startups, developers and marketers. Includes notifications, a monthly newsletter, a welcome email and more. Visit <a href="http://htmlemail.io">HTMLemail.io</a> to preview and download them.</div>
+
 ### Types of email
 
 Emails can typically be grouped into the following:

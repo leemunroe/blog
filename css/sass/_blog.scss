@@ -104,6 +104,20 @@ ul.posts{
 
 
 
+// Highlight e.g. advertisement
+.post-highlight {
+  background-color: rgba(#FFBC42, .2);
+  border: 1px dashed #FFBC42;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding: $padding/2;
+  position: relative;
+}
+
+
+
+
+
 @include responsive($big-break) {
 
   // Hide pop-up

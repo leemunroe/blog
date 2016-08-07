@@ -9,6 +9,8 @@ Inspired by [Brian](https://twitter.com/briangraves), [Fabio](https://twitter.co
 
 For this post I’m going to look specifically at front-end implementation of the emails.
 
+<div class="post-highlight">Sidenote: If it's <a href="http://htmlemail.io">HTML Email Templates</a> you're looking for, I've put together a bundle of fully responsive templates for startups, developers and marketers. Includes notifications, a monthly newsletter, a welcome email and more. Visit <a href="http://htmlemail.io">HTMLemail.io</a> to preview and download them.</div>
+
 
 ## The tools I use
 

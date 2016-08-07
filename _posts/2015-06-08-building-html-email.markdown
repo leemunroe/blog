@@ -7,6 +7,8 @@ I previously published “[Things I've learned about sending email](http://www.l
 
 Some people followed up with me and wanted to know more about the building and testing process when it comes to HTML email. Here’s a **brain dump** of what I’ve learned about building and coding HTML emails.
 
+<div class="post-highlight">Sidenote: If it's <a href="http://htmlemail.io">HTML Email Templates</a> you're looking for, I've put together a bundle of fully responsive templates for startups, developers and marketers. Includes notifications, a monthly newsletter, a welcome email and more. Visit <a href="http://htmlemail.io">HTMLemail.io</a> to preview and download them.</div>
+
 ### Email clients and rendering engines
 
 Email clients use different rendering engines to render HTML emails:
