@@ -191,7 +191,7 @@ A list of things to remember when building responsive emails:
 
 ## Conclusion
 
-Building HTML email is hard. Building responsive HTML email is even harder. But as we can see from the stats, **it is imperative ensuring that your emails look good on mobile**.
+Building HTML email is hard. Building responsive HTML email is even harder. But as we can see from the stats, **it is imperative that your emails look good on mobile**.
 
 If you don't have the time, resources or patience then **stick to emails that have 1 column** and are fluid. It will make life much easier for you. However, if you must have multi-column layouts, then the hybrid / spongy approach is the way to go. Just be aware that ensuring they work on Outlook and mobile Gmail apps makes things complicated.
 
