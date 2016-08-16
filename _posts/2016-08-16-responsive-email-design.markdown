@@ -131,9 +131,7 @@ Take a look at Fabio Carneiro's [spongy open source repository](https://github.c
 
 For best results on high resolution screens (like Retina display on the iPhone) you should save any image assets **at least 2x** the dimensions you plan to display them at.
 
-For example, if you plan to have header image that is 600px x 100px in your email, then that graphic should be saved at 1200px x 200px. Then in your HTML you set the height and width and it looks nice and crisp. Don't reply on `max-width: 100%;` styling as [Outlook will ignore this](https://www.emailonacid.com/blog/article/email-development/mobile-optimization-retina-images-in-email).
-
-Note that you can make the image quality lower and it will still look good. I wrote about this [retina display technique before](http://www.leemunroe.com/designing-for-high-resolution-retina-displays/).
+For example, if you plan to have header image that is 600px x 100px in your email, then that graphic should be saved at 1200px x 200px. Then in your HTML you set the height and width and it looks nice and crisp. Don't rely on `max-width: 100%;` styling as [Outlook will ignore this](https://www.emailonacid.com/blog/article/email-development/mobile-optimization-retina-images-in-email).
 
 ```html
 <img src="logo.png" height="100px" width="600px" alt="Company Logo" style="max-width: 100%;">
@@ -151,6 +149,8 @@ Now because we're dealing with responsive email, we need to make sure this looks
 }
 ```
 
+Note that you can make the image quality lower and it will still look good. I wrote about this [retina display technique before](http://www.leemunroe.com/designing-for-high-resolution-retina-displays/).
+
 Also a reminder to **compress your images**. Consider bandwidth and cellular data connections. Optimize for mobile.
 
 
@@ -166,7 +166,7 @@ I can't say I've done much email testing on watches but Litmus have [this great 
 
 ## Navigation bars in email
 
-**Just don't do it.** You're already dealing with limited space. Lets not complicate things. I don't have any stats to back up this opinion, so feel free to present some metrics to prove to me that it is worth it.
+My personal recommendation is **don't do it.** You're already dealing with limited space and the user's limited attention span. Lets not complicate things. I don't have any stats to back up this opinion, so feel free to present some metrics to prove to me that it is worth it.
 
 
 ## Building responsive emails
