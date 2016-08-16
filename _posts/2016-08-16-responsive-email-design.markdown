@@ -5,7 +5,7 @@ title: Things I've Learned About Responsive Email Design
 ---
 This is the third post in a series of things I’ve learned about email, including [sending emails](http://www.leemunroe.com/sending-email-designers-developers/) and [building HTML email templates](http://www.leemunroe.com/building-html-email/).
 
-I’ve spent the last few years in the developer tools industry, 2 of those years having been Design Lead at Mailgun by Rackspace, the email service for developers. Here’s a brain dump of things I’ve learned about responsive email design.
+I’ve spent the last few years designing developer tools, 2 of those years having been Design Lead at Mailgun by Rackspace, the email service for developers. Here’s a brain dump of things I’ve learned about responsive email design.
 
 ## Some mobile email stats
 
