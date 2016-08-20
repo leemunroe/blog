@@ -7,6 +7,8 @@ This is the third post in a series of things I’ve learned about email, includi
 
 I’ve spent the last few years designing developer tools, 2 of those years having been Design Lead at Mailgun by Rackspace, the email service for developers. Here’s a brain dump of things I’ve learned about responsive email design.
 
+<div class="post-highlight">Sidenote: If it's <a href="http://htmlemail.io">HTML Email Templates</a> you're looking for, I've put together a bundle of fully responsive templates for startups, developers and marketers. Includes notifications, a monthly newsletter, a welcome email and more. Visit <a href="http://htmlemail.io">HTMLemail.io</a> to preview and download them.</div>
+
 ## Some mobile email stats
 
 * Email opens on **mobile** are at **50%** and rising. The exact metric depends on what report you check, and what audience you cater for, but I think we can all agree this is important. [Source](http://www.emailmonday.com/mobile-email-usage-statistics).
