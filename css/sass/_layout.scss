@@ -1,6 +1,6 @@
 //Delcare sidebar width
 $sidebar-width:200px;
-$sidebar-speed:.5s;
+$sidebar-speed:.3s;
 
 body {
   background-color: #fff;
@@ -21,10 +21,10 @@ main{
 .main-sidebar{
   position:fixed;
   top:0;
-  left:0;
+  left:-10px;
   bottom:0;
-  width:$sidebar-width;
-  padding:50px 20px;
+  width:$sidebar-width+10;
+  padding:50px 20px 50px 30px;
   font-size:13px;
   color:rgba(white,.6);
   z-index: 99;
@@ -69,11 +69,11 @@ main{
   // Hide sidebar
   .main-sidebar{
     position:absolute;
-    left:-$sidebar-width;
+    left:-($sidebar-width+10);
     transition: $sidebar-speed;
     &.show-main-nav{
       position:fixed;
-      left:0;
+      left:-10px;
     }
   }
 

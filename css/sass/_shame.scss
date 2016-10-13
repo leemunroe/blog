@@ -37,7 +37,7 @@
 
 // Animate
 .transition{
-  transition: $sidebar-speed;
+  transition: cubic-bezier(.05, .69, .14, 1.1 ) $sidebar-speed;
 }
 
 
