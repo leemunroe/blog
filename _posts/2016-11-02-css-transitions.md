@@ -44,6 +44,6 @@ There's a custom option in there where you can try your own timing function and 
 
 Transitioning certain properties, such as left and margin causes the browser to recalculating styles every frame. This is fairly expensive, and can lead to unnecessary re-paints, especially if you have a lot of elements on the screen. [More about the pitfalls](https://blog.alexmaccaw.com/css-transitions) from Alex Maccaw.
 
-Rather than sticking to the default timing functions, which can be "boring" as every animation then looks the same, consider using a custom `cubic-bezier` to manipulate your motion curve. [More about cubic-bezier](https://www.smashingmagazine.com/2016/08/css-animations-motion-curves/) on Smashing Magazin.
+Rather than sticking to the default timing functions, which can be "boring" as every animation then looks the same, consider using a custom `cubic-bezier` to manipulate your motion curve. [More about cubic-bezier](https://www.smashingmagazine.com/2016/08/css-animations-motion-curves/) on Smashing Magazine.
 
 200ms to 500ms seconds is a good range to start with for interface animations. 100ms is perceived as instant. 1 second is the limit. [More about animation speed](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) from Val Head.
