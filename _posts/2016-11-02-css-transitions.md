@@ -8,7 +8,7 @@ In case you hadn't heard, adding animation is rather simple with CSS. You don't 
 ```css
 /*
 .div {
-  transition: <transition-delay> <transition-duration> <transition-property> <transition-timing-function>
+  transition: <transition-duration> <transition-property> <transition-timing-function> <transition-delay>
 }
 */
 
@@ -21,10 +21,10 @@ In case you hadn't heard, adding animation is rather simple with CSS. You don't 
 
 In the example above:
 
-* `100ms` is the amount of time it will delay before starting (100ms == 0.1s)
 * `500ms` is the amount of time it will take to complete the transition (500ms == 0.5s)
 * `width` is the property we want to transition
 * `ease` is the timing function, ease being the default which starts slow, then fast, then ends slow
+* `100ms` is the amount of time it will delay before starting (100ms == 0.1s)
 
 ### Codepen experiment for a sidebar transition
 
