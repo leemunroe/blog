@@ -36,7 +36,7 @@ if($('#email-subscribe-floater').length > 0) {
   $(window).on('scroll', function(){
     var scrollDistance = $(window).scrollTop() + windowHeight
 
-    if(scrollDistance > displayOffset) {
+    if((scrollDistance > displayOffset) && (Cookies.get('lmSubscribe') == null)) {
       $floater.addClass('is-visible')
       $('.js-floater-input').focus();
     } else {
@@ -51,8 +51,6 @@ if($('#email-subscribe-floater').length > 0) {
 // Close floater
 $('#js-close-subscribe-floater').click(function(event){
   $('#email-subscribe-floater').hide();
+  Cookies.set("lmSubscribe", 1, { expires : 10 });
   event.preventDefault();
 });
-
-
-
