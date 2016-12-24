@@ -49,9 +49,9 @@ StyleCampaign provides a great breakdown of <a href="http://stylecampaign.com/bl
 * Android native
 
 ### Mobile clients that **DO NOT** support media queries
-* ~iOS Gmail~
-* ~iOS Inbox~
-* ~iOS Yahoo~
+* ~~iOS Gmail~~
+* ~~iOS Inbox~~
+* ~~iOS Yahoo~~
 * Android Gmail
 * iPhone Yahoo
 * Windows

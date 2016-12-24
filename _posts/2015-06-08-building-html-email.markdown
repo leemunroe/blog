@@ -18,7 +18,7 @@ Email clients use different rendering engines to render HTML emails:
 * Outlook 2007/10/13 use **Microsoft Word** (yes, Word!)
 * Web clients use their browser's respective engine e.g. **Safari uses WebKit, Chrome uses Blink**
 
-~Gmail **strips out `<link>` tags and any CSS in the `<style>` tags**, and any other CSS that isn't inlined. Not just Gmail web but also the native Gmail mobile apps.~
+~~Gmail **strips out `<link>` tags and any CSS in the `<style>` tags**, and any other CSS that isn't inlined. Not just Gmail web but also the native Gmail mobile apps.~~
 
 <strong>Update November 2016:</strong> Just <a href="https://gsuite-developers.googleblog.com/2016/09/your-emails-optimized-for-every-screen-with-responsive-design.html">recently</a> Google announced <strong>support for embedded CSS and media queries</strong> in Gmail. This is HUGE for the email development industry. Now, as of September 2016, Gmail will support a slew of <a href="https://developers.google.com/gmail/design/reference/supported_css">CSS properties</a> which makes template development a lot easier for Gmail.
 
