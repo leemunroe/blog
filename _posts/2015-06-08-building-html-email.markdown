@@ -18,7 +18,9 @@ Email clients use different rendering engines to render HTML emails:
 * Outlook 2007/10/13 use **Microsoft Word** (yes, Word!)
 * Web clients use their browser's respective engine e.g. **Safari uses WebKit, Chrome uses Blink**
 
-Gmail **strips out `<link>` tags and any CSS in the `<style>` tags**, and any other CSS that isn't inlined. Not just Gmail web but also the native Gmail mobile apps.
+~Gmail **strips out `<link>` tags and any CSS in the `<style>` tags**, and any other CSS that isn't inlined. Not just Gmail web but also the native Gmail mobile apps.~
+
+<strong>Update November 2016:</strong> Just <a href="https://gsuite-developers.googleblog.com/2016/09/your-emails-optimized-for-every-screen-with-responsive-design.html">recently</a> Google announced <strong>support for embedded CSS and media queries</strong> in Gmail. This is HUGE for the email development industry. Now, as of September 2016, Gmail will support a slew of <a href="https://developers.google.com/gmail/design/reference/supported_css">CSS properties</a> which makes template development a lot easier for Gmail.
 
 Remember clients will also add their own flavor of styles on top of yours e.g. Gmail sets all `<td>` fonts to `font-family: arial,sans-serif;`.
 
@@ -72,7 +74,7 @@ When using tables don't forget `border="0" cellpadding="0" cellspacing="0"`. If 
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/inline.png" width="500" alt="Inline CSS"></p>
 
-Gmail will strip any CSS that isn’t inlined. You have a couple of options here:
+Some clients will strip any CSS that isn’t inlined. You have a couple of options here:
 
 * Write CSS inline as you go
 * Use a **web-based** CSS inliner
@@ -167,7 +169,7 @@ Don't forget to add this to the head of your email:
 <meta name="viewport" content="width=device-width" />
 ```
 
-Some clients will strip out any CSS that isn't inlined, most notably the Gmail mobile apps, therefore this responsive technique will not work for Gmail. [Other](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) [solutions](http://www.slideshare.net/flcarneiro/emaildesign-current) exist that do work in Gmail, and you can always go with a 100% fluid width layout or narrow fixed layout for all devices.
+Some clients will strip out any CSS that isn't inlined, until recently Gmail mobile apps, therefore this responsive technique will not work for those clients. [Other](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919) [solutions](http://www.slideshare.net/flcarneiro/emaildesign-current) exist that do work, and you can always go with a 100% fluid width layout or narrow fixed layout for all devices.
 
 Here is ActionRocket's approach to [designing responsive emails](http://labs.actionrocket.co/can-you-just-make-it-responsive).
 

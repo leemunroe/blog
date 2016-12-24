@@ -49,13 +49,16 @@ StyleCampaign provides a great breakdown of <a href="http://stylecampaign.com/bl
 * Android native
 
 ### Mobile clients that **DO NOT** support media queries
-* iOS Gmail
-* iOS Inbox
-* iOS Yahoo
+* ~iOS Gmail~
+* ~iOS Inbox~
+* ~iOS Yahoo~
 * Android Gmail
+* iPhone Yahoo
 * Windows
 
 Which means, like everything else in email, we need a bunch of hacks and methods for emails to be truly responsive and bulletproof for mobile.
+
+<strong>Update November 2016:</strong> Just <a href="https://gsuite-developers.googleblog.com/2016/09/your-emails-optimized-for-every-screen-with-responsive-design.html">recently</a> Google announced <strong>support for embedded CSS and media queries</strong> in Gmail. This is HUGE for the email development industry. Now, as of September 2016, Gmail will support a slew of <a href="https://developers.google.com/gmail/design/reference/supported_css">CSS properties</a> which makes template development a lot easier for Gmail.
 
 
 ## Responsive email techniques
