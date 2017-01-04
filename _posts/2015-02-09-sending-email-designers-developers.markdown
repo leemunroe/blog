@@ -105,7 +105,7 @@ This will differ *vastly* depending on what you do, your industry, the type of e
 
 Also remember that **open rates and click through rates can be vanity metrics** (read "they don't really matter"). At the end of the day what you **really want to track is that end goal or conversion**. 
 
-Google’s [URL builder](https://support.google.com/analytics/answer/1033867?hl=en) can help with this if you're using Google Analytics.
+Google’s [URL builder](https://ga-dev-tools.appspot.com/campaign-url-builder/) can help with this if you're using Google Analytics.
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/email-stats1.jpg" width="600" alt="Track conversions"></p>
 
