@@ -194,7 +194,7 @@ Checklist for setting up a new MacBook for web design &amp; development (updated
 	<li>Add accounts to Calendar: Work, iCloud, Gmail</li>
   <li>Install <a href="https://www.arqbackup.com/">Arq</a> for backups to AWS.</li>
   <li>Install <a href="https://www.amazon.com/gp/kindle/mac/download">Kindle</a> for reading digital books.</li>
-  <li>Install <a href="https://agilebits.com/downloads">1Password</a> for managing passwords.
+  <li>Install <a href="https://agilebits.com/downloads">1Password</a> for managing passwords.</li>
 </ul>
 <h4>Design</h4>
 <ul>
