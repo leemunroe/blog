@@ -219,7 +219,7 @@ Checklist for setting up a new MacBook for web design &amp; development (updated
 	<li>Install <a href="http://postgresapp.com/">Postgres</a>. Heroku's DB of choice.</li>
 	<li>Install <a href="http://nodejs.org/">Node</a>: brew install node</li>
 	<li>Install <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a>. Deploying to Heroku.</li>
-  <li>Install <a href="https://docs.docker.com/engine/installation/mac/">Docker</a>.
+  <li>Install <a href="https://docs.docker.com/engine/installation/mac/">Docker</a>.</li>
 </ul>
 <h4>Extras</h4>
 There are a bunch of other apps I've been using as of late.
