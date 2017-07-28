@@ -16,7 +16,7 @@ Unfortunately most email clients require your CSS to be inline. Or at least it s
 
 If you're using a marketing service like Campaign Monitor or Mailchimp, they will usually put your CSS inline for you, so you can use the <code>email.html</code> template as is.
 
-If you are sending HTML emails yourself or using a transactional email service like Mailgun, you'll have to put the CSS inline first. When you're done editing <code>email.html</code> use a tool like [Premailer](http://premailer.dialect.ca/) to automatically put your CSS inline. You can see an example of post-premailer email in <code>email-premailer.html</code>
+If you are sending HTML emails yourself or using a transactional email service like Mailgun, you'll have to put the CSS inline first. When you're done editing <code>email.html</code> use a tool like [Responsive Email CSS Inliner](https://htmlemail.io/inline/) to automatically put your CSS inline. You can see an example of the inlined email in <code>email-inlined.html</code>
 
 #### In testing and production
 

@@ -3,7 +3,7 @@ layout: post
 title: Things I've Learned About Sending Email, for Web Designers and Developers
 ---
 
-In 2013 I joined [Mailgun](http://www.mailgun.com), an email service acquired by Rackspace. Since joining the team I've learned a lot about building email, sending email and the industry that I knew little to nothing about before. Some might be obvious to you, some not so much. 
+In 2013 I joined [Mailgun](http://www.mailgun.com), an email service acquired by Rackspace. Since joining the team I've learned a lot about building email, sending email and the industry that I knew little to nothing about before. Some might be obvious to you, some not so much.
 
 Here's a **series of notes I think are helpful to know if you're dealing with email** as a designer or developer.
 
@@ -19,7 +19,7 @@ Emails can typically be grouped into the following:
 
 ### Email services for marketing purposes
 
-There are a lot more **ESPs (Email Service Providers)** than I could have imagined. I used to think your options were Campaign Monitor and Mailchimp. Nope, lots more. 
+There are a lot more **ESPs (Email Service Providers)** than I could have imagined. I used to think your options were Campaign Monitor and Mailchimp. Nope, lots more.
 
 Here are just a few of the better known providers:
 
@@ -31,7 +31,7 @@ Here are just a few of the better known providers:
 
 ### Email services for developers
 
-Mailgun, for example, is for developers. Our customers typically send **transactional emails (receipts, alerts, welcome, password reset etc.) through our API or SMTP**, although they can send any type of email they desire. The product is primarily an API focused on deliverability and automation over WYSIWYG tools. 
+Mailgun, for example, is for developers. Our customers typically send **transactional emails (receipts, alerts, welcome, password reset etc.) through our API or SMTP**, although they can send any type of email they desire. The product is primarily an API focused on deliverability and automation over WYSIWYG tools.
 
 Some of the leaders in this pack are:
 
@@ -43,7 +43,7 @@ An alternative to a service is to roll your own email server with something like
 
 ### Life-cycle/behaviour based email services
 
-When users sign up to your product, service or mailing list, there are a number of services that help with **onboarding and re-engagement**. 
+When users sign up to your product, service or mailing list, there are a number of services that help with **onboarding and re-engagement**.
 
 Some of those include:
 
@@ -55,7 +55,7 @@ Some of those include:
 
 ### Email list best practices
 
-**Don’t buy email lists.** Maybe there are a handful of legit services out there but you’re best to stay away from buying lists altogether. 
+**Don’t buy email lists.** Maybe there are a handful of legit services out there but you’re best to stay away from buying lists altogether.
 
 My experience is any one that buys an email list, they suffer a lot of bounces, their IP gets a bad reputation, and **ISPs block their emails or they go to spam**.
 
@@ -82,7 +82,7 @@ Mailchimp has a good list of [email legal requirements by country](http://kb.mai
 
 ### Email templates
 
-There are a lot of terrible emails out there. Clunky. Themed. Verbose. Pointless. 
+There are a lot of terrible emails out there. Clunky. Themed. Verbose. Pointless.
 
 I'm definitely a fan of keeping emails simple, removing waste and having one purpose and call-to-action per email. **I’ve open-sourced a few "simple" email templates** and there are a few others I’d recommend:
 
@@ -103,7 +103,7 @@ This will differ *vastly* depending on what you do, your industry, the type of e
 * 0.01% is a poor spam rate
 * 1% is a poor unsubscribe rate
 
-Also remember that **open rates and click through rates can be vanity metrics** (read "they don't really matter"). At the end of the day what you **really want to track is that end goal or conversion**. 
+Also remember that **open rates and click through rates can be vanity metrics** (read "they don't really matter"). At the end of the day what you **really want to track is that end goal or conversion**.
 
 Google’s [URL builder](https://ga-dev-tools.appspot.com/campaign-url-builder/) can help with this if you're using Google Analytics.
 
@@ -124,7 +124,7 @@ Things that contribute:
 Email design is still in the dark ages. Due to the **numerous email clients and devices**, there are various ways your email will get rendered for users. This means you have to:
 
 * Write HTML using **table markup**
-* **Inline CSS** before sending (some ESPs will do this for you)
+* **[Inline CSS](https://htmlemail.io/inline/)** before sending (some ESPs will do this for you)
 * Use older well supported CSS styles (**be careful with CSS3**)
 
 I’ve written before about optimizing your [email design workflow](http://www.leemunroe.com/email-design-workflow/) and have open-sourced a [Grunt email design task](https://github.com/leemunroe/grunt-email-design) to help with this.
@@ -200,7 +200,7 @@ Litmus [keep track](http://emailclientmarketshare.com/) of the current breakdown
 1. Outlook 9%
 1. Apple Mail 8%
 
-Remember **not all emails can be tracked**. Email tracking is done via pixel tracking, so only those clients with images enabled report back. 
+Remember **not all emails can be tracked**. Email tracking is done via pixel tracking, so only those clients with images enabled report back.
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/email-clients1.jpg" width="400" alt="Email client market share"></p>
 
@@ -235,4 +235,3 @@ Some rules I try to stick to when writing or sending email (internal and externa
 Email is a beast. My notes above are a high level overview and you could deep dive into every one of those points. Hopefully it gives you a quick intro into the world of building and sending email.
 
 For next steps I recommend you read the books and guides mentioned above, these [email best practices](https://documentation.mailgun.com/best_practices.html) and look at my [email design workflow](http://www.leemunroe.com/email-design-workflow/) if you're designing HTML emails.
-

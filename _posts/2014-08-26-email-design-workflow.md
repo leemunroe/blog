@@ -78,7 +78,7 @@ I use [Handlebars](http://handlebarsjs.com/) and split my emails up into somethi
 
 ### Inlining CSS
 
-Before sending out HTML emails, **you should inline your CSS**. There are a few options for how to accomplish this. I use [Premailer](http://premailer.dialect.ca/), which I have baked into my Grunt task.
+Before sending out HTML emails, **you should inline your CSS**. There are a few options for how to accomplish this. I use Juice, which I have baked into my Grunt task. You can also use web inliners like <a href="https://htmlemail.io/inline/">Responsive Email CSS Inliner</a>.
 
 Other options include manually writing your CSS inline (ouch!), using one of the other online inliners available, or a lot of ESPs will handle this for you before sending out your email. It will look something like this:
 

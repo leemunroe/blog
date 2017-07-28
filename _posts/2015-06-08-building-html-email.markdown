@@ -83,7 +83,7 @@ Some clients will strip any CSS that isn’t inlined. You have a couple of optio
 
 Writing inline as you go isn’t exactly a scalable or maintainable solution so I tend not to, but I know a lot of email builders prefer it this way to maintain 100% control. If you do write your CSS inline manually then I recommend **making use of [snippets](http://www.hongkiat.com/blog/sublime-code-snippets/) and/or a templating language** with [partials and helpers](http://blog.teamtreehouse.com/handlebars-js-part-2-partials-and-helpers). This will save you repeating yourself.
 
-Web based inliners include [Campaign Monitor](http://inliner.cm/), [Mailchimp](http://templates.mailchimp.com/resources/inline-css/) and Zurb’s [Ink](http://zurb.com/ink/inliner.php).
+Web based inliners include [Responsive Email CSS Inliner](https://htmlemail.io/inline/) [Campaign Monitor](http://inliner.cm/), [Mailchimp](http://templates.mailchimp.com/resources/inline-css/) and Zurb’s [Ink](http://zurb.com/ink/inliner.php).
 
 For a programmatic inliner I typically use the [Premailer gem](https://github.com/premailer/premailer), or another package based on it.
 
@@ -297,7 +297,7 @@ SVG (Scalable Vector Graphics) have a [lot of advantages](https://css-tricks.com
 
 Icon fonts, like [Font Awesome](http://fortawesome.github.io/Font-Awesome/), fall into the same bucket as web fonts (see above). WebKit clients may or may not support them.
 
-For retina ready images, supply a large (2-3x) image and resize it. I’ll typically save a low quality image that has 2x dimensions, which seems to work well (more on [that technique](http://www.leemunroe.com/designing-for-high-resolution-retina-displays/)). 
+For retina ready images, supply a large (2-3x) image and resize it. I’ll typically save a low quality image that has 2x dimensions, which seems to work well (more on [that technique](http://www.leemunroe.com/designing-for-high-resolution-retina-displays/)).
 
 Keep in mind that for Outlook you should tell the image how wide it should be with a **width attribute** otherwise it may render the actual width of the image and break your email.
 
@@ -352,7 +352,7 @@ Some clients show **extra descriptions** next to or under the subject lines. The
 
 <p class="aligncenter"><img src="{{site.baseurl}}/img/build-preheader.png" width="500" alt="Preheader text"></p>
 
-Clients will grab the first bit of text they find in your email body and add it here. 
+Clients will grab the first bit of text they find in your email body and add it here.
 
 Make the most of this and **add a hidden element** to your body content that appears first. This text should be an extra incentive for the user to open your email. Hide the text like so:
 
@@ -370,7 +370,7 @@ I always use [Litmus](http://www.litmus.com) as well as emailing myself and chec
 
 ### Conclusion
 
-Building HTML email is a lot like building a web page. 10 years ago. 
+Building HTML email is a lot like building a web page. 10 years ago.
 
 Email clients haven't been as progressive as web browsers in adopting new standards, while we users and companies haven't adopted new email clients like we have web browsers. Add to that the rise of mobile, we're left in this state where we have to support so many convoluted clients and versions.
 
