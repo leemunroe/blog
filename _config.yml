@@ -8,6 +8,7 @@ future: true
 paginate_path: /blog/page/:num
 description: Blog of Product and UX Designer Lee Munroe
 url: http://www.leemunroe.com
+github: [metadata]
 gems:
   - jekyll-sitemap
   - jekyll-paginate
