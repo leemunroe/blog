@@ -5,7 +5,7 @@ published: true
 title: "Our Product Design Team's Workflow for Designing Enterprise Software"
 ---
 
-Designing experiences and interfaces for your company is important. Somethine else that is also important, but often forgotten or assumed, is the design of your team's workflow to deliver the best UX and UI solutions.
+Designing experiences and interfaces for your company is important. Something else that is also important, but often forgotten or assumed, is the design of your team's workflow to deliver the best UX and UI solutions.
 
 Earlier this year we codified and documented our product design workflow. As our design team grew we wanted to:
 
