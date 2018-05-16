@@ -8,10 +8,10 @@ ol.books{
     img{
       border:2px solid #fff;
       max-height:120px;
-      @include box-shadow(0 0 10px rgba(0,0,0,.2));
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
     }
     &:hover img,&:focus img{
-      @include box-shadow(0 0 10px rgba(0,0,0,.4));
+      box-shadow: 0 0 10px rgba(0,0,0,.4);
     }
     &:hover{
       background:transparent;

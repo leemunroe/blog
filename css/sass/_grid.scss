@@ -30,7 +30,7 @@
         float: left;
         margin-left: $margin;
         margin-bottom: 0;
-        @include box-sizing(border-box);
+        box-sizing: border-box;
     }
 
     @for $i from 1 through 12 {

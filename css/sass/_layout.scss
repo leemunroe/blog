@@ -28,7 +28,7 @@ main{
   font-size:13px;
   color:rgba(white,.6);
   z-index: 99;
-  @include background(linear-gradient(120deg, $primary-gradient));
+  background: linear-gradient(120deg, $primary-gradient);
   .about-lee a{
     text-decoration: none;
     &:hover,&:focus{

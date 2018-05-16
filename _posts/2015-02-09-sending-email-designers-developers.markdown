@@ -35,9 +35,10 @@ Mailgun, for example, is for developers. Our customers typically send **transact
 
 Some of the leaders in this pack are:
 
-* [Mailgun](http://www.mailgun.com)
-* [Sendgrid](http://www.sendgrid.com)
-* [Mandrill](http://www.mandrill.com)
+* [Mailgun](https://www.mailgun.com)
+* [Sendgrid](https://www.sendgrid.com)
+* [Mandrill](https://www.mandrill.com)
+* [Postmark](https://postmarkapp.com/)
 
 An alternative to a service is to roll your own email server with something like [Postfix](http://www.postfix.org/). The downside with this is it's up to you to implement the tracking, unsubscribing and getting your emails delivered into inboxes.
 

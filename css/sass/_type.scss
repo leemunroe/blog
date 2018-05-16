@@ -18,7 +18,7 @@ blockquote {
   color: $grey;
   margin-left:-20px;
   margin-right:-20px;
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }
 
 h1,h2,h3,h4,h5,.main-nav,.btn{
@@ -99,7 +99,7 @@ pre{
     background:transparent;
     padding:0;
     border:none;
-    @include border-radius(none);
+    border-radius: 0;
   }
 }
 
